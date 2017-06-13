@@ -1,0 +1,29 @@
+timezone: Asia/Bangkok
+encoding: utf-8
+
+title: Whats Up Hanoi
+description: EVENTS | HANOI | TODAY
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+collections:
+  events:
+    title: Events
+    output: true
+
+
+markdown: kramdown
+
+permalink: pretty
+
+sass:
+  sass_dir: assets/_stylesheets/
+
+gems:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-autoprefixer
+exclude:
+  - Gemfile
+  - Gemfile.lock
