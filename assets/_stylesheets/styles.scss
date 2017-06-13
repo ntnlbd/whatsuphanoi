@@ -1,38 +1,118 @@
 body{
-  background-color: purple;
   text-align: center;
-  background: #00ECB9;
   font-weight: 100;
+  padding: $spacing-unit;
+  padding-top: 22%;
+}
+
+.logo{
+  margin-bottom: $spacing-unit * 4;
 }
 
 h1{
-  color: #396;
-  font-weight: 100;
-  font-size: 40px;
-  margin: 40px 0px 20px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: $spacing-unit * 4;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+a.panel{
+  text-decoration: none;
+  color: white;
+}
+
+.box{
+  width: 100%;
+  border: 1px solid white;
+  padding: $spacing-unit * 2 $spacing-unit * 2 0;
+  margin-bottom: $spacing-unit * 4;
+
+  h2{
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.box-footer{
+  border-top: 1px solid white;
+  border-bottom: 4px solid white;
+  margin-left: -$spacing-unit * 2;
+  margin-right: -$spacing-unit * 2;
+  padding: $spacing-unit;
+
+  h1{
+    text-align: left;
+    display: block;
+  }
+
+  .col-2{
+    display: flex;
+    color: $brand-color-2;
+
+    :nth-child(1){
+      text-align: left;
+    }
+
+    :nth-child(2){
+      text-align: right;
+    }
+  }
+}
+
+.col-3{
+  display: flex;
+
+  :nth-child(1){
+    padding: $spacing-unit / 2;
+    text-align: center;
+    border-right: 1px solid white;
+    height: 100%;
+  }
+
+  :nth-child(2){
+    text-align: left;
+  }
+
+  :nth-child(3){
+    text-align: right;
+    line-height: $spacing-unit * 3;
+  }
 }
 
 #clockdiv{
-    font-family: sans-serif;
-    color: #fff;
+
     display: inline-block;
     font-weight: 100;
     text-align: center;
     font-size: 30px;
+    margin-bottom: $spacing-unit * 3;
+
 }
 
 #clockdiv > div{
-    padding: 10px;
-    border-radius: 3px;
-    background: #00BF96;
+    color: white;
     display: inline-block;
+    font-size: 18px;
 }
 
 #clockdiv div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #00816A;
+    color: $brand-color-2;
     display: inline-block;
+    font-size: 64px;
+    line-height: 64px;
+    padding: $spacing-unit $spacing-unit 0;
+    min-width: 25%;
+
+
 }
 
 .smalltext{

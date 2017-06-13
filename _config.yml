@@ -11,6 +11,7 @@ collections:
     title: Events
     output: true
 
+livereload: true
 
 markdown: kramdown
 

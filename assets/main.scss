@@ -12,11 +12,12 @@ $base-line-height:    1.4;
 
 $spacing-unit:        16px;
 
-$brand-color:         #651FFF;
-$background-color:    #cccad0;
+$brand-color:         #6D1DFC;
+$brand-color-2:       #1FEF86;
+$background-color:    $brand-color;
 
 $text-color:          white;
-$link-color:          White;
+$link-color:          white;
 
 // Width of the content area
 $content-width:       800px;
