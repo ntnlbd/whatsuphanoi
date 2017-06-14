@@ -2,47 +2,99 @@
 layout: default
 ---
 
+
+
 <img class="logo" src="assets/images/logo.svg" />
 
-<a class="panel" href="">
-<div class="box">
-  <h2>NEXT EVENT</h2>
-  <div id="clockdiv">
-    <div>
-      <span class="days"></span>
-      <div class="smalltext">Days</div>
+
+{% for event in site.events %}
+  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+  {% capture eventunix %}{{ event.eventdate | date: '%s'}}{% endcapture %}
+  {% assign nowunix = nowunix | plus: 0 %}
+  {% assign eventunix = eventunix | plus: 0 %}
+
+
+  {% if nowunix < eventunix %}
+    <a class="panel" href="{{ event.eventurl }}">
+    <div class="box">
+      <h2>NEXT EVENT</h2>
+      <div id="clockdiv">
+        <div>
+          <span class="days"></span>
+          <div class="smalltext">Days</div>
+        </div>
+        <div>
+          <span class="hours"></span>
+          <div class="smalltext">Hours</div>
+        </div>
+        <div>
+          <span class="minutes"></span>
+          <div class="smalltext">Minutes</div>
+        </div>
+        <div>
+          <span class="seconds"></span>
+          <div class="smalltext">Seconds</div>
+        </div>
+      </div>
+      <div class="box-footer" >
+        <h1>{{ event.title }}</h1>
+        <div class="col-2">
+           <h3>
+             {{ event.eventdate | date: "%A " }}
+             {% assign day = event.eventdate | date: "%-d"  %}
+             {% case day %}
+                {% when '1' or '21' or '31' %}{{ day }}st
+                {% when '2' or '22' %}{{ day }}nd
+                {% when '3' or '23' %}{{ day }}rd
+                {% else %}{{ day }}th
+             {% endcase %}
+             {{ event.eventdate | date: "of %B, %Y" }}
+           </h3>
+           <h3>{{ event.venue }}</h3>
+        </div>
+      </div>
     </div>
-    <div>
-      <span class="hours"></span>
-      <div class="smalltext">Hours</div>
+    </a>
+  {% else if nowunix > eventunix %}
+    <div class="box">
+      <h2>NEXT EVENT</h2>
+      <h3>coming soon</h3>
     </div>
-    <div>
-      <span class="minutes"></span>
-      <div class="smalltext">Minutes</div>
-    </div>
-    <div>
-      <span class="seconds"></span>
-      <div class="smalltext">Seconds</div>
-    </div>
-  </div>
-  <div class="box-footer" >
-    <h1>SAUSE WITH MR DEVITT</h1>
-    <div class="col-2">
-       <h3>SATURDAY 5TH MAY 2017 ETC+7 0000</h3>
-       <h3>The GROVE, 239 dang thai mai</h3>
-    </div>
-  </div>
-</div>
-</a>
+  {% endif %}
+
+{% endfor %}
 
 <h2>PAST EVENTS</h2>
 
-<a class="panel" href="">
-  <div class="box">
-     <div class="col-3">
-       <h2>001</h2>
-       <h2>ADVENTURES IN SOUND</h2>
-       <h3>APRIL 20TH</h3>
-     </div>
-  </div>
-</a>
+{% for event in site.events %}
+  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+  {% capture eventunix %}{{ event.eventdate | date: '%s'}}{% endcapture %}
+  {% assign nowunix = nowunix | plus: 0 %}
+  {% assign eventunix = eventunix | plus: 0 %}
+
+
+  {% if nowunix > eventunix %}
+    <a class="panel" href="{{ event.eventurl }}">
+      <div class="box">
+         <div class="col-3">
+           <h2>0{{ forloop.index }}</h2>
+           <h2>{{ event.title }}</h2>
+           <h3>
+             {{ event.eventdate | date: "%A" }}
+             {% assign day = event.eventdate | date: "%-d"  %}
+             {% case day %}
+                {% when '1' or '21' or '31' %}{{ day }}st
+                {% when '2' or '22' %}{{ day }}nd
+                {% when '3' or '23' %}{{ day }}rd
+                {% else %}{{ day }}th
+             {% endcase %}
+             {{ event.eventdate | date: "%B" }}
+           </h3>
+         </div>
+      </div>
+    </a>
+  {% else %}
+
+  {% endif %}
+
+{% endfor %}
