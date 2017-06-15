@@ -11,6 +11,17 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "Our events"
+    values:
+      title:
+      Event date:
+      Venue:
+      Event URL:
+
 encoding: utf-8
 lang: en
 description: EVENTS | HANOI | TODAY

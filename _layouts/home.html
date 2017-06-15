@@ -35,7 +35,7 @@ layout: default
         </div>
       </div>
       <div class="box-footer" >
-        <h1>{{ event['Title'] }}</h1>
+        <h1>{{ event.title }}</h1>
         <div class="col-2">
            <h3>
              {{ event['Event date'] | date: "%A " }}
@@ -97,7 +97,7 @@ layout: default
              <h2>0{{ forloop.index }}</h2>
            </div>
 
-           <h2>{{ event['Title'] }}</h2>
+           <h2>{{ event.title }}</h2>
            <h3>
              {{ event['Event date'] | date: "%A" }}
              {% assign day = event['Event date'] | date: "%-d"  %}
