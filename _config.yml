@@ -4,7 +4,7 @@ timezone: Asia/Bangkok
 collections:
   ourevents:
     title: Our events
-    output: true
+    output: false
   posts:
     title: Posts
     output: true
