@@ -11,9 +11,9 @@ layout: default
   {% assign nowunix = nowunix | plus: 0 %}
   {% assign eventunix = eventunix | plus: 0 %}
 
-  <h2>NEXT EVENT</h2>
 
   {% if nowunix < eventunix %}
+    <h2>NEXT EVENT</h2>
     <a class="panel" href="{{ event['Event URL'] }}">
       <div class="box">
       <div id="clockdiv">
@@ -82,7 +82,7 @@ layout: default
 
 <h2>PAST EVENTS</h2>
 
-{% for event in site.ourevents %}
+{% for event in site.ourevents reversed %}
   {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
   {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
   {% assign nowunix = nowunix | plus: 0 %}

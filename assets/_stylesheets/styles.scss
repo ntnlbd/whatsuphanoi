@@ -10,21 +10,21 @@ body{
 }
 
 h1{
-  font-size: 36px;
-  font-weight: 700;
+    font-size: 28px;
 }
 
-h2{
-  font-size: 32px;
+h2,h3{
+  font-size: 16px;
+  margin-bottom: $spacing-unit;
+}
+
+h1,h2{
   font-weight: 700;
-  margin-bottom: $spacing-unit * 4;
 }
 
 h3{
-  font-size: 20px;
   font-weight: 400;
 }
-
 
 a.panel{
   text-decoration: none;
@@ -34,20 +34,16 @@ a.panel{
 .box{
   width: 100%;
   border: 1px solid white;
-  padding: $spacing-unit * 2 $spacing-unit * 2 0;
-  margin-bottom: $spacing-unit * 4;
-
-  h2{
-    margin-bottom: $spacing-unit;
-  }
+  padding: $spacing-unit $spacing-unit 0;
+  margin-bottom: $spacing-unit;
 }
 
 .box-footer{
   border-top: 1px solid white;
   border-bottom: 4px solid white;
-  margin-left: -$spacing-unit * 2;
-  margin-right: -$spacing-unit * 2;
-  padding: $spacing-unit;
+  padding: $spacing-unit / 2;
+  margin-left: -$spacing-unit;
+  margin-right: -$spacing-unit;
 
   h1{
     text-align: left;
@@ -72,7 +68,6 @@ a.panel{
   display: flex;
 
   :nth-child(1){
-    padding: $spacing-unit / 2;
     text-align: center;
     border-right: 1px solid white;
     height: 100%;
@@ -84,7 +79,6 @@ a.panel{
 
   :nth-child(3){
     text-align: right;
-    line-height: $spacing-unit * 3;
   }
 }
 
@@ -93,27 +87,98 @@ a.panel{
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 30px;
-    margin-bottom: $spacing-unit * 3;
+    display: flex;
+    justify-content: center;
 
 }
 
 #clockdiv > div{
     color: white;
-    display: inline-block;
-    font-size: 18px;
+    margin-left: $spacing-unit / 2;
+    margin-right: $spacing-unit / 2;
+    margin-bottom: $spacing-unit;
+}
+
+#clockdiv > div div{
+  font-size: 10px;
 }
 
 #clockdiv div > span{
     color: $brand-color-2;
-    display: inline-block;
-    font-size: 64px;
-    line-height: 64px;
-    padding: $spacing-unit $spacing-unit 0;
-    min-width: 25%;
-
+    font-size: 34px;
+    line-height: 34px;
+    // padding: $spacing-unit $spacing-unit 0;
+    width: 25%;
 
 }
+
+// h1{
+//   font-size: 36px;
+//
+// }
+//
+// h2{
+//   font-size: 32px;
+//
+//   margin-bottom: $spacing-unit * 4;
+// }
+//
+// h3{
+//   font-size: 20px;
+//
+// }
+
+// .box{
+//   padding: $spacing-unit * 2 $spacing-unit * 2 0;
+//   margin-bottom: $spacing-unit * 4;
+//
+//   h2{
+//     margin-bottom: $spacing-unit;
+//   }
+// }
+
+// .box-footer{
+//   margin-left: -$spacing-unit * 2;
+//   margin-right: -$spacing-unit * 2;
+// }
+
+// .col-3{
+//   display: flex;
+//
+//   :nth-child(1){
+//     padding: $spacing-unit / 2;
+//   }
+//
+//   :nth-child(3){
+//     line-height: $spacing-unit * 3;
+//   }
+// }
+
+// #clockdiv{
+//
+//     display: inline-block;
+//     font-weight: 100;
+//     text-align: center;
+//     // font-size: 30px;
+//     // margin-bottom: $spacing-unit * 3;
+//
+// }
+//
+// #clockdiv > div{
+//     color: white;
+//     display: inline-block;
+//     // font-size: 18px;
+// }
+//
+// #clockdiv div > span{
+//     color: $brand-color-2;
+//     display: inline-block;
+//     // font-size: 64px;
+//     // line-height: 64px;
+//     // padding: $spacing-unit $spacing-unit 0;
+//     width: 25%;
+//
+// }
 
 .smalltext{
     padding-top: 5px;
