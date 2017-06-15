@@ -1,6 +1,6 @@
 {% for event in site.ourevents %}
   {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
-  {% capture eventunix %}{{ event.eventdate | date: '%s'}}{% endcapture %}
+  {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
   {% assign nowunix = nowunix | plus: 0 %}
   {% assign eventunix = eventunix | plus: 0 %}
 
@@ -49,7 +49,7 @@
           var timeinterval = setInterval(updateClock, 1000);
         }
 
-        var deadline = '{{ event.eventdate }}';
+        var deadline = '{{ event['Event date'] }}';
         initializeClock('clockdiv', deadline);
 
       });
