@@ -14,11 +14,11 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: "Our events"
+    type: Our events
   values:
-    Event date:
-    Venue:
-    Event URL:
+    Event date: 
+    Venue: 
+    Event URL: 
 encoding: utf-8
 lang: en
 description: EVENTS | HANOI | TODAY
