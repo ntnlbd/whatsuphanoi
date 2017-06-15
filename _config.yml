@@ -1,40 +1,39 @@
-timezone: Asia/Bangkok
-encoding: utf-8
-lang: en
-
+---
 title: Whats Up Hanoi!?
-description: EVENTS | HANOI | TODAY
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-author: Whats Up Hanoi
-facebook:
-  publisher: https://www.facebook.com/whatsuphanoievents
-logo: /assets/images/sociallogo.png
-image: /assets/images/socialimage.png
-social:
-  name: Whats Up Hanoi
-  links: https://www.facebook.com/whatsuphanoievents
-
-
+timezone: Asia/Bangkok
 collections:
   ourevents:
     title: Our events
     output: true
-
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+encoding: utf-8
+lang: en
+description: EVENTS | HANOI | TODAY
+baseurl: ''
+url: ''
+author: Whats Up Hanoi
+facebook:
+  publisher: https://www.facebook.com/whatsuphanoievents
+logo: "/assets/images/sociallogo.png"
+image: "/assets/images/socialimage.png"
+social:
+  name: Whats Up Hanoi
+  links: https://www.facebook.com/whatsuphanoievents
 livereload: true
-
 markdown: kramdown
-
 permalink: pretty
-
 sass:
   sass_dir: assets/_stylesheets/
-
 gems:
 - jekyll-feed
 - jekyll-sitemap
 - jekyll-seo-tag
 - jekyll-autoprefixer
 exclude:
-  - Gemfile
-  - Gemfile.lock
+- Gemfile
+- Gemfile.lock
