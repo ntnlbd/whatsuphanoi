@@ -1,10 +1,20 @@
 timezone: Asia/Bangkok
 encoding: utf-8
+lang: en
 
-title: Whats Up Hanoi
+title: Whats Up Hanoi!?
 description: EVENTS | HANOI | TODAY
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+author: Whats Up Hanoi
+facebook:
+  publisher: https://www.facebook.com/whatsuphanoievents
+logo: /assets/images/sociallogo.png
+image: /assets/images/socialimage.png
+social:
+  name: Whats Up Hanoi
+  links: https://www.facebook.com/whatsuphanoievents
+
 
 collections:
   ourevents:

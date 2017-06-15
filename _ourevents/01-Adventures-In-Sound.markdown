@@ -1,6 +1,6 @@
 ---
-Title: Adventures In Sound
-Event date: 2017-06-09 10:19:24 +0700
-Venue: Rockstore, 24 Ma May
-Event URL: wwww.lenta.ru
+Title: Adventures In Sound - Mr. Devitt & D-Light
+Event date: 2017-06-09 21:00:00 +0700
+Venue: RockStore, 61 Mã Mây
+Event URL: https://www.facebook.com/events/370314440032779
 ---
