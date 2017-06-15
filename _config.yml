@@ -4,7 +4,7 @@ timezone: Asia/Bangkok
 collections:
   ourevents:
     title: Our events
-    output: false
+    output: true
   posts:
     title: Posts
     output: true
@@ -12,13 +12,13 @@ collections:
     title: Uploads
     output: true
 defaults:
-- scope:
-    path: ''
-    type: Our events
-  values:
-    Event date: 
-    Venue: 
-    Event URL: 
+  - scope:
+      path: ''
+      type: ourevents
+    values:
+      Event date:
+      Venue:
+      Event URL:
 encoding: utf-8
 lang: en
 description: EVENTS | HANOI | TODAY
