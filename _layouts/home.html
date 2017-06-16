@@ -4,116 +4,143 @@ layout: default
 
 <img class="logo" src="assets/images/logo.svg" />
 
+<!-- START UPCOMING EVENTS -->
+  <h2>UPCOMING EVENTS</h2>
 
-{% for event in site.ourevents %}
-  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
-  {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
-  {% assign nowunix = nowunix | plus: 0 %}
-  {% assign eventunix = eventunix | plus: 0 %}
+  {% for event in site.ourevents %}
+    {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+    {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
+    {% assign nowunix = nowunix | plus: 0 %}
+    {% assign eventunix = eventunix | plus: 0 %}
 
 
-  {% if nowunix < eventunix %}
-    <h2>NEXT EVENT</h2>
-    <a class="panel" href="{{ event['Event URL'] }}">
-      <div class="box">
-      <div class="clockdiv" id="clockdiv-{{ forloop.index }}">
-        <div>
-          <span class="days-{{ forloop.index }}"></span>
-          <div class="smalltext">Days</div>
+    {% if nowunix < eventunix %}
+
+      <a class="panel" href="{{ event['Event URL'] }}">
+        <div class="box">
+        <div class="clockdiv" id="clockdiv-{{ forloop.index }}">
+          <div>
+            <span class="days-{{ forloop.index }}"></span>
+            <div class="smalltext">Days</div>
+          </div>
+          <div>
+            <span class="hours-{{ forloop.index }}"></span>
+            <div class="smalltext">Hours</div>
+          </div>
+          <div>
+            <span class="minutes-{{ forloop.index }}"></span>
+            <div class="smalltext">Minutes</div>
+          </div>
+          <div>
+            <span class="seconds-{{ forloop.index }}"></span>
+            <div class="smalltext">Seconds</div>
+          </div>
         </div>
-        <div>
-          <span class="hours-{{ forloop.index }}"></span>
-          <div class="smalltext">Hours</div>
-        </div>
-        <div>
-          <span class="minutes-{{ forloop.index }}"></span>
-          <div class="smalltext">Minutes</div>
-        </div>
-        <div>
-          <span class="seconds-{{ forloop.index }}"></span>
-          <div class="smalltext">Seconds</div>
+        <div class="box-footer" >
+          <h1>{{ event.title }}</h1>
+          <div class="col-2">
+             <h3>
+               {{ event['Event date'] | date: "%A " }}
+               {% assign day = event['Event date'] | date: "%-d"  %}
+               {% case day %}
+                  {% when '1' or '21' or '31' %}{{ day }}st
+                  {% when '2' or '22' %}{{ day }}nd
+                  {% when '3' or '23' %}{{ day }}rd
+                  {% else %}{{ day }}th
+               {% endcase %}
+               {{ event['Event date'] | date: "of %B, %Y" }}
+             </h3>
+             <h3>{{ event['Venue'] }}</h3>
+          </div>
         </div>
       </div>
-      <div class="box-footer" >
-        <h1>{{ event.title }}</h1>
-        <div class="col-2">
-           <h3>
-             {{ event['Event date'] | date: "%A " }}
-             {% assign day = event['Event date'] | date: "%-d"  %}
-             {% case day %}
-                {% when '1' or '21' or '31' %}{{ day }}st
-                {% when '2' or '22' %}{{ day }}nd
-                {% when '3' or '23' %}{{ day }}rd
-                {% else %}{{ day }}th
-             {% endcase %}
-             {{ event['Event date'] | date: "of %B, %Y" }}
-           </h3>
-           <h3>{{ event['Venue'] }}</h3>
-        </div>
-      </div>
+      </a>
+    {% else %}
+
+    {% endif  %}
+
+  {% endfor %}
+
+<!-- END UPCOMING EVENTS -->
+
+<!-- START COMING SOON -->
+
+  {% for event in site.ourevents %}
+    {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+    {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
+    {% assign nowunix = nowunix | plus: 0 %}
+    {% assign eventunix = eventunix | plus: 0 %}
+
+    {% unless nowunix > eventunix %}
+      {% assign hide = "hide" %}
+    {% endunless%}
+
+  {% endfor%}
+
+  <a class="panel {{ hide }}" href="https://www.facebook.com/whatsuphanoievents/">
+    <div class="box">
+      <h3>Coming soon</h3>
+      <p>Follow us on Facebook for updates</p>
     </div>
-    </a>
-  {% else %}
+  </a>
 
-  {% endif  %}
+<!-- END COMING SOON -->
 
-{% endfor %}
+<!-- START TONIGHT-->
+  <h2>TONIGHT IN HANOI</h2>
 
-{% for event in site.ourevents %}
-  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
-  {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
-  {% assign nowunix = nowunix | plus: 0 %}
-  {% assign eventunix = eventunix | plus: 0 %}
+  {% for event in site.eventstonight %}
+    {% capture today %}{{ site.time | date: '%F' }}{% endcapture %}
+    {% capture eventdate %}{{ event['Event date'] | date: '%F'}}{% endcapture %}
 
-  {% unless nowunix > eventunix %}
-    {% assign hide = "hide" %}
-  {% endunless%}
-
-{% endfor%}
-
-
-
-<a class="panel {{ hide }}" href="https://www.facebook.com/whatsuphanoievents/">
-<div class="box">
-  <h3>Coming soon</h3>
-  <p>Follow us on Facebook for updates</p>
-</div>
-</a>
-
-<h2>PAST EVENTS</h2>
-
-{% for event in site.ourevents reversed %}
-  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
-  {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
-  {% assign nowunix = nowunix | plus: 0 %}
-  {% assign eventunix = eventunix | plus: 0 %}
-
-
-  {% if nowunix > eventunix %}
-    <a class="panel" href="{{ event['Event URL'] }}">
+    {% if today == eventdate %}
       <div class="box">
-         <div class="col-3">
-           <div>
-             <h2>0{{ forloop.index }}</h2>
-           </div>
-
-           <h2>{{ event.title }}</h2>
-           <h3>
-             {{ event['Event date'] | date: "%A" }}
-             {% assign day = event['Event date'] | date: "%-d"  %}
-             {% case day %}
-                {% when '1' or '21' or '31' %}{{ day }}st
-                {% when '2' or '22' %}{{ day }}nd
-                {% when '3' or '23' %}{{ day }}rd
-                {% else %}{{ day }}th
-             {% endcase %}
-             {{ event['Event date'] | date: "%B" }}
-           </h3>
-         </div>
+        <p>{{ event.title }} @ {{ event['Venue'] }}</p>
       </div>
-    </a>
-  {% else %}
+      {% else %}
+    {% endif %}
+  {% endfor %}
 
-  {% endif %}
+<!-- END TONIGHT -->
 
-{% endfor %}
+<!-- START PAST EVENTS -->
+
+  <h2>PAST EVENTS</h2>
+
+  {% for event in site.ourevents reversed %}
+    {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+    {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
+    {% assign nowunix = nowunix | plus: 0 %}
+    {% assign eventunix = eventunix | plus: 0 %}
+
+
+    {% if nowunix > eventunix %}
+      <a class="panel" href="{{ event['Event URL'] }}">
+        <div class="box">
+           <div class="col-3">
+             <div>
+               <h2>0{{ forloop.index }}</h2>
+             </div>
+
+             <h2>{{ event.title }}</h2>
+             <h3>
+               {{ event['Event date'] | date: "%A" }}
+               {% assign day = event['Event date'] | date: "%-d"  %}
+               {% case day %}
+                  {% when '1' or '21' or '31' %}{{ day }}st
+                  {% when '2' or '22' %}{{ day }}nd
+                  {% when '3' or '23' %}{{ day }}rd
+                  {% else %}{{ day }}th
+               {% endcase %}
+               {{ event['Event date'] | date: "%B" }}
+             </h3>
+           </div>
+        </div>
+      </a>
+    {% else %}
+
+    {% endif %}
+
+  {% endfor %}
+
+<!-- END PAST EVENTS -->
