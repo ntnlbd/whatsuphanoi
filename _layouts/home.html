@@ -16,21 +16,21 @@ layout: default
     <h2>NEXT EVENT</h2>
     <a class="panel" href="{{ event['Event URL'] }}">
       <div class="box">
-      <div id="clockdiv">
+      <div class="clockdiv" id="clockdiv-{{ forloop.index }}">
         <div>
-          <span class="days"></span>
+          <span class="days-{{ forloop.index }}"></span>
           <div class="smalltext">Days</div>
         </div>
         <div>
-          <span class="hours"></span>
+          <span class="hours-{{ forloop.index }}"></span>
           <div class="smalltext">Hours</div>
         </div>
         <div>
-          <span class="minutes"></span>
+          <span class="minutes-{{ forloop.index }}"></span>
           <div class="smalltext">Minutes</div>
         </div>
         <div>
-          <span class="seconds"></span>
+          <span class="seconds-{{ forloop.index }}"></span>
           <div class="smalltext">Seconds</div>
         </div>
       </div>

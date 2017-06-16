@@ -27,10 +27,10 @@
 
         function initializeClock(id, endtime) {
           var clock = document.getElementById(id);
-          var daysSpan = clock.querySelector('.days');
-          var hoursSpan = clock.querySelector('.hours');
-          var minutesSpan = clock.querySelector('.minutes');
-          var secondsSpan = clock.querySelector('.seconds');
+          var daysSpan = clock.querySelector('.days-{{ forloop.index }}');
+          var hoursSpan = clock.querySelector('.hours-{{ forloop.index }}');
+          var minutesSpan = clock.querySelector('.minutes-{{ forloop.index }}');
+          var secondsSpan = clock.querySelector('.seconds-{{ forloop.index }}');
 
           function updateClock() {
             var t = getTimeRemaining(endtime);
@@ -50,7 +50,7 @@
         }
 
         var deadline = '{{ event['Event date'] }}';
-        initializeClock('clockdiv', deadline);
+        initializeClock('clockdiv-{{ forloop.index }}', deadline);
 
       });
 

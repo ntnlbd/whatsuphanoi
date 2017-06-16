@@ -82,7 +82,7 @@ a.panel{
   }
 }
 
-#clockdiv{
+.clockdiv{
 
     display: inline-block;
     font-weight: 100;
@@ -92,18 +92,18 @@ a.panel{
 
 }
 
-#clockdiv > div{
+.clockdiv > div{
     color: white;
     margin-left: $spacing-unit / 2;
     margin-right: $spacing-unit / 2;
     margin-bottom: $spacing-unit;
 }
 
-#clockdiv > div div{
+.clockdiv > div div{
   font-size: 10px;
 }
 
-#clockdiv div > span{
+.clockdiv div > span{
     color: $brand-color-2;
     font-size: 34px;
     line-height: 34px;
