@@ -2,11 +2,11 @@
 title: Whats Up Hanoi!?
 timezone: Asia/Bangkok
 collections:
-  ourevents:
-    title: Our events
-    output: false
   eventstonight:
     title: Events tonight
+    output: false
+  ourevents:
+    title: Our events
     output: false
   posts:
     title: Posts
@@ -19,16 +19,16 @@ defaults:
     path: ''
     type: ourevents
   values:
-    Event date:
-    Venue:
-    Event URL:
+    Event date: 
+    Venue: 
+    Event URL: 
 - scope:
     path: ''
     type: eventstonight
   values:
-    Event date:
-    Venue:
-    Event URL:
+    Event date: 
+    Venue: 
+    Event URL: 
 encoding: utf-8
 lang: en
 description: EVENTS | HANOI | TODAY
