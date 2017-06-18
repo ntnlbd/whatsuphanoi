@@ -32,8 +32,8 @@ defaults:
 encoding: utf-8
 lang: en
 description: EVENTS | HANOI | TODAY
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 author: Whats Up Hanoi
 facebook:
   publisher: https://www.facebook.com/whatsuphanoievents
