@@ -3,18 +3,26 @@ body{
   font-weight: 100;
   padding: $spacing-unit;
   padding-top: 22%;
+  padding-bottom: $spacing-unit * 6;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .logo{
-  margin-bottom: $spacing-unit * 4;
+  margin-bottom: $spacing-unit;
 }
 
 h1{
-    font-size: 28px;
+    font-size: 22px;
+}
+
+h2{
+  margin-top: $spacing-unit * 2;
 }
 
 h2,h3{
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: $spacing-unit;
 }
 
@@ -26,22 +34,79 @@ h3{
   font-weight: 400;
 }
 
+h4{
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+h5{
+  font-size: 10px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+p{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 a.panel{
   text-decoration: none;
   color: white;
+}
+
+.inversed{
+  margin-top: $spacing-unit * 2;
+  background-color: $brand-color-2;
+  padding-bottom: $spacing-unit * 2 !important;
+}
+
+.dim{
+  color: #A675FF;
 }
 
 .box{
   width: 100%;
   border: 1px solid white;
   padding: $spacing-unit $spacing-unit 0;
-  margin-bottom: $spacing-unit;
+  background-color: $brand-color;
+  box-shadow: 2px 2px 8px rgba(0,0,0, 0.25);
+  transition: all 0.25s ease-in;
+
+}
+
+.ourevent:hover{
+  .box{
+    background-color: darken($brand-color, 10%);
+    box-shadow: 2px 2px 18px rgba(0,0,0, 0.25);
+    transition: all 0.25s ease-in;
+  }
+}
+
+.tonightevent:hover{
+  .box-dimmed{
+    border-color: $brand-color-2;
+
+    h4,h5{
+      color: $brand-color-2;
+    }
+  }
+}
+
+.pastevent:hover{
+  .box-dim{
+    border-color: white;
+
+    .col-3{
+      h2{color: white;}
+      div{border-right: 1px white solid;}
+    }
+  }
 }
 
 .box-footer{
   border-top: 1px solid white;
   border-bottom: 4px solid white;
-  padding: $spacing-unit / 2;
+  padding: $spacing-unit / 2 $spacing-unit / 2 $spacing-unit $spacing-unit / 2 ;
   margin-left: -$spacing-unit;
   margin-right: -$spacing-unit;
 
@@ -51,25 +116,51 @@ a.panel{
   }
 
   .col-2{
-    display: flex;
     color: $brand-color-2;
+    text-align: left;
 
-    :nth-child(1){
-      text-align: left;
-    }
+    h3{
+      margin-bottom: 0;
 
-    :nth-child(2){
-      text-align: right;
+      &:nth-child(2){
+        color: white;
+      }
     }
+  }
+}
+
+.box-dimmed{
+  border: 1px #A675FF solid;
+  background-color: $brand-color;
+  border-bottom: none;
+  text-align: left;
+  padding: $spacing-unit $spacing-unit / 2;
+
+  &:last-of-type{
+    border-bottom: 1px #A675FF solid;
+  }
+}
+
+.box-dim{
+  border: 1px #8D4CFF solid;
+  background-color: $brand-color;
+
+  h2{
+    color: #8D4CFF;
+    margin: $spacing-unit / 2;
   }
 }
 
 .col-3{
   display: flex;
 
+  div{
+    border-right: 1px #8D4CFF solid;
+    min-width: 55px;
+  }
+
   :nth-child(1){
     text-align: center;
-    border-right: 1px solid white;
     height: 100%;
   }
 
@@ -77,9 +168,6 @@ a.panel{
     text-align: left;
   }
 
-  :nth-child(3){
-    text-align: right;
-  }
 }
 
 .clockdiv{
@@ -100,89 +188,17 @@ a.panel{
 }
 
 .clockdiv > div div{
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .clockdiv div > span{
     color: $brand-color-2;
-    font-size: 34px;
-    line-height: 34px;
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 600;
     // padding: $spacing-unit $spacing-unit 0;
     width: 25%;
-
-}
-
-// h1{
-//   font-size: 36px;
-//
-// }
-//
-// h2{
-//   font-size: 32px;
-//
-//   margin-bottom: $spacing-unit * 4;
-// }
-//
-// h3{
-//   font-size: 20px;
-//
-// }
-
-// .box{
-//   padding: $spacing-unit * 2 $spacing-unit * 2 0;
-//   margin-bottom: $spacing-unit * 4;
-//
-//   h2{
-//     margin-bottom: $spacing-unit;
-//   }
-// }
-
-// .box-footer{
-//   margin-left: -$spacing-unit * 2;
-//   margin-right: -$spacing-unit * 2;
-// }
-
-// .col-3{
-//   display: flex;
-//
-//   :nth-child(1){
-//     padding: $spacing-unit / 2;
-//   }
-//
-//   :nth-child(3){
-//     line-height: $spacing-unit * 3;
-//   }
-// }
-
-// #clockdiv{
-//
-//     display: inline-block;
-//     font-weight: 100;
-//     text-align: center;
-//     // font-size: 30px;
-//     // margin-bottom: $spacing-unit * 3;
-//
-// }
-//
-// #clockdiv > div{
-//     color: white;
-//     display: inline-block;
-//     // font-size: 18px;
-// }
-//
-// #clockdiv div > span{
-//     color: $brand-color-2;
-//     display: inline-block;
-//     // font-size: 64px;
-//     // line-height: 64px;
-//     // padding: $spacing-unit $spacing-unit 0;
-//     width: 25%;
-//
-// }
-
-.smalltext{
-    padding-top: 5px;
-    font-size: 16px;
 }
 
 .hide{

@@ -5,4 +5,3 @@ Event date: 2017-06-17 19:30:00 +07:00
 Venue: The Bird Cage, Ma May Back of  nowhere
 Event URL: www.gogole.com
 ---
-
