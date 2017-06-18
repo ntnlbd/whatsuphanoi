@@ -5,3 +5,4 @@ Event date: 2017-06-17 22:00:00 +07:00
 Venue: Jazz club
 Event URL: www.gogole.com
 ---
+
