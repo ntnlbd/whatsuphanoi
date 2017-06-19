@@ -14,8 +14,10 @@ layout: default
 
 <img class="logo animated bounceIn" src="assets/images/logo.svg" />
 
+<!--googleoff: index-->
+
 <!-- START TONIGHT-->
-  <h2>TONIGHT IN HANOI</h2>
+  <h2>Tonight in Hanoi</h2>
 
   {% for event in site.eventstonight %}
     {% capture today %}{{ site.time | date: '%F' }}{% endcapture %}
@@ -46,6 +48,7 @@ layout: default
   {% endunless%}
 
 {% endfor%}
+
 
 <div class="box inversed {{ hidetonight }}">
   <p>It seems there is nothing on tonight =(</p>
@@ -111,6 +114,8 @@ layout: default
   {% endfor %}
 
 <!-- END UPCOMING EVENTS -->
+
+<!--googleon: index-->
 
 <!-- START COMING SOON -->
 
