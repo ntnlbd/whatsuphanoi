@@ -38,15 +38,20 @@
 	padding: 0.7em 0.6em;
 	width: 18em;
 
-	background: #eee;
+	background: #ffffff;
 	background-size: 100% auto;
+	color: #666666;
 
-	box-shadow: 0 0.2em 0 #d1d1d1;
+	box-shadow: 0.2em 0.2em 0.4em rgba(0,0,0,0.25);
 
 	font-family: sans-serif;
 	font-size: 15px;
 	line-height: 1.5em;
 	text-align: center;
+}
+
+.ath-container img{
+	border-radius: 1em;
 }
 
 .ath-container small {
@@ -176,13 +181,12 @@
 	padding: 0;
 	position: relative;
 	z-index: 2147483642;
-	text-shadow: 0 0.1em 0 #fff;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 .ath-ios.ath-phone:after {
 	content: '';
-	background: #eee;
+	background: #fff;
 	position: absolute;
 	width: 2em;
 	height: 2em;
@@ -191,12 +195,12 @@
 	margin-left: -1em;
 	-webkit-transform: scaleX(0.9) rotate(45deg);
 	transform: scaleX(0.9) rotate(45deg);
-	box-shadow: 0.2em 0.2em 0 #d1d1d1;
+	box-shadow: 0.2em 0.2em 0.4em rgba(0,0,0,0.25);
 }
 
 .ath-ios.ath-tablet:after {
 	content: '';
-	background: #eee;
+	background: #ffffff;
 	position: absolute;
 	width: 2em;
 	height: 2em;
