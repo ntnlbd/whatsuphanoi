@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0">
+  <meta http-equiv="expires" content="">
+  <meta http-equiv="pragma" content="no-cache">
+
+  <link rel="stylesheet" type="text/css" href="/assets/ath/style/addtohomescreen.css">
+  <script src="/assets/ath/src/addtohomescreen.min.js"></script>
+  <script>
+  addToHomescreen();
+  </script>
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="alternate" type="application/rss+xml" title="Whats Up Hanoi!?" href="/feed.xml">
+
+  <!-- Begin Jekyll SEO tag v2.1.0 -->
+<title>Whats Up Hanoi!? - EVENTS | HANOI | TODAY</title>
+<meta property="og:title" content="Whats Up Hanoi!?" />
+<meta name="description" content="EVENTS HANOI TODAY" />
+<meta property="og:description" content="EVENTS HANOI TODAY" />
+<link rel="canonical" href="/poster/" />
+<meta property="og:url" content="/poster/" />
+<meta property="og:site_name" content="Whats Up Hanoi!?" />
+<meta property="article:publisher" content="https://www.facebook.com/whatsuphanoievents" />
+<script type="application/ld+json">
+{"@context": "http://schema.org",
+"@type": "WebPage",
+"headline": "Whats Up Hanoi!?",
+"description": "EVENTS HANOI TODAY",
+"publisher": {"@type": "Organization",
+"logo": {"@type": "ImageObject",
+"url": "/assets/images/sociallogo.png"}},
+"url": "/poster/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="/assets/images/socialimage.png" />
+
+  <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+  <link rel="manifest" href="icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#6D1DFC">
+  <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#6D1DFC">
+
+</head>
+
+
+  <body>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <img class="logo" src="../assets/images/logo.svg" />
+
+<p>&nbsp;</p>
+
+<!-- START TONIGHT-->
+  
+    
+    
+
+    
+    
+  
+    
+    
+
+    
+    
+  
+    
+    
+
+    
+      <a class="panel tonightevent" href="www.gogole.com">
+        <div class="box-dimmed">
+          <h4>Tomorrow event</h4>
+          <h5>&ensp;@&ensp;Rafikis</h5>
+        </div>
+      </a>
+      
+  
+    
+    
+
+    
+    
+  
+
+<!-- END TONIGHT -->
+
+      </div>
+    </main>
+
+
+
+    
+  
+  
+  
+  
+
+  
+
+    <script>
+
+      document.addEventListener("DOMContentLoaded", function(event) {
+
+        function getTimeRemaining(endtime) {
+          var t = Date.parse(endtime) - Date.parse(new Date());
+          var seconds = Math.floor((t / 1000) % 60);
+          var minutes = Math.floor((t / 1000 / 60) % 60);
+          var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+          var days = Math.floor(t / (1000 * 60 * 60 * 24));
+          return {
+            'total': t,
+            'days': days,
+            'hours': hours,
+            'minutes': minutes,
+            'seconds': seconds
+          };
+        }
+
+        function initializeClock(id, endtime) {
+          var clock = document.getElementById(id);
+          var daysSpan = clock.querySelector('.days-1');
+          var hoursSpan = clock.querySelector('.hours-1');
+          var minutesSpan = clock.querySelector('.minutes-1');
+          var secondsSpan = clock.querySelector('.seconds-1');
+
+          function updateClock() {
+            var t = getTimeRemaining(endtime);
+
+            daysSpan.innerHTML = t.days;
+            hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+            minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+            secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+            if (t.total <= 0) {
+              clearInterval(timeinterval);
+            }
+          }
+
+          updateClock();
+          var timeinterval = setInterval(updateClock, 1000);
+        }
+
+        var deadline = '2017-06-22 19:30:00 +0700';
+        initializeClock('clockdiv-1', deadline);
+
+      });
+
+    </script>
+
+  
+
+  
+  
+  
+  
+
+  
+
+
+
+  </body>
+
+</html>
