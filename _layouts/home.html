@@ -14,8 +14,45 @@ layout: default
 
 <img class="logo" src="assets/images/logo.svg" />
 
-<!-- START UPCOMING EVENTS -->
+<!-- START TONIGHT-->
+  <h2>TONIGHT IN HANOI</h2>
 
+  {% for event in site.eventstonight %}
+    {% capture today %}{{ site.time | date: '%F' }}{% endcapture %}
+    {% capture eventdate %}{{ event['Event date'] | date: '%F'}}{% endcapture %}
+
+    {% if today == eventdate %}
+      <a class="panel tonightevent" href="{{ event['Event URL']}}">
+        <div class="box-dimmed">
+          <h4>{{ event.title }}</h4>
+          <h5>&ensp;@&ensp;{{ event['Venue'] }}</h5>
+        </div>
+      </a>
+      {% else %}
+    {% endif %}
+  {% endfor %}
+
+<!-- END TONIGHT -->
+
+<!-- START NOTHIN IS ON-->
+{% for event in site.eventstonight %}
+  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+  {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
+  {% assign nowunix = nowunix | plus: 0 %}
+  {% assign eventunix = eventunix | plus: 0 %}
+
+  {% unless nowunix > eventunix %}
+    {% assign hidetonight = "hidetonight" %}
+  {% endunless%}
+
+{% endfor%}
+
+<div class="box inversed {{ hidetonight }}">
+  <p>It seems there is nothing on tonight =(</p>
+</div>
+<!--END NOTHING IS ON-->
+
+<!-- START UPCOMING EVENTS -->
 
   {% for event in site.ourevents %}
     {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
@@ -98,49 +135,6 @@ layout: default
   <!-- </a> -->
 
 <!-- END COMING SOON -->
-
-<!-- START TONIGHT-->
-  <h2>TONIGHT IN HANOI</h2>
-
-  {% for event in site.eventstonight %}
-    {% capture today %}{{ site.time | date: '%F' }}{% endcapture %}
-    {% capture eventdate %}{{ event['Event date'] | date: '%F'}}{% endcapture %}
-
-    {% if today == eventdate %}
-      <a class="panel tonightevent" href="{{ event['Event URL']}}">
-        <div class="box-dimmed">
-          <h4>{{ event.title }}</h4>
-          <h5>&ensp;@&ensp;{{ event['Venue'] }}</h5>
-        </div>
-      </a>
-      {% else %}
-    {% endif %}
-  {% endfor %}
-
-<!-- END TONIGHT -->
-
-<!-- START NOTHIN IS ON-->
-{% for event in site.eventstonight %}
-  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
-  {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
-  {% assign nowunix = nowunix | plus: 0 %}
-  {% assign eventunix = eventunix | plus: 0 %}
-
-  {% unless nowunix > eventunix %}
-    {% assign hidetonight = "hidetonight" %}
-  {% endunless%}
-
-{% endfor%}
-
-
-<div class="box inversed {{ hidetonight }}">
-  <p>It seems there is nothing on tonight =(</p>
-</div>
-
-
-<!--END NOTHING IS ON-->
-
-
 
 <!-- START PAST EVENTS -->
 
