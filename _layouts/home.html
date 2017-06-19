@@ -2,6 +2,16 @@
 layout: default
 ---
 
+<!-- Facebook scri1pts -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <img class="logo" src="assets/images/logo.svg" />
 
 <!-- START UPCOMING EVENTS -->
@@ -79,17 +89,15 @@ layout: default
 
   {% endfor%}
 
-  <a class="panel ourevent {{ hide }}" href="https://www.facebook.com/whatsuphanoievents/">
+  <!-- <a class="panel ourevent {{ hide }}" href="https://www.facebook.com/whatsuphanoievents/"> -->
     <div class="box inversed">
       <h3>NEXT EVENT IS IN THE WORKS</h3>
       <p>Follow us on Facebook for updates</p>
+      <div class="fb-follow" data-href="https://www.facebook.com/whatsuphanoievents" data-layout="button_count" data-size="large" data-show-faces="true"></div>
     </div>
-  </a>
+  <!-- </a> -->
 
 <!-- END COMING SOON -->
-
-<section>
-
 
 <!-- START TONIGHT-->
   <h2>TONIGHT IN HANOI</h2>
@@ -111,7 +119,28 @@ layout: default
 
 <!-- END TONIGHT -->
 
-</section>
+<!-- START NOTHIN IS ON-->
+{% for event in site.eventstonight %}
+  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+  {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
+  {% assign nowunix = nowunix | plus: 0 %}
+  {% assign eventunix = eventunix | plus: 0 %}
+
+  {% unless nowunix > eventunix %}
+    {% assign hidetonight = "hidetonight" %}
+  {% endunless%}
+
+{% endfor%}
+
+
+<div class="box inversed {{ hidetonight }}">
+  <p>It seems there is nothing on tonight =(</p>
+</div>
+
+
+<!--END NOTHING IS ON-->
+
+
 
 <!-- START PAST EVENTS -->
 

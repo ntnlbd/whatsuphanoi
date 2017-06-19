@@ -54,10 +54,18 @@ a.panel{
   color: white;
 }
 
-.inversed{
+.box.inversed{
   margin-top: $spacing-unit * 2;
   background-color: $brand-color-2;
   padding-bottom: $spacing-unit * 2 !important;
+  background-color: white;
+  color: $brand-color;
+  border: 5px solid $brand-color;
+  outline: 1px solid white;
+
+  h3{
+    font-weight: 700;
+  }
 }
 
 .dim{
@@ -201,6 +209,22 @@ a.panel{
     width: 25%;
 }
 
-.hide{
+.hide, .hidetonight{
   display: none;
+}
+
+footer{
+  margin-top: $spacing-unit * 3;
+  border-top: 1px #A675FF solid;
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit * 2;
+
+  a{
+    color: white;
+    text-decoration: none;
+
+    &:hover{
+      color: $brand-color-2;
+    }
+  }
 }
