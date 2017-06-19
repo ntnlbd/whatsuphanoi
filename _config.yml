@@ -33,7 +33,7 @@ encoding: utf-8
 lang: en
 description: EVENTS - HANOI - TODAY
 baseurl: 
-url: 
+url: www.whatsuphanoi.com
 author: Whats Up Hanoi!?
 logo: "/assets/images/sociallogo.png"
 image: "/assets/images/socialimage.png"
