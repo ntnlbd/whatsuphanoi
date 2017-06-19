@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: www.whatsuphanoi.com/sitemap.xml
