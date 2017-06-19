@@ -51,7 +51,7 @@
           var timeinterval = setInterval(updateClock, 1000);
         }
 
-        var deadline = '{{ event['Event date'] }}';
+        var deadline = '{{ event['Event date'] | date: '%B %d %Y %X' }} GMT+0700';
         initializeClock('clockdiv-{{ forloop.index }}', deadline);
 
       });
