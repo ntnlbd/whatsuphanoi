@@ -76,49 +76,6 @@
 
 <img class="logo" src="assets/images/logo.svg" />
 
-<!-- START UPCOMING EVENTS -->
-
-
-  
-    
-    
-    
-    
-
-
-    
-
-    
-
-  
-    
-    
-    
-    
-
-
-    
-
-    
-
-  
-
-<!-- END UPCOMING EVENTS -->
-
-<!-- START COMING SOON -->
-
-  
-
-  <!-- <a class="panel ourevent " href="https://www.facebook.com/whatsuphanoievents/"> -->
-    <div class="box inversed">
-      <h3>NEXT EVENT IS IN THE WORKS</h3>
-      <p>Follow us on Facebook for updates</p>
-      <div class="fb-follow" data-href="https://www.facebook.com/whatsuphanoievents" data-layout="button_count" data-size="large" data-show-faces="true"></div>
-    </div>
-  <!-- </a> -->
-
-<!-- END COMING SOON -->
-
 <!-- START TONIGHT-->
   <h2>TONIGHT IN HANOI</h2>
 
@@ -165,15 +122,89 @@
 <!-- START NOTHIN IS ON-->
 
 
-
 <div class="box inversed hidetonight">
   <p>It seems there is nothing on tonight =(</p>
 </div>
-
-
 <!--END NOTHING IS ON-->
 
+<!-- START UPCOMING EVENTS -->
 
+  
+    
+    
+    
+    
+
+
+    
+
+    <h2>NEXT WUH!? EVENT</h2>
+
+      <a class="panel ourevent" href="www.gogole.com">
+        <div class="box">
+        <div class="clockdiv" id="clockdiv-1">
+          <div>
+            <span class="days-1"></span>
+            <div class="smalltext">Days</div>
+          </div>
+          <div>
+            <span class="hours-1"></span>
+            <div class="smalltext">Hours</div>
+          </div>
+          <div>
+            <span class="minutes-1"></span>
+            <div class="smalltext">Minutes</div>
+          </div>
+          <div>
+            <span class="seconds-1"></span>
+            <div class="smalltext">Seconds</div>
+          </div>
+        </div>
+        <div class="box-footer" >
+          <h1>Mr. Devitt's Big Beats</h1>
+          <div class="col-2">
+             <h3>
+               Thursday 
+               
+               22nd
+                  
+               of June, 2017
+             </h3>
+             <h3>The Bird Cage, Ma May Back of  nowhere</h3>
+          </div>
+        </div>
+      </div>
+      </a>
+    
+
+  
+    
+    
+    
+    
+
+
+    
+
+    
+
+  
+
+<!-- END UPCOMING EVENTS -->
+
+<!-- START COMING SOON -->
+
+  
+
+  <!-- <a class="panel ourevent hide" href="https://www.facebook.com/whatsuphanoievents/"> -->
+    <div class="box inversed">
+      <h3>NEXT EVENT IS IN THE WORKS</h3>
+      <p>Follow us on Facebook for updates</p>
+      <div class="fb-follow" data-href="https://www.facebook.com/whatsuphanoievents" data-layout="button_count" data-size="large" data-show-faces="true"></div>
+    </div>
+  <!-- </a> -->
+
+<!-- END COMING SOON -->
 
 <!-- START PAST EVENTS -->
 
@@ -207,16 +238,7 @@
 
 
     
-      <a class="panel pastevent" href="www.gogole.com">
-        <div class="box-dim">
-           <div class="col-3">
-             <div>
-               <h2>02</h2>
-             </div>
-             <h2>Mr. Devitt's Big Beats</h2>
-           </div>
-        </div>
-      </a>
+
     
 
   
@@ -243,6 +265,58 @@
   
   
   
+
+  
+
+    <script>
+
+      document.addEventListener("DOMContentLoaded", function(event) {
+
+        function getTimeRemaining(endtime) {
+          var t = Date.parse(endtime) - Date.parse(new Date());
+          var seconds = Math.floor((t / 1000) % 60);
+          var minutes = Math.floor((t / 1000 / 60) % 60);
+          var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+          var days = Math.floor(t / (1000 * 60 * 60 * 24));
+          return {
+            'total': t,
+            'days': days,
+            'hours': hours,
+            'minutes': minutes,
+            'seconds': seconds
+          };
+        }
+
+        function initializeClock(id, endtime) {
+          var clock = document.getElementById(id);
+          var daysSpan = clock.querySelector('.days-1');
+          var hoursSpan = clock.querySelector('.hours-1');
+          var minutesSpan = clock.querySelector('.minutes-1');
+          var secondsSpan = clock.querySelector('.seconds-1');
+
+          function updateClock() {
+            var t = getTimeRemaining(endtime);
+
+            daysSpan.innerHTML = t.days;
+            hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+            minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+            secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+            if (t.total <= 0) {
+              clearInterval(timeinterval);
+            }
+          }
+
+          updateClock();
+          var timeinterval = setInterval(updateClock, 1000);
+        }
+
+        var deadline = '2017-06-22 19:30:00 +0700';
+        initializeClock('clockdiv-1', deadline);
+
+      });
+
+    </script>
 
   
 
