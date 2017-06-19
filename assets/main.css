@@ -47,7 +47,8 @@ p { font-family: Helvetica, Arial, sans-serif; }
 
 a.panel { text-decoration: none; color: white; }
 
-.inversed { margin-top: 32px; background-color: #1FEF86; padding-bottom: 32px !important; }
+.box.inversed { margin-top: 32px; background-color: #1FEF86; padding-bottom: 32px !important; background-color: white; color: #6D1DFC; border: 5px solid #6D1DFC; outline: 1px solid white; }
+.box.inversed h3 { font-weight: 700; }
 
 .dim { color: #A675FF; }
 
@@ -87,7 +88,11 @@ a.panel { text-decoration: none; color: white; }
 
 .clockdiv div > span { color: #1FEF86; font-size: 42px; line-height: 42px; font-weight: 600; width: 25%; }
 
-.hide { display: none; }
+.hide, .hidetonight { display: none; }
+
+footer { margin-top: 48px; border-top: 1px #A675FF solid; padding-top: 16px; padding-bottom: 32px; }
+footer a { color: white; text-decoration: none; }
+footer a:hover { color: #1FEF86; }
 
 @media (min-width: 700px) { body { padding-top: 7%; }
   h1 { font-size: 36px; }

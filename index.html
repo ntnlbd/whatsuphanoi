@@ -11,10 +11,6 @@
   <meta http-equiv="pragma" content="no-cache">
 
   <link rel="stylesheet" type="text/css" href="/assets/ath/style/addtohomescreen.css">
-  <script src="/assets/ath/src/addtohomescreen.min.js"></script>
-  <script>
-  addToHomescreen();
-  </script>
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="alternate" type="application/rss+xml" title="Whats Up Hanoi!?" href="/feed.xml">
@@ -68,7 +64,17 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <img class="logo" src="assets/images/logo.svg" />
+        <!-- Facebook scri1pts -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<img class="logo" src="assets/images/logo.svg" />
 
 <!-- START UPCOMING EVENTS -->
 
@@ -82,43 +88,6 @@
 
     
 
-    <h2>NEXT WUH!? EVENT</h2>
-
-      <a class="panel ourevent" href="www.gogole.com">
-        <div class="box">
-        <div class="clockdiv" id="clockdiv-1">
-          <div>
-            <span class="days-1"></span>
-            <div class="smalltext">Days</div>
-          </div>
-          <div>
-            <span class="hours-1"></span>
-            <div class="smalltext">Hours</div>
-          </div>
-          <div>
-            <span class="minutes-1"></span>
-            <div class="smalltext">Minutes</div>
-          </div>
-          <div>
-            <span class="seconds-1"></span>
-            <div class="smalltext">Seconds</div>
-          </div>
-        </div>
-        <div class="box-footer" >
-          <h1>Mr. Devitt's Big Beats</h1>
-          <div class="col-2">
-             <h3>
-               Thursday 
-               
-               22nd
-                  
-               of June, 2017
-             </h3>
-             <h3>The Bird Cage, Ma May Back of  nowhere</h3>
-          </div>
-        </div>
-      </div>
-      </a>
     
 
   
@@ -140,17 +109,15 @@
 
   
 
-  <a class="panel ourevent hide" href="https://www.facebook.com/whatsuphanoievents/">
+  <!-- <a class="panel ourevent " href="https://www.facebook.com/whatsuphanoievents/"> -->
     <div class="box inversed">
       <h3>NEXT EVENT IS IN THE WORKS</h3>
       <p>Follow us on Facebook for updates</p>
+      <div class="fb-follow" data-href="https://www.facebook.com/whatsuphanoievents" data-layout="button_count" data-size="large" data-show-faces="true"></div>
     </div>
-  </a>
+  <!-- </a> -->
 
 <!-- END COMING SOON -->
-
-<section>
-
 
 <!-- START TONIGHT-->
   <h2>TONIGHT IN HANOI</h2>
@@ -160,13 +127,13 @@
     
 
     
-    
-  
-    
-    
-
-    
-    
+      <a class="panel tonightevent" href="www.gogole.com">
+        <div class="box-dimmed">
+          <h4>Todays event 1</h4>
+          <h5>&ensp;@&ensp;The Bird Cage</h5>
+        </div>
+      </a>
+      
   
     
     
@@ -174,8 +141,8 @@
     
       <a class="panel tonightevent" href="www.gogole.com">
         <div class="box-dimmed">
-          <h4>Tomorrow event</h4>
-          <h5>&ensp;@&ensp;Rafikis</h5>
+          <h4>Todays event 2</h4>
+          <h5>&ensp;@&ensp;Rockstore</h5>
         </div>
       </a>
       
@@ -186,10 +153,27 @@
     
     
   
+    
+    
+
+    
+    
+  
 
 <!-- END TONIGHT -->
 
-</section>
+<!-- START NOTHIN IS ON-->
+
+
+
+<div class="box inversed hidetonight">
+  <p>It seems there is nothing on tonight =(</p>
+</div>
+
+
+<!--END NOTHING IS ON-->
+
+
 
 <!-- START PAST EVENTS -->
 
@@ -223,75 +207,42 @@
 
 
     
-
+      <a class="panel pastevent" href="www.gogole.com">
+        <div class="box-dim">
+           <div class="col-3">
+             <div>
+               <h2>02</h2>
+             </div>
+             <h2>Mr. Devitt's Big Beats</h2>
+           </div>
+        </div>
+      </a>
     
 
   
 
 <!-- END PAST EVENTS -->
 
+
+        <footer>
+<p>
+  For promotions, collaborations & other activities
+</p>
+<a href="https://www.facebook.com/whatsuphanoievents/">
+    - contact us -
+ </a>
+</footer>
+
       </div>
     </main>
 
+    <!-- Timer scripts -->
 
 
-    
   
   
   
   
-
-  
-
-    <script>
-
-      document.addEventListener("DOMContentLoaded", function(event) {
-
-        function getTimeRemaining(endtime) {
-          var t = Date.parse(endtime) - Date.parse(new Date());
-          var seconds = Math.floor((t / 1000) % 60);
-          var minutes = Math.floor((t / 1000 / 60) % 60);
-          var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-          var days = Math.floor(t / (1000 * 60 * 60 * 24));
-          return {
-            'total': t,
-            'days': days,
-            'hours': hours,
-            'minutes': minutes,
-            'seconds': seconds
-          };
-        }
-
-        function initializeClock(id, endtime) {
-          var clock = document.getElementById(id);
-          var daysSpan = clock.querySelector('.days-1');
-          var hoursSpan = clock.querySelector('.hours-1');
-          var minutesSpan = clock.querySelector('.minutes-1');
-          var secondsSpan = clock.querySelector('.seconds-1');
-
-          function updateClock() {
-            var t = getTimeRemaining(endtime);
-
-            daysSpan.innerHTML = t.days;
-            hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-            minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-            secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-
-            if (t.total <= 0) {
-              clearInterval(timeinterval);
-            }
-          }
-
-          updateClock();
-          var timeinterval = setInterval(updateClock, 1000);
-        }
-
-        var deadline = '2017-06-22 19:30:00 +0700';
-        initializeClock('clockdiv-1', deadline);
-
-      });
-
-    </script>
 
   
 
@@ -302,6 +253,23 @@
 
   
 
+
+<!-- Add to homescreen scripts -->
+
+<script src="/assets/ath/src/addtohomescreen.min.js"></script>
+<script>
+// addToHomescreen.removeSession();     // use this to remove the localStorage variable
+var ath = addToHomescreen({
+    debug: 'android',           // activate debug mode in ios emulation
+    skipFirstVisit: false,	// show at first access
+    startDelay: 0,          // display the message right away
+    lifespan: 0,            // do not automatically kill the call out
+    displayPace: 0,         // do not obey the display pace
+    privateModeOverride: true,	// show the message in private mode
+    maxDisplayCount: 0      // do not obey the max display count
+});
+// ath.clearSession();      // reset the user session
+</script>
 
 
   </body>
