@@ -1,0 +1,8 @@
+---
+title: Mùa hè chiều thẳng đứng/ The Vertical Ray Of The Sun
+date: 2017-06-21 12:44:00 +07:00
+Event date: 2017-06-21 00:00:00 +07:00
+Venue: The Creative Artillery
+Event URL: https://www.facebook.com/events/1827818254203287/
+---
+
