@@ -45,7 +45,7 @@ h5 { font-weight: 400; margin-bottom: 0; font-size: 14px; line-height: 22px; col
 
 p, .viet-title { font-family: Helvetica, Arial, sans-serif; }
 
-.viet-title { text-transform: uppercase; }
+.viet-title { text-transform: uppercase; font-weight: 300; }
 
 a.panel { text-decoration: none; color: white; }
 
