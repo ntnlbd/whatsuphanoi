@@ -19,20 +19,21 @@ defaults:
     path: ''
     type: ourevents
   values:
-    Event date: 
-    Venue: 
+    Event date: 2017-06-21 21:00:00 +07:00
+    Venue: Please enter
     Event URL: https://www.facebook.com/events/
 - scope:
     path: ''
     type: eventstonight
   values:
-    Event date: 
-    Venue: 
+    Viet title: 
+    Event date: 2017-06-21 21:00:00 +07:00
+    Venue: Please enter
     Event URL: https://www.facebook.com/events/
 encoding: utf-8
 lang: en
 description: Events in Hanoi today.
-baseurl: 
+baseurl:
 url: www.whatsuphanoi.com
 author: Whats Up Hanoi
 logo: "/assets/images/sociallogo.png"

@@ -35,8 +35,13 @@ layout: default
     {% if today == eventdate %}
       <a class="panel tonightevent" href="{{ event['Event URL']}}">
         <div class="box-dimmed">
-          <h4>{{ event.title }}</h4>
-          <h5>&ensp;@&ensp;{{ event['Venue'] }}</h5>
+          <h4>
+            {{ event.title }}
+            {% if event['Viet title'] %}
+            &ensp;/&emsp;<span class="viet-title">{{ event['Viet title']}}</span>
+            {% endif %}
+          </h4>
+          <h5>@&ensp;{{ event['Venue'] }}</h5>
         </div>
       </a>
       {% else %}
