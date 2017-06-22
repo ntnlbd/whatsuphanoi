@@ -29,10 +29,10 @@
 
         function initializeClock(id, endtime) {
           var clock = document.getElementById(id);
-          var daysSpan = clock.querySelector('.days-{{ forloop.index }}');
-          var hoursSpan = clock.querySelector('.hours-{{ forloop.index }}');
-          var minutesSpan = clock.querySelector('.minutes-{{ forloop.index }}');
-          var secondsSpan = clock.querySelector('.seconds-{{ forloop.index }}');
+          var daysSpan = clock.querySelector('.days');
+          var hoursSpan = clock.querySelector('.hours');
+          var minutesSpan = clock.querySelector('.minutes');
+          var secondsSpan = clock.querySelector('.seconds');
 
           function updateClock() {
             var t = getTimeRemaining(endtime);
@@ -70,7 +70,7 @@ var ath = addToHomescreen({
     modal: true,
     skipFirstVisit: true,
     detectHomescreen: true,	// show at first access
-    startDelay: 4,          // display the message right away
+    startDelay: 3,          // display the message right away
     lifespan: 12,            // do not automatically kill the call out
     displayPace: 0,         // do not obey the display pace
     maxDisplayCount: 3      // do not obey the max display count
