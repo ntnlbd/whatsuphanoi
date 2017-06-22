@@ -13,6 +13,9 @@
 
   <link rel="stylesheet" type="text/css" href="/assets/ath/style/addtohomescreen.css">
 
+
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed:400,500&amp;subset=vietnamese" rel="stylesheet">
+
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="alternate" type="application/rss+xml" title="Whats Up Hanoi" href="/feed.xml">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -103,34 +106,10 @@
     
 
     
-      <a class="panel tonightevent" href="https://www.facebook.com/events/1722894764395312/">
-        <div class="box-dimmed">
-          <h4>Showcase #2</h4>
-          <h5>&ensp;@&ensp;Rec Room</h5>
-        </div>
-      </a>
-      
-  
-    
-    
-
-    
       <a class="panel tonightevent" href="https://www.facebook.com/events/1957112161175356/">
         <div class="box-dimmed">
           <h4>SamRaz Live Latin Music</h4>
           <h5>&ensp;@&ensp;Solist Pub</h5>
-        </div>
-      </a>
-      
-  
-    
-    
-
-    
-      <a class="panel tonightevent" href="https://www.facebook.com/events/1545347572218719/">
-        <div class="box-dimmed">
-          <h4>Thirsty Thursday</h4>
-          <h5>&ensp;@&ensp;Rockstore</h5>
         </div>
       </a>
       
@@ -218,10 +197,10 @@
 
         function initializeClock(id, endtime) {
           var clock = document.getElementById(id);
-          var daysSpan = clock.querySelector('.days-1');
-          var hoursSpan = clock.querySelector('.hours-1');
-          var minutesSpan = clock.querySelector('.minutes-1');
-          var secondsSpan = clock.querySelector('.seconds-1');
+          var daysSpan = clock.querySelector('.days');
+          var hoursSpan = clock.querySelector('.hours');
+          var minutesSpan = clock.querySelector('.minutes');
+          var secondsSpan = clock.querySelector('.seconds');
 
           function updateClock() {
             var t = getTimeRemaining(endtime);
@@ -266,7 +245,7 @@ var ath = addToHomescreen({
     modal: true,
     skipFirstVisit: true,
     detectHomescreen: true,	// show at first access
-    startDelay: 4,          // display the message right away
+    startDelay: 3,          // display the message right away
     lifespan: 12,            // do not automatically kill the call out
     displayPace: 0,         // do not obey the display pace
     maxDisplayCount: 3      // do not obey the max display count

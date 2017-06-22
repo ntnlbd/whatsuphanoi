@@ -13,6 +13,9 @@
 
   <link rel="stylesheet" type="text/css" href="/assets/ath/style/addtohomescreen.css">
 
+
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed:400,500&amp;subset=vietnamese" rel="stylesheet">
+
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="alternate" type="application/rss+xml" title="Whats Up Hanoi" href="/feed.xml">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -89,7 +92,13 @@
 <!--googleoff: index-->
 
 <!-- START TONIGHT-->
-  <h2>Tonight in Hanoi</h2>
+  <h2>
+    Thursday 
+    
+    22nd
+       
+    of June, 2017
+  </h2>
 
   
     
@@ -121,21 +130,6 @@
 
     
     
-  
-    
-    
-
-    
-      <a class="panel tonightevent" href="https://www.facebook.com/events/1722894764395312/">
-        <div class="box-dimmed">
-          <h4>
-            Showcase #2
-            
-          </h4>
-          <h5>@&ensp;Rec Room</h5>
-        </div>
-      </a>
-      
   
     
     
@@ -147,22 +141,8 @@
             SamRaz Live Latin Music
             
           </h4>
-          <h5>@&ensp;Solist Pub</h5>
-        </div>
-      </a>
-      
-  
-    
-    
 
-    
-      <a class="panel tonightevent" href="https://www.facebook.com/events/1545347572218719/">
-        <div class="box-dimmed">
-          <h4>
-            Thirsty Thursday
-            
-          </h4>
-          <h5>@&ensp;Rockstore</h5>
+          <h5>@&ensp;Solist Pub</h5>
         </div>
       </a>
       
@@ -177,6 +157,7 @@
             Ladies Night by Christopher Wilson
             
           </h4>
+
           <h5>@&ensp;Dockers</h5>
         </div>
       </a>
@@ -192,6 +173,7 @@
             Cabaret Maxim
             
           </h4>
+
           <h5>@&ensp;Camelia Lounge</h5>
         </div>
       </a>
@@ -207,6 +189,7 @@
             Savage Thursday
             
           </h4>
+
           <h5>@&ensp;Savage</h5>
         </div>
       </a>
@@ -217,9 +200,136 @@
 
 <!-- START NOTHIN IS ON-->
 
+  
+  
+  
+  
+
+  
+  
+  <!-- 
+   -->
+
+  <!--  -->
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  <!-- 
+   -->
+
+  <!--  -->
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  <!-- 
+   -->
+
+  <!--  -->
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  <!-- 
+   -->
+
+  <!--  -->
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  <!-- 
+   -->
+
+  <!--  -->
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  <!-- 
+   -->
+
+  <!--  -->
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  <!-- 
+   -->
+
+  <!--  -->
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  <!-- 
+   -->
+
+  <!--  -->
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  <!-- 
+   -->
+
+  <!--  -->
+
+  
 
 
-<div class="box inversed ">
+
+
+<div class="box inversed hidetonight">
   <p>It seems there is nothing on tonight =(</p>
 </div>
 <!--END NOTHING IS ON-->
@@ -241,19 +351,19 @@
         <div class="box">
         <div class="clockdiv" id="clockdiv-1">
           <div>
-            <span class="days-1"></span>
+            <span class="days"></span>
             <div class="smalltext">Days</div>
           </div>
           <div>
-            <span class="hours-1"></span>
+            <span class="hours"></span>
             <div class="smalltext">Hours</div>
           </div>
           <div>
-            <span class="minutes-1"></span>
+            <span class="minutes"></span>
             <div class="smalltext">Minutes</div>
           </div>
           <div>
-            <span class="seconds-1"></span>
+            <span class="seconds"></span>
             <div class="smalltext">Seconds</div>
           </div>
         </div>
@@ -388,10 +498,10 @@
 
         function initializeClock(id, endtime) {
           var clock = document.getElementById(id);
-          var daysSpan = clock.querySelector('.days-1');
-          var hoursSpan = clock.querySelector('.hours-1');
-          var minutesSpan = clock.querySelector('.minutes-1');
-          var secondsSpan = clock.querySelector('.seconds-1');
+          var daysSpan = clock.querySelector('.days');
+          var hoursSpan = clock.querySelector('.hours');
+          var minutesSpan = clock.querySelector('.minutes');
+          var secondsSpan = clock.querySelector('.seconds');
 
           function updateClock() {
             var t = getTimeRemaining(endtime);
@@ -436,7 +546,7 @@ var ath = addToHomescreen({
     modal: true,
     skipFirstVisit: true,
     detectHomescreen: true,	// show at first access
-    startDelay: 4,          // display the message right away
+    startDelay: 3,          // display the message right away
     lifespan: 12,            // do not automatically kill the call out
     displayPace: 0,         // do not obey the display pace
     maxDisplayCount: 3      // do not obey the max display count

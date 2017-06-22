@@ -43,9 +43,9 @@ h4 { font-size: 18px; margin-bottom: 0; }
 
 h5 { font-weight: 400; margin-bottom: 0; font-size: 14px; line-height: 22px; color: #be9bfe; }
 
-p { font-family: Helvetica, Arial, sans-serif; }
+p { font-family: 'Cabin Condensed', sans-serif; font-weight: 500; }
 
-.viet-title { font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; font-weight: 500; }
+.viet-title { font-family: 'Cabin Condensed', sans-serif; text-transform: uppercase; font-weight: 500; }
 
 a.panel { text-decoration: none; color: white; }
 
