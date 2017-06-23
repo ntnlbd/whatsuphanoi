@@ -65,10 +65,10 @@
 
 <script src="{{ "/assets/ath/src/addtohomescreen.min.js" | relative_url }}"></script>
 <script>
-// addToHomescreen.removeSession();    // remove local storage variable
+addToHomescreen.removeSession();    // remove local storage variable
 addToHomescreen({
     skipFirstVisit: true,
     maxDisplayCount: 1
 });
-// ath.clearSession();      // reset the user session
+ath.clearSession();      // reset the user session
 </script>
