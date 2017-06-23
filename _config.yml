@@ -42,8 +42,8 @@ defaults:
     Venue: Please enter
     Event URL: https://www.facebook.com/events/
     Cover image:
-    Featured from: 2017-06-23 12:00:00 +07:00
-    Featured to: 2017-06-24 12:00:00 +07:00
+    From date: 2017-06-23 12:00:00 +07:00
+    To date: 2017-06-24 12:00:00 +07:00
     Position:
 encoding: utf-8
 lang: en
