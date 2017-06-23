@@ -4,22 +4,6 @@ layout: default
 
 <img class="logo" src="../assets/images/logo.svg" />
 
-<p>&nbsp;</p>
-
-<!-- START TONIGHT-->
-  {% for event in site.eventstonight %}
-    {% capture today %}{{ site.time | date: '%F' }}{% endcapture %}
-    {% capture eventdate %}{{ event['Event date'] | date: '%F'}}{% endcapture %}
-
-    {% if today == eventdate %}
-      <a class="panel tonightevent" href="{{ event['Event URL']}}">
-        <div class="box-dimmed">
-          <h4>{{ event.title }}</h4>
-          <h5>&ensp;@&ensp;{{ event['Venue'] }}</h5>
-        </div>
-      </a>
-      {% else %}
-    {% endif %}
-  {% endfor %}
-
-<!-- END TONIGHT -->
+<div class="tonight-page">
+  {% include tonight.html %}
+</div>

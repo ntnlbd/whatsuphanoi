@@ -25,68 +25,7 @@ layout: default
 
 <!--googleoff: index-->
 
-<!-- START TONIGHT-->
-  <h2>
-    {{ site.time | date: "%A " }}
-    {% assign day = site.time | date: "%-d"  %}
-    {% case day %}
-       {% when '1' or '21' or '31' %}{{ day }}st
-       {% when '2' or '22' %}{{ day }}nd
-       {% when '3' or '23' %}{{ day }}rd
-       {% else %}{{ day }}th
-    {% endcase %}
-    {{ site.time | date: "of %B, %Y" }}
-  </h2>
-
-  {% for event in site.eventstonight %}
-    {% capture today %}{{ site.time | date: '%F' }}{% endcapture %}
-    {% capture eventdate %}{{ event['Event date'] | date: '%F'}}{% endcapture %}
-
-    {% if today == eventdate %}
-      <a class="panel tonightevent" href="{{ event['Event URL']}}">
-        <div class="box-dimmed">
-          <h4>
-            {{ event.title }}
-            {% if event['Viet title'] %}
-            &ensp;/&ensp;<span class="viet-title">{{ event['Viet title']}}</span>
-            {% endif %}
-          </h4>
-
-          <h5>@&ensp;{{ event['Venue'] }}</h5>
-        </div>
-      </a>
-      {% else %}
-    {% endif %}
-  {% endfor %}
-
-<!-- END TONIGHT -->
-
-<!-- START NOTHIN IS ON-->
-{% for event in site.eventstonight %}
-  {% capture nowdate %}{{ site.time | date: '%D' }}{% endcapture %}
-  {% capture eventdate %}{{ event['Event date'] | date: '%D'}}{% endcapture %}
-  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
-  {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
-
-  {% assign nowdate = nowdate %}
-  {% assign eventdate = eventdate %}
-  <!-- {% assign nowunix = nowunix | plus: 0 %}
-  {% assign eventunix = eventunix | plus: 0 %} -->
-
-  <!-- {% if nowdate != eventdate and nowunix < eventunix or nowunix > eventunix %}
-  {% endif%} -->
-
-  {% unless nowdate > eventdate %}
-    {% assign hidetonight = "hidetonight" %}
-  {% endunless%}
-{% endfor %}
-
-
-
-<div class="box inversed {{ hidetonight }}">
-  <p>It seems there is nothing on tonight =(</p>
-</div>
-<!--END NOTHING IS ON-->
+{% include tonight.html %}
 
 <!-- START UPCOMING EVENTS -->
 
