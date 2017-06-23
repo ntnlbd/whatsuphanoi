@@ -48,8 +48,20 @@ h5{
 
 }
 
-.tonight-page h5{
-  font-size: 17px;
+.tonight-page{
+  .logo{
+     width: 300px;
+     margin: 0;
+  }
+
+  h2{
+    margin-bottom: $spacing-unit;
+    margin-top: $spacing-unit;
+  }
+
+  h5{
+    font-size: 17px;
+  }
 }
 
 p{
