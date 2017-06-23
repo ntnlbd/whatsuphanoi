@@ -8,6 +8,9 @@ collections:
   ourevents:
     title: Our events
     output: false
+  featuredevents:
+    title: Featured events
+    output: false
   posts:
     title: Posts
     output: true
@@ -26,14 +29,22 @@ defaults:
     path: ''
     type: eventstonight
   values:
-    Viet title: 
+    Viet title:
+    Event date: 2017-06-21 14:00:00.000000000 Z
+    Venue: Please enter
+    Event URL: https://www.facebook.com/events/
+- scope:
+    path: ''
+    type: featuredevents
+  values:
+    Viet title:
     Event date: 2017-06-21 14:00:00.000000000 Z
     Venue: Please enter
     Event URL: https://www.facebook.com/events/
 encoding: utf-8
 lang: en
 description: Events in Hanoi today.
-baseurl: 
+baseurl:
 url: www.whatsuphanoi.com
 author: Whats Up Hanoi
 logo: "/assets/images/sociallogo.png"
