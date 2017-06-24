@@ -220,6 +220,17 @@ a.panel{
     width: 25%;
 }
 
+.panel-inversed:hover{
+  .box.inversed{
+    background-color: $brand-color-2;
+    color: White;
+
+    h5{
+      color: white;
+    }
+  }
+}
+
 .hide, .hidetonight{
   display: none;
 }
