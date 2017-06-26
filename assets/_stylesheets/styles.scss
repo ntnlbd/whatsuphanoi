@@ -65,20 +65,6 @@ a.panel{
   color: white;
 }
 
-.box.inversed{
-  margin-top: $spacing-unit * 2;
-  background-color: $brand-color-2;
-  padding-bottom: $spacing-unit * 2 !important;
-  background-color: white;
-  color: $brand-color;
-  border: 5px solid $brand-color;
-  outline: 1px solid white;
-
-  h3{
-    font-weight: 700;
-  }
-}
-
 .dim{
   color: #A675FF;
 }
@@ -91,6 +77,25 @@ a.panel{
   box-shadow: 2px 2px 8px rgba(0,0,0, 0.25);
   transition: all 0.25s ease-in;
 
+}
+
+.box.inversed{
+  margin-top: $spacing-unit * 2;
+  background-color: $brand-color-2;
+  background-color: white;
+  color: $brand-color;
+  border: 5px solid $brand-color;
+  outline: 1px solid white;
+  padding-bottom: $spacing-unit;
+
+  h3{
+    font-weight: 700;
+  }
+}
+
+.featured{
+  text-align: left;
+  padding: $spacing-unit $spacing-unit 0;
 }
 
 .ourevent:hover{

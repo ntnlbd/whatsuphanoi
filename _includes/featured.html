@@ -1,20 +1,10 @@
-{% for event in site.featuredevents %}
 
-  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
-  {% capture eventfromunix %}{{ event['From date'] | date: '%s'}}{% endcapture %}
-  {% capture eventtounix %}{{ event['To date'] | date: '%s'}}{% endcapture %}
-
-  {% assign nowunix = nowunix | plus: 0 %}
-  {% assign eventfromunix = eventfromunix | plus: 0 %}
-  {% assign eventtounix = eventtounix | plus: 0 %}
-
-  {% if nowunix > eventfromunix and nowunix < eventtounix %}
-
-    <a class="panel panel-inversed" href="{{ event['Event URL'] }}">
-      <div class="box inversed ">
-          <h1>{{ event.title }}</h1>
+<a class="panel panel-inversed" href="{{ event['Event URL'] }}">
+      <div class="box inversed featured">
+          <h4>{{ event.title }}</h4>
           <div class="col-2">
-             <h3>
+             <h5>@ {{ event['Venue'] }}</h5>
+             <h5>
                {{ event['Event date'] | date: "%A " }}
                {% assign day = event['Event date'] | date: "%-d"  %}
                {% case day %}
@@ -24,12 +14,8 @@
                   {% else %}{{ day }}th
                {% endcase %}
                {{ event['Event date'] | date: "of %B, %Y" }}
-             </h3>
-             <h5>@ {{ event['Venue'] }}</h5>
+             </h5>
+
           </div>
       </div>
-    </a>
-
-  {% endif %}
-
-{% endfor %}
+</a>

@@ -14,14 +14,53 @@ layout: default
 
 <img class="logo animated bounceIn" src="assets/images/logo.svg" />
 
-{% include featured.html %}
-
 <!--googleoff: index-->
+
+{% for event in site.featuredevents %}
+
+  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+  {% capture eventfromunix %}{{ event['From date'] | date: '%s'}}{% endcapture %}
+  {% capture eventtounix %}{{ event['To date'] | date: '%s'}}{% endcapture %}
+
+  {% assign nowunix = nowunix | plus: 0 %}
+  {% assign eventfromunix = eventfromunix | plus: 0 %}
+  {% assign eventtounix = eventtounix | plus: 0 %}
+  {% assign featuretier = event['Is on top'] %}
+
+  {% if nowunix > eventfromunix and nowunix < eventtounix and featuretier == true %}
+
+    {% include featured.html%}
+
+  {% endif %}
+
+{% endfor %}
+
 
 {% include tonight.html %}
 
+{% for event in site.featuredevents %}
+
+  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+  {% capture eventfromunix %}{{ event['From date'] | date: '%s'}}{% endcapture %}
+  {% capture eventtounix %}{{ event['To date'] | date: '%s'}}{% endcapture %}
+
+  {% assign nowunix = nowunix | plus: 0 %}
+  {% assign eventfromunix = eventfromunix | plus: 0 %}
+  {% assign eventtounix = eventtounix | plus: 0 %}
+  {% assign featuretier = event['Is on top'] %}
+
+  {% if nowunix > eventfromunix and nowunix < eventtounix and featuretier == false %}
+
+    {% include featured.html%}
+
+  {% endif %}
+
+{% endfor %}
+
 {% include wuh-upcoming.html %}
 
-<!--googleon: index-->
-
 {% include wuh-past.html %}
+
+
+
+<!--googleon: index-->
