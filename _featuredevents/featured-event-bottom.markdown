@@ -1,10 +1,11 @@
 ---
-title: FEATURED EVENT BOTTOM
+title: International Reggae Day w/ Mr. Devitt, Prodigal & anTon
 date: 2017-06-27 18:49:00 +07:00
-Viet title: FEATURED EVENT TEST
 Event date: 2017-06-27 00:00:00 +07:00
-Venue: TEST
+Venue: MOJITO BAR
+Event URL: https://www.facebook.com/events/800182560157878/
 From date: 2017-06-27 00:00:00 +07:00
-To date: 2017-06-28 00:00:00 +07:00
+To date: 2017-07-02 00:00:00 +07:00
+Is on top: true
 ---
 
