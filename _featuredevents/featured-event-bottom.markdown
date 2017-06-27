@@ -1,0 +1,10 @@
+---
+title: FEATURED EVENT BOTTOM
+date: 2017-06-27 18:49:00 +07:00
+Viet title: FEATURED EVENT TEST
+Event date: 2017-06-27 00:00:00 +07:00
+Venue: TEST
+From date: 2017-06-27 00:00:00 +07:00
+To date: 2017-06-28 00:00:00 +07:00
+---
+
