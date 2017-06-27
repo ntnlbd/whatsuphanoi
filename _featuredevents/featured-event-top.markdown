@@ -1,7 +1,6 @@
 ---
-title: FEATURED EVENT TOP
+title: GingerWork & Quest Invite Jai Thep Festival
 date: 2017-06-27 18:48:00 +07:00
-Viet title: GingerWork & Quest Invite Jai Thep Festival
 Event date: 2017-07-08 20:30:00 +07:00
 Venue: The Creative Artillery / Birdcage / Rafikis
 Event URL: https://www.facebook.com/events/1897376627147205/
