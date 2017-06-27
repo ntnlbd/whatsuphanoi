@@ -41,11 +41,7 @@ h3 { font-weight: 400; }
 
 h4 { font-size: 18px; margin-bottom: 0; }
 
-h5 { font-weight: 400; margin-bottom: 0; font-size: 14px; line-height: 22px; color: #be9bfe; }
-
-.tonight-page .logo { width: 300px; margin: 0; }
-.tonight-page h2 { margin-bottom: 16px; margin-top: 32px; }
-.tonight-page h5 { font-size: 17px; }
+h5 { font-weight: 400; margin-bottom: 0; font-size: 15px; line-height: 22px; color: #be9bfe; }
 
 p { font-family: 'Cabin Condensed', sans-serif; font-weight: 500; }
 
@@ -53,12 +49,14 @@ p { font-family: 'Cabin Condensed', sans-serif; font-weight: 500; }
 
 a.panel { text-decoration: none; color: white; }
 
-.box.inversed { margin-top: 32px; background-color: #1FEF86; padding-bottom: 32px !important; background-color: white; color: #6D1DFC; border: 5px solid #6D1DFC; outline: 1px solid white; }
-.box.inversed h3 { font-weight: 700; }
-
 .dim { color: #A675FF; }
 
 .box { width: 100%; border: 1px solid white; padding: 16px 16px 0; background-color: #6D1DFC; box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25); transition: all 0.25s ease-in; }
+
+.box.inversed { margin-top: 32px; background-color: #1FEF86; background-color: white; color: #6D1DFC; border: 5px solid #6D1DFC; outline: 1px solid white; padding-bottom: 16px; }
+.box.inversed h3 { font-weight: 700; }
+
+.featured { text-align: left; padding: 16px 16px 0; }
 
 .ourevent:hover .box { background-color: #5303e3; box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.25); transition: all 0.25s ease-in; }
 
@@ -94,6 +92,9 @@ a.panel { text-decoration: none; color: white; }
 
 .clockdiv div > span { color: #1FEF86; font-size: 42px; line-height: 42px; font-weight: 600; width: 25%; }
 
+.panel-inversed:hover .box.inversed { background-color: #1FEF86; color: White; }
+.panel-inversed:hover .box.inversed h5 { color: white; }
+
 .hide, .hidetonight { display: none; }
 
 footer { margin-top: 48px; border-top: 1px #A675FF solid; padding-top: 16px; padding-bottom: 32px; }
@@ -106,6 +107,10 @@ footer a:hover { color: #1FEF86; }
   h3 { font-size: 20px; }
   .box { padding: 32px 32px 0; margin-bottom: 64px; }
   .box h2 { margin-bottom: 16px; }
+  .featured { text-align: left; padding: 16px 16px 0; }
+  .featured .col-2 { display: flex; }
+  .featured .col-2 :nth-child(2) { text-align: right; }
+  .featured .col-2 h5 { width: 50%; }
   .box-footer { margin-left: -32px; margin-right: -32px; padding: 16px 24px; }
   .box-footer .col-2 { color: #1FEF86; text-align: left; display: flex; }
   .box-footer .col-2 h3 { margin-bottom: 0; }
@@ -119,3 +124,9 @@ footer a:hover { color: #1FEF86; }
   .clockdiv > div { color: white; font-size: 18px; }
   .clockdiv div > span { color: #1FEF86; font-size: 64px; line-height: 64px; padding: 16px 16px 0; width: 25%; }
   .box-dimmed { padding: 16px 24px; } }
+.tonight-page .logo { width: 300px; margin: 0; }
+.tonight-page h2 { margin-bottom: 16px; margin-top: 32px; font-size: 22px; font-weight: 400; }
+.tonight-page h5 { font-size: 17px; }
+.tonight-page .box-dimmed { padding: 8px 16px; display: flex; }
+.tonight-page .box-dimmed :nth-child(1) { width: 70%; }
+.tonight-page .box-dimmed :nth-child(2) { text-align: left; width: 30%; }
