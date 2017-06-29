@@ -250,10 +250,12 @@ a.panel{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin: $spacing-unit * 2 0;
 
   h5{
     margin-bottom: $spacing-unit;
-
+    color: white;
+    font-weight: 400;
   }
 }
 
