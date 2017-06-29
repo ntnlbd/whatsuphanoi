@@ -1,7 +1,9 @@
 {% for promo in site.promos %}
+  {% if promo['Link'] %}
   <a class="panel" href="{{ promo['Link'] }}">
-        <div class="box promo" style="background-image: url('{{ promo['Image'] }}')
-                                      border-color: {{promo['Color']}};
+  {% endif %}
+        <div class="box promo" style="background-image: url('{{ promo['Image'] }}');
+                                      
                                       background-color: {{promo['Color']}};
                                       outline-color: {{promo['Color']}};" )>
             <h5>{{promo['Heading']}}</h5>
@@ -10,5 +12,7 @@
                <h5>{{ promo['Subtitle'] }}</h5>
             </div>
         </div>
+  {% if promo['Link'] %}
   </a>
+  {% endif %}
 {% endfor %}
