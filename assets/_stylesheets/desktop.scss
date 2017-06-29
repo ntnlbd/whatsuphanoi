@@ -1,5 +1,9 @@
 @media (min-width: 700px) {
 
+  .logo{
+    margin-bottom: $spacing-unit * 3;
+  }
+
   body{
     padding-top: 7%;
   }
@@ -11,9 +15,7 @@
 
   h2{
     font-size: 22px;
-
     margin-bottom: $spacing-unit * 2;
-    margin-top: $spacing-unit * 5;
   }
 
   h3{
@@ -88,6 +90,30 @@
 
     :nth-child(2){
       align-self: center;
+    }
+
+  }
+
+  .mailchimp{
+    form{
+    }
+    h2{
+
+    }
+
+    .mc-field-group{
+      input{
+        margin-bottom: $spacing-unit * 2;
+        width:55%;
+      }
+    }
+  }
+
+  .promo{
+    padding: $spacing-unit * 2 $spacing-unit * 5;
+
+    h5{
+      color: white;
     }
 
   }
