@@ -25,119 +25,111 @@ img { max-width: 100%; vertical-align: middle; }
 
 .wrapper { margin-left: auto; margin-right: auto; max-width: 600px; }
 
-body { text-align: center; font-weight: 100; padding: 16px; padding-top: 22%; padding-bottom: 96px; background-image: url("images/background.jpg"); background-size: cover; background-position: center; }
+body { text-align: center; font-weight: 100; padding: 16px 16px 96px 16px; padding-top: 22%; background-image: url("images/background.jpg"); background-size: cover; background-position: center; }
 
 .logo { margin-bottom: 32px; }
 
 h1 { font-size: 22px; }
 
-h2 { margin-top: 32px; }
-
-h2, h3 { font-size: 14px; margin-bottom: 16px; }
-
 h1, h2 { font-weight: 700; }
+
+h2, h3 { font-size: 14px; }
 
 h3 { font-weight: 400; }
 
 h4 { font-size: 18px; margin-bottom: 0; }
 
-h5 { font-weight: 400; margin-bottom: 0; font-size: 15px; line-height: 22px; color: #be9bfe; }
+h5 { font-weight: 400; font-size: 15px; line-height: 22px; color: #be9bfe; }
 
-p { font-family: 'Cabin Condensed', sans-serif; font-weight: 500; }
+p { font-family: 'Open Sans Condensed', sans-serif; font-weight: 300; }
 
-.viet-title { font-family: 'Cabin Condensed', sans-serif; text-transform: uppercase; font-weight: 500; }
+.viet-title { font-family: 'Open Sans Condensed', sans-serif; text-transform: uppercase; font-weight: 700; }
 
 a.panel { text-decoration: none; color: white; }
 
-.dim { color: #A675FF; }
+.box { background-color: #5303e3; padding: 16px 16px 8px; margin-bottom: 48px; border: 1px solid white; }
 
-.box { width: 100%; border: 1px solid white; padding: 16px 16px 0; background-color: #6D1DFC; box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25); transition: all 0.25s ease-in; }
+.dim { color: #8D4CFF; }
 
-.box.inversed { margin-top: 32px; background-color: #1FEF86; background-color: white; color: #6D1DFC; border: 5px solid #6D1DFC; outline: 1px solid white; padding-bottom: 16px; }
-.box.inversed h3 { font-weight: 700; }
+.featured { border: 5px solid #6D1DFC; outline: 1px solid white; background-color: white; text-align: left; padding: 16px; color: #6D1DFC; text-decoration: none; margin-bottom: 48px; margin-top: 48px; }
+.featured:hover { background-color: #1FEF86; outline-color: #1FEF86; color: white; }
+.featured:hover h5 { color: white; }
 
-.featured { text-align: left; padding: 16px 16px 0; }
-
-.ourevent:hover .box { background-color: #5303e3; box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.25); transition: all 0.25s ease-in; }
-
-.tonightevent:hover .box-dimmed { border-color: #1FEF86; }
-.tonightevent:hover .box-dimmed h4, .tonightevent:hover .box-dimmed h5 { color: #1FEF86; }
-
-.pastevent:hover .box-dim { border-color: white; }
-.pastevent:hover .box-dim .col-3 h2 { color: white; }
-.pastevent:hover .box-dim .col-3 div { border-right: 1px white solid; }
-
-.box-footer { border-top: 1px solid white; border-bottom: 4px solid white; padding: 8px 8px 16px 8px; margin-left: -16px; margin-right: -16px; }
-.box-footer h1 { text-align: left; display: block; }
-.box-footer .col-2 { color: #1FEF86; text-align: left; }
-.box-footer .col-2 h3 { margin-bottom: 0; }
-.box-footer .col-2 h3:nth-child(2) { color: white; }
-
-.box-dimmed { border: 1px #A675FF solid; background-color: #6D1DFC; border-bottom: none; text-align: left; padding: 16px 8px; }
-.box-dimmed:last-of-type { border-bottom: 1px #A675FF solid; }
-
-.box-dim { border: 1px #8D4CFF solid; background-color: #6D1DFC; }
-.box-dim h2 { color: #8D4CFF; margin: 8px; }
-
-.col-3 { display: flex; }
-.col-3 div { border-right: 1px #8D4CFF solid; min-width: 55px; }
-.col-3 :nth-child(1) { text-align: center; height: 100%; }
-.col-3 :nth-child(2) { text-align: left; }
-
-.mailchimp { width: 100%; border: 1px solid white; background-color: #6D1DFC; box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25); }
-.mailchimp .mc-field-group { padding: 0 16px; text-align: center; }
-.mailchimp .mc-field-group input { border: 1px solid white; height: 32px; line-height: 32px; margin-bottom: 16px; width: 70%; padding: 0 8px; }
-.mailchimp .mc-field-group input:focus { outline: none; border: 1px solid #1FEF86; box-shadow: 2px 2px 4px #1c014c; }
-.mailchimp input[type="submit"] { background-color: #1FEF86; color: white; border: none; outline: none; text-transform: uppercase; padding: 16px 32px; margin-bottom: 32px; box-shadow: 2px 2px 4px #1c014c; font-size: 16px; transition: all 0.2s ease-out; font-family: "Mohave", monospace, sans-serif; font-weight: bold; cursor: pointer; }
-.mailchimp input[type="submit"]:hover { box-shadow: none; transition: all 0.2s ease-in; }
-
-.promo { outline: 6px solid yellow; border: 4px solid white; padding: 32px; background-position: center; background-size: cover; background-repeat: no-repeat; margin: 32px 0; }
-.promo h5 { margin-bottom: 16px; color: white; font-weight: 400; }
+.tonight { border: 1px #A675FF solid; background-color: #6D1DFC; border-bottom: none; text-align: left; padding: 16px 16px 0; }
+.tonight:last-of-type { border-bottom: 1px #A675FF solid; }
+.tonight:hover { border-color: #1FEF86; color: #1FEF86; }
+.tonight:hover h5 { color: #1FEF86; }
 
 .clockdiv { display: inline-block; font-weight: 100; text-align: center; display: flex; justify-content: center; }
-
 .clockdiv > div { color: white; margin-left: 8px; margin-right: 8px; margin-bottom: 16px; }
-
 .clockdiv > div div { font-size: 12px; font-weight: 400; }
-
 .clockdiv div > span { color: #1FEF86; font-size: 42px; line-height: 42px; font-weight: 600; width: 25%; }
 
-.panel-inversed:hover .box.inversed { background-color: #1FEF86; color: White; }
-.panel-inversed:hover .box.inversed h5 { color: white; }
+.upcoming { width: 100%; border: 1px solid white; padding: 16px 16px 0; background-color: #6D1DFC; box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25); margin-bottom: 48px; transition: all 0.25s ease-in; }
+.upcoming:hover { background-color: #5303e3; box-shadow: 2px 2px 28px rgba(0, 0, 0, 0.45); }
+.upcoming .box-footer { border-top: 1px solid white; border-bottom: 4px solid white; padding: 16px; margin-left: -16px; margin-right: -16px; }
+.upcoming .box-footer h1 { text-align: left; display: block; }
+.upcoming .box-footer .col-2 { color: #1FEF86; text-align: left; }
+.upcoming .box-footer .col-2 h3:nth-child(2) { color: white; }
 
-.hide, .hidetonight { display: none; }
+.past { border: 1px solid #8D4CFF; background-color: #6D1DFC; }
+.past:hover { border-color: white; }
+.past:hover h2 { color: white; }
+.past:hover .col-3 :nth-child(1) { border-color: white; }
+.past h2 { color: #8D4CFF; margin: 8px; }
+.past .col-3 { display: flex; }
+.past .col-3 div { border-right: 1px #8D4CFF solid; min-width: 55px; }
+.past .col-3 :nth-child(1) { text-align: center; height: 100%; }
+.past .col-3 :nth-child(2) { text-align: left; }
 
-footer { margin-top: 48px; border-top: 1px #A675FF solid; padding-top: 16px; padding-bottom: 32px; }
+.mailchimp { width: 100%; border: 1px solid white; background-color: #6D1DFC; box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25); padding: 32px 0 32px 0; margin-bottom: 48px; }
+.mailchimp .mc-field-group { padding: 0 16px; text-align: center; margin-bottom: 16px; }
+.mailchimp .mc-field-group input { border: 1px solid white; height: 48px; line-height: 48px; width: 80%; padding: 0 8px; }
+.mailchimp .mc-field-group input:focus { outline: none; border: 1px solid #1FEF86; box-shadow: 2px 2px 4px #1c014c; }
+.mailchimp input[type="submit"] { background-color: #FF4081; color: white; border: none; outline: none; text-transform: uppercase; padding: 8px 32px; box-shadow: 2px 2px 4px #1c014c; font-size: 16px; transition: all 0.2s ease-out; font-family: "Mohave", monospace, sans-serif; font-weight: bold; cursor: pointer; }
+.mailchimp input[type="submit"]:hover { box-shadow: none; transition: all 0.2s ease-in; }
+
+.promo { outline: 6px solid yellow; border: 4px solid white; padding: 32px; background-position: center; background-size: cover; background-repeat: no-repeat; margin-bottom: 48px; }
+.promo h5 { color: white; font-weight: 400; }
+
+.inversed { border: 5px solid #6D1DFC; outline: 1px solid white; background-color: white; text-align: left; padding: 16px; color: #6D1DFC; text-decoration: none; margin-bottom: 48px; margin-top: 48px; text-align: center; }
+
+footer { border-top: 1px #A675FF solid; padding-top: 16px; padding-bottom: 32px; margin-top: 64px; }
 footer a { color: white; text-decoration: none; }
 footer a:hover { color: #1FEF86; }
+
+.hide, .hidetonight { display: none; }
 
 @media (min-width: 700px) { .logo { margin-bottom: 48px; }
   body { padding-top: 7%; }
   h1 { font-size: 36px; }
   h2 { font-size: 22px; margin-bottom: 32px; }
   h3 { font-size: 20px; }
-  .box { padding: 32px 32px 0; margin-bottom: 64px; }
-  .box h2 { margin-bottom: 16px; }
   .featured { text-align: left; padding: 16px 16px 0; }
   .featured .col-2 { display: flex; }
   .featured .col-2 :nth-child(2) { text-align: right; }
   .featured .col-2 h5 { width: 50%; }
-  .box-footer { margin-left: -32px; margin-right: -32px; padding: 16px 24px; }
-  .box-footer .col-2 { color: #1FEF86; text-align: left; display: flex; }
-  .box-footer .col-2 h3 { margin-bottom: 0; }
-  .box-footer .col-2 h3:nth-child(2) { color: white; }
-  .box-footer .col-2 :nth-child(1) { text-align: left; }
-  .box-footer .col-2 :nth-child(2) { text-align: right; flex-grow: 1; }
-  .col-3 { display: flex; }
-  .col-3 :nth-child(1) { padding: 4px; }
-  .col-3 :nth-child(2) { align-self: center; }
-  .mailchimp .mc-field-group input { margin-bottom: 32px; width: 55%; }
-  .promo { padding: 32px 80px; }
-  .promo h5 { color: white; }
   .clockdiv { display: flex; font-weight: 100; text-align: center; font-size: 30px; margin-bottom: 16px; }
   .clockdiv > div { color: white; font-size: 18px; }
   .clockdiv div > span { color: #1FEF86; font-size: 64px; line-height: 64px; padding: 16px 16px 0; width: 25%; }
-  .box-dimmed { padding: 16px 24px; } }
+  .upcoming .box-footer { padding: 16px 24px; }
+  .upcoming .box-footer .col-2 { color: #1FEF86; text-align: left; display: flex; }
+  .upcoming .box-footer .col-2 h3 { margin-bottom: 0; }
+  .upcoming .box-footer .col-2 h3:nth-child(2) { color: white; }
+  .upcoming .box-footer .col-2 :nth-child(1) { text-align: left; }
+  .upcoming .box-footer .col-2 :nth-child(2) { text-align: right; flex-grow: 1; }
+  .past .col-3 { display: flex; }
+  .past .col-3 :nth-child(1) { padding: 4px; }
+  .past .col-3 :nth-child(2) { align-self: center; }
+  .mailchimp { padding: 32px 0 16px 0; }
+  .mailchimp h2 { font-size: 18px; }
+  .mailchimp .form-wrap { display: flex; flex-wrap: wrap; justify-content: space-around; padding: 0 16px; }
+  .mailchimp .form-wrap > :nth-child(1), .mailchimp .form-wrap > :nth-child(2) { width: 31%; }
+  .mailchimp .form-wrap > :nth-child(5) { width: 31%; }
+  .mailchimp .mc-field-group { padding: 0; margin-right: 16px; }
+  .mailchimp .mc-field-group input { width: 100%; height: 32px; line-height: 32px; }
+  .mailchimp input[type="submit"] { padding: 0 16px; height: 32px; line-height: 32px; width: 100%; }
+  .promo { padding: 32px 80px; } }
 .tonight-page .logo { width: 300px; margin: 0; }
 .tonight-page h2 { margin-bottom: 16px; margin-top: 32px; font-size: 22px; font-weight: 400; }
 .tonight-page h5 { font-size: 17px; }
