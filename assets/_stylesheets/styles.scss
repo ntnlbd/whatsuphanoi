@@ -1,9 +1,8 @@
 body{
   text-align: center;
   font-weight: 100;
-  padding: $spacing-unit;
+  padding: $spacing-unit $spacing-unit $spacing-unit * 6 $spacing-unit;
   padding-top: 22%;
-  padding-bottom: $spacing-unit * 6;
   background-image: url('images/background.jpg');
   background-size: cover;
   background-position: center;
@@ -17,17 +16,12 @@ h1{
     font-size: 22px;
 }
 
-h2{
-  margin-top: $spacing-unit * 2;
+h1,h2{
+  font-weight: 700;
 }
 
 h2,h3{
   font-size: 14px;
-  margin-bottom: $spacing-unit;
-}
-
-h1,h2{
-  font-weight: 700;
 }
 
 h3{
@@ -41,7 +35,6 @@ h4{
 
 h5{
   font-weight: 400;
-  margin-bottom: 0;
   font-size: 15px;
   line-height: 22px;
   color: lighten($brand-color, 25%);
@@ -49,15 +42,14 @@ h5{
 }
 
 p{
-  font-family: 'Cabin Condensed', sans-serif;
-  font-weight: 500;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
 }
 
-
 .viet-title{
-  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 a.panel{
@@ -65,133 +57,173 @@ a.panel{
   color: white;
 }
 
-.dim{
-  color: #A675FF;
-}
-
 .box{
-  width: 100%;
+  background-color: darken($brand-color, 10%);
+  padding: $spacing-unit $spacing-unit $spacing-unit / 2 ;
+  margin-bottom: $spacing-unit * 3;
   border: 1px solid white;
-  padding: $spacing-unit $spacing-unit 0;
-  background-color: $brand-color;
-  box-shadow: 2px 2px 8px rgba(0,0,0, 0.25);
-  transition: all 0.25s ease-in;
-
 }
 
-.box.inversed{
-  margin-top: $spacing-unit * 2;
-  background-color: $brand-color-2;
-  background-color: white;
-  color: $brand-color;
-  border: 5px solid $brand-color;
-  outline: 1px solid white;
-  padding-bottom: $spacing-unit;
-
-  h3{
-    font-weight: 700;
-  }
+.dim{
+  color: #8D4CFF;
 }
 
 .featured{
+  border: 5px solid $brand-color;
+  outline: 1px solid white;
+  background-color: white;
+  text-align: left;
+  padding: $spacing-unit;
+  color: $brand-color;
+  text-decoration: none;
+  margin-bottom: $spacing-unit * 3;
+  margin-top: $spacing-unit * 3;
+
+  &:hover{
+    background-color: $brand-color-2;
+    outline-color: $brand-color-2;
+    color: white;
+
+    h5{
+      color: white;
+    }
+  }
+
+}
+
+.tonight{
+  border: 1px #A675FF solid;
+  background-color: $brand-color;
+  border-bottom: none;
   text-align: left;
   padding: $spacing-unit $spacing-unit 0;
-}
 
-.ourevent:hover{
-  .box{
-    background-color: darken($brand-color, 10%);
-    box-shadow: 2px 2px 18px rgba(0,0,0, 0.25);
-    transition: all 0.25s ease-in;
+  &:last-of-type{
+    border-bottom: 1px #A675FF solid;
   }
-}
 
-.tonightevent:hover{
-  .box-dimmed{
+  &:hover{
     border-color: $brand-color-2;
+    color: $brand-color-2;
 
-    h4,h5{
+    h5{
       color: $brand-color-2;
     }
   }
 }
 
-.pastevent:hover{
-  .box-dim{
-    border-color: white;
+.clockdiv{
 
-    .col-3{
-      h2{color: white;}
-      div{border-right: 1px white solid;}
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    > div{
+      color: white;
+      margin-left: $spacing-unit / 2;
+      margin-right: $spacing-unit / 2;
+      margin-bottom: $spacing-unit;
+
+      div{
+        font-size: 12px;
+        font-weight: 400;
+      }
     }
-  }
+
+    div > span{
+      color: $brand-color-2;
+      font-size: 42px;
+      line-height: 42px;
+      font-weight: 600;
+      width: 25%;
+    }
+
 }
 
-.box-footer{
-  border-top: 1px solid white;
-  border-bottom: 4px solid white;
-  padding: $spacing-unit / 2 $spacing-unit / 2 $spacing-unit $spacing-unit / 2 ;
-  margin-left: -$spacing-unit;
-  margin-right: -$spacing-unit;
+.upcoming{
+  width: 100%;
+  border: 1px solid white;
+  padding: $spacing-unit $spacing-unit 0;
+  background-color: $brand-color;
+  box-shadow: 2px 2px 8px rgba(0,0,0, 0.25);
+  margin-bottom: $spacing-unit * 3;
+  transition: all 0.25s ease-in;
 
-  h1{
-    text-align: left;
-    display: block;
+  &:hover{
+    background-color: darken($brand-color, 10%);
+    box-shadow: 2px 2px 28px rgba(0,0,0, 0.45);
   }
 
-  .col-2{
-    color: $brand-color-2;
-    text-align: left;
+  .box-footer{
+    border-top: 1px solid white;
+    border-bottom: 4px solid white;
+    padding: $spacing-unit;
+    margin-left: -$spacing-unit;
+    margin-right: -$spacing-unit;
 
-    h3{
-      margin-bottom: 0;
+    h1{
+      text-align: left;
+      display: block;
+    }
 
-      &:nth-child(2){
-        color: white;
+    .col-2{
+      color: $brand-color-2;
+      text-align: left;
+
+      h3{
+
+        &:nth-child(2){
+          color: white;
+        }
       }
     }
   }
+
 }
 
-.box-dimmed{
-  border: 1px #A675FF solid;
+.past{
+  border: 1px solid #8D4CFF;
   background-color: $brand-color;
-  border-bottom: none;
-  text-align: left;
-  padding: $spacing-unit $spacing-unit / 2;
 
-  &:last-of-type{
-    border-bottom: 1px #A675FF solid;
+  &:hover{
+    border-color: white;
+
+    h2{
+      color: white;
+    }
+
+    .col-3{
+      :nth-child(1){
+        border-color: white;
+      }
+    }
   }
-}
-
-.box-dim{
-  border: 1px #8D4CFF solid;
-  background-color: $brand-color;
 
   h2{
     color: #8D4CFF;
     margin: $spacing-unit / 2;
   }
-}
 
-.col-3{
-  display: flex;
+  .col-3{
+    display: flex;
 
-  div{
-    border-right: 1px #8D4CFF solid;
-    min-width: 55px;
+    div{
+      border-right: 1px #8D4CFF solid;
+      min-width: 55px;
+    }
+
+    :nth-child(1){
+      text-align: center;
+      height: 100%;
+    }
+
+    :nth-child(2){
+      text-align: left;
+    }
+
   }
-
-  :nth-child(1){
-    text-align: center;
-    height: 100%;
-  }
-
-  :nth-child(2){
-    text-align: left;
-  }
-
 }
 
 .mailchimp{
@@ -199,18 +231,19 @@ a.panel{
   border: 1px solid white;
   background-color: $brand-color;
   box-shadow: 2px 2px 8px rgba(0,0,0, 0.25);
-
-
+  padding: $spacing-unit * 2 0 $spacing-unit * 2 0;
+  margin-bottom: $spacing-unit * 3;
 
   .mc-field-group{
     padding: 0 $spacing-unit;
     text-align: center;
+    margin-bottom: $spacing-unit;
+
     input{
       border: 1px solid white;
-      height: $spacing-unit * 2;
-      line-height: $spacing-unit * 2;
-      margin-bottom: $spacing-unit;
-      width:70%;
+      height: $spacing-unit * 3;
+      line-height: $spacing-unit * 3;
+      width: 80%;
       padding: 0 $spacing-unit / 2;
 
       &:focus{
@@ -222,13 +255,12 @@ a.panel{
   }
 
   input[type="submit"]{
-    background-color: $brand-color-2;
+    background-color: $brand-color-3;
     color: white;
     border: none;
     outline: none;
     text-transform: uppercase;
-    padding: $spacing-unit $spacing-unit * 2;
-    margin-bottom: $spacing-unit * 2;
+    padding: $spacing-unit / 2 $spacing-unit * 2;
     box-shadow: 2px 2px 4px darken($brand-color, 40%);
     font-size: 16px;
     transition: all 0.2s ease-out;
@@ -250,66 +282,19 @@ a.panel{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: $spacing-unit * 2 0;
+  margin-bottom: $spacing-unit * 3;
 
   h5{
-    margin-bottom: $spacing-unit;
     color: white;
     font-weight: 400;
   }
 }
 
-.clockdiv{
-
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-
-}
-
-.clockdiv > div{
-    color: white;
-    margin-left: $spacing-unit / 2;
-    margin-right: $spacing-unit / 2;
-    margin-bottom: $spacing-unit;
-}
-
-.clockdiv > div div{
-  font-size: 12px;
-  font-weight: 400;
-}
-
-.clockdiv div > span{
-    color: $brand-color-2;
-    font-size: 42px;
-    line-height: 42px;
-    font-weight: 600;
-    // padding: $spacing-unit $spacing-unit 0;
-    width: 25%;
-}
-
-.panel-inversed:hover{
-  .box.inversed{
-    background-color: $brand-color-2;
-    color: White;
-
-    h5{
-      color: white;
-    }
-  }
-}
-
-.hide, .hidetonight{
-  display: none;
-}
-
 footer{
-  margin-top: $spacing-unit * 3;
   border-top: 1px #A675FF solid;
   padding-top: $spacing-unit;
   padding-bottom: $spacing-unit * 2;
+  margin-top: $spacing-unit * 4;
 
   a{
     color: white;
@@ -319,4 +304,8 @@ footer{
       color: $brand-color-2;
     }
   }
+}
+
+.hide, .hidetonight{
+  display: none;
 }

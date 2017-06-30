@@ -11,8 +11,8 @@
 
     <h2>NEXT WUH!? EVENT</h2>
 
-      <a class="panel ourevent" href="{{ event['Event URL'] }}">
-        <div class="box">
+      <a class="panel" href="{{ event['Event URL'] }}">
+        <div class="upcoming">
         <div class="clockdiv" id="clockdiv-{{ forloop.index }}">
           <div>
             <span class="days"></span>
@@ -73,7 +73,7 @@
   {% endfor%}
 
   <!-- <a class="panel ourevent {{ hide }}" href="https://www.facebook.com/whatsuphanoievents/"> -->
-    <div class="box inversed {{ hide }}">
+    <div class="box {{ hide }}">
       <h3>NEXT EVENT IS IN THE WORKS</h3>
       <p>Follow us on Facebook for updates</p>
       <div class="fb-follow" data-href="https://www.facebook.com/whatsuphanoievents" data-layout="button_count" data-size="large" data-show-faces="true"></div>

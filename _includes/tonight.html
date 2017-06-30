@@ -16,8 +16,8 @@
     {% capture eventdate %}{{ event['Event date'] | date: '%F'}}{% endcapture %}
 
     {% if today == eventdate %}
-      <a class="panel tonightevent" href="{{ event['Event URL']}}">
-        <div class="box-dimmed">
+      <a class="panel" href="{{ event['Event URL']}}">
+        <div class="tonight">
           <h4>
             {{ event.title }}
             {% if event['Viet title'] %}
@@ -43,11 +43,6 @@
 
   {% assign nowdate = nowdate %}
   {% assign eventdate = eventdate %}
-  <!-- {% assign nowunix = nowunix | plus: 0 %}
-  {% assign eventunix = eventunix | plus: 0 %} -->
-
-  <!-- {% if nowdate != eventdate and nowunix < eventunix or nowunix > eventunix %}
-  {% endif%} -->
 
   {% unless nowdate > eventdate %}
     {% assign hidetonight = "hidetonight" %}
@@ -56,7 +51,7 @@
 
 
 
-<div class="box inversed {{ hidetonight }}">
+<div class="box {{hidetonight}}">
   <p>It seems there is nothing on tonight =(</p>
 </div>
 <!--END NOTHING IS ON-->

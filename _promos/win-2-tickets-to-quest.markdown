@@ -1,12 +1,11 @@
 ---
 title: Win 2 tickets to quest festival
 Heading: competition
-Subtitle: |-
-  WE ARE GIVING TWO LUCKY SOULS THE OPPORTUNITY TO WIN  A TICKET EACH TO ONE OF THE BEST FESTIVALS IN ASIA. TO BE IN WITH A CHANCE, SIGN UP TO OUR MAILING LIST BELOW!
-
-  THE WINNERS WILL BE CHOSEN AT RANDOM BY 31ST AUGUST 2017.  WINNERS WILL BE NOTIFIED BY EMAIL.
 Image: "/uploads/quest-promo.jpg"
 Color: "#FF4081"
 Link: https://www.facebook.com/events/1879725612276257/
 ---
 
+We are giving two lucky souls the opportunity to win  a ticket each to one of the best festivals in Asia. To be in with a chance, sign up to our mailing list below!
+
+The winners will be chosen at random by 31st august 2017.  Winners will be notified by email.
