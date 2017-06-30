@@ -290,6 +290,19 @@ a.panel{
   }
 }
 
+.inversed{
+  border: 5px solid $brand-color;
+  outline: 1px solid white;
+  background-color: white;
+  text-align: left;
+  padding: $spacing-unit;
+  color: $brand-color;
+  text-decoration: none;
+  margin-bottom: $spacing-unit * 3;
+  margin-top: $spacing-unit * 3;
+  text-align: center;
+}
+
 footer{
   border-top: 1px #A675FF solid;
   padding-top: $spacing-unit;

@@ -59,9 +59,15 @@ layout: default
 
 {% include promo.html %}
 
+{% if site.mailchimp == true %}
 <h2>Subscribe to our mailing list</h2>
 
-{% include mailchimp.html %}
+  {% include mailchimp.html %}
+{% endif %}
+
+{% if site.followus == true %}
+  {% include followus.html %}
+{% endif %}
 
 {% include wuh-past.html %}
 
