@@ -67,8 +67,8 @@ social:
   name: Whats Up Hanoi
   links: https://www.facebook.com/whatsuphanoievents
 livereload: true
-mailchimp: true
-followus: true
+mailchimp: false
+followus: false
 markdown: kramdown
 permalink: pretty
 sass:
