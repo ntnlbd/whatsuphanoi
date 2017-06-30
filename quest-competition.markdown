@@ -1,7 +1,6 @@
 ---
 title: quest competition
 date: 2017-06-30 22:21:00 +07:00
-published: false
 ---
 
 ![Group 3.jpg](/uploads/Group%203.jpg)
