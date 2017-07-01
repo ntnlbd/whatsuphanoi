@@ -8,7 +8,7 @@
 
   <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0">
   <meta http-equiv="cache-control" content="max-age=0" />
-  <meta http-equiv="expires" content="2017-07-01 09:18:17 +0700">
+  <meta http-equiv="expires" content="2017-07-01 09:46:23 +0700">
   <meta http-equiv="pragma" content="no-cache">
 
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -69,10 +69,20 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+
+    ga('require', 'eventTracker');
+    ga('require', 'outboundLinkTracker');
+    ga('require', 'pageVisibilityTracker');
+    ga('require', 'impressionTracker');
+    ga('require', 'maxScrollTracker');
+
     ga('create', 'UA-101768848-1', 'auto');
     ga('send', 'pageview');
 
   </script>
+
+  <script async src="/assets/javascripts/autotrack.js" ></script>
+
 
 </head>
 
@@ -841,7 +851,7 @@
 
 <script src="/assets/ath/src/addtohomescreen.min.js"></script>
 <script>
-  addToHomescreen();hub/whatsuphanoi
+  addToHomescreen();
 </script>
 
 
