@@ -29,7 +29,7 @@ date: 2017-06-30 22:21:00 +07:00
 <br>
 <br>
 
-![Jesse Meadows (5).jpg](/uploads/Jesse%20Meadows%20(5).jpg)
+![Jesse-Meadows-(5).jpg](/uploads/Jesse-Meadows-(5).jpg)
 <br>
 <br>
 <br>
