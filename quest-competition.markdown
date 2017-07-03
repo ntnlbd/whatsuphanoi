@@ -3,7 +3,7 @@ title: quest competition
 date: 2017-06-30 22:21:00 +07:00
 ---
 
-<iframe width="600" height="300" src="https://www.youtube.com/embed/KtqqZfscEPY" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/KtqqZfscEPY" frameborder="0" allowfullscreen></iframe>
   
   
 
