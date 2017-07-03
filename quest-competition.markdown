@@ -32,7 +32,9 @@ date: 2017-06-30 22:21:00 +07:00
 <br>
 <br>
 
-To be in with a chance, enter your email address below! The competition will run until 31st August 2017. Winners will be given a single weekend pass each. Winners will be notified via email.
+To be in with a chance, enter your email address below! The competition will run until 31st August 2017. Winners will be given a single weekend pass each. Winners will be notified via email.<br>
+<br>
+*Photo credit Dao Tiep & Jesse Meadows
 <br>
 <br>
 <br>
