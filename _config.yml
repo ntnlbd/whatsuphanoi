@@ -2,6 +2,9 @@
 title: Whats Up Hanoi
 timezone: Asia/Bangkok
 collections:
+  eventstonight:
+    title: Events tonight
+    output: false
   ourevents:
     title: Our events
     output: false
