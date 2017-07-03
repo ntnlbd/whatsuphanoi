@@ -18,7 +18,7 @@ date: 2017-06-30 22:21:00 +07:00
 
 ### To celebrate the launch of whatsuphanoi.com, we've teamed up with the crew over at <a href="http://questfestival.net/" style="color: #1df67f">Quest Festival</a>. They've graciously given us two single weekend passes to give away!
 <br>
-  ![dao-Tiep.jpg](/uploads/dao-Tiep.jpg)  
+  ![dao Tiep.jpg](/uploads/dao%20Tiep.jpg)  
 <br>
 <br>
 <br>
@@ -27,7 +27,7 @@ date: 2017-06-30 22:21:00 +07:00
 <br>
 <br>
 
-![Jesse-Meadows-(5).jpg](/uploads/Jesse-Meadows-(5).jpg)
+![Jesse Meadows (5).jpg](/uploads/Jesse%20Meadows%20(5).jpg)
 <br>
 <br>
 <br>
