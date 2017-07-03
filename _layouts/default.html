@@ -7,7 +7,9 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <img class="logo animated bounceIn" src="{{ site.url }}/assets/images/logo.svg" />
+        <div class="logo animated bounceIn">
+          {% include logo.html %}
+        </div>
 
         {{ content }}
 
