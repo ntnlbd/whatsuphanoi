@@ -6,6 +6,6 @@ Color: "#FF4081"
 Link: https://www.facebook.com/events/1879725612276257/
 ---
 
-We are giving two lucky souls the opportunity to win  a ticket each to one of the best festivals in Asia. To be in with a chance, sign up to our mailing list below!
+WE ARE GIVING TWO LUCKY SOULS THE OPPORTUNITYTO WIN A TICKET EACH TO ONE OF THE BEST FESTIVALS IN ASIA. TO BE IN WITH A CHANCE, SIGN UP TO OUR MAILING LIST BELOW!
 
-The winners will be chosen at random by 31st august 2017.  Winners will be notified by email.
+Winners will be chosen at random by 31st August 2017.  Winners will be notified by email.
