@@ -1,0 +1,24 @@
+{% if promotion['Link'] %}
+<a class="panel" href="{{ promotion['Link'] }}">
+{% endif %}
+    <div class="featured">
+        <h4>{{ promotion.title }}</h4>
+        <div class="col-2">
+           <h5>@ {{ promotion['Venue'] }}</h5>
+           <h5>
+             {{ promotion['Event date'] | date: "%A " }}
+             {% assign day = promotion['Event date'] | date: "%-d"  %}
+             {% case day %}
+                {% when '1' or '21' or '31' %}{{ day }}st
+                {% when '2' or '22' %}{{ day }}nd
+                {% when '3' or '23' %}{{ day }}rd
+                {% else %}{{ day }}th
+             {% endcase %}
+             {{ promotion['Event date'] | date: "of %B, %Y" }}
+           </h5>
+
+        </div>
+    </div>
+{% if promotion['Link'] %}
+</a>
+{% endif %}

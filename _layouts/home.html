@@ -14,7 +14,7 @@ layout: default
 
 <!--googleoff: index-->
 
-{% for event in site.featuredevents %}
+<!-- {% for event in site.featuredevents %}
 
   {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
   {% capture eventfromunix %}{{ event['From date'] | date: '%s'}}{% endcapture %}
@@ -31,12 +31,42 @@ layout: default
 
   {% endif %}
 
+{% endfor %} -->
+
+{% for promotion in site.promotions %}
+
+  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+  {% capture promofromunix %}{{ promotion['From date'] | date: '%s'}}{% endcapture %}
+  {% capture promotounix %}{{ promotion['To date'] | date: '%s'}}{% endcapture %}
+
+  {% assign nowunix = nowunix | plus: 0 %}
+  {% assign promofromunix = promofromunix | plus: 0 %}
+  {% assign promotounix = promotounix | plus: 0 %}
+  {% assign ontop = promotion['Is on top'] %}
+  {% assign type = promotion['Feature type'] %}
+
+  {% if nowunix > promofromunix and nowunix < promotounix and ontop == true %}
+
+    {% if type == "white"%}
+      {% include white.html%}
+    {% endif %}
+
+    {% if type == "image"%}
+      {% include image.html %}
+    {% endif %}
+
+    {% if type == "timer"%}
+      {% include timer.html %}
+    {% endif %}
+
+  {% endif%}
+
 {% endfor %}
 
 
 {% include tonight.html %}
 
-{% for event in site.featuredevents %}
+<!-- {% for event in site.featuredevents %}
 
   {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
   {% capture eventfromunix %}{{ event['From date'] | date: '%s'}}{% endcapture %}
@@ -53,11 +83,41 @@ layout: default
 
   {% endif %}
 
+{% endfor %} -->
+
+{% for promotion in site.promotions %}
+
+  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+  {% capture promofromunix %}{{ promotion['From date'] | date: '%s'}}{% endcapture %}
+  {% capture promotounix %}{{ promotion['To date'] | date: '%s'}}{% endcapture %}
+
+  {% assign nowunix = nowunix | plus: 0 %}
+  {% assign promofromunix = promofromunix | plus: 0 %}
+  {% assign promotounix = promotounix | plus: 0 %}
+  {% assign ontop = promotion['Is on top'] %}
+  {% assign type = promotion['Feature type'] %}
+
+  {% if nowunix > promofromunix and nowunix < promotounix and ontop == false %}
+
+    {% if type == "white"%}
+      {% include white.html%}
+    {% endif %}
+
+    {% if type == "image"%}
+      {% include image.html %}
+    {% endif %}
+
+    {% if type == "timer"%}
+      {% include timer.html %}
+    {% endif %}
+
+  {% endif%}
+
 {% endfor %}
 
 {% include wuh-upcoming.html %}
 
-{% include promo.html %}
+<!-- {% include promo.html %} -->
 
 {% if site.mailchimp == true %}
 <h2>Subscribe to our mailing list</h2>
