@@ -18,9 +18,6 @@ To celebrate the launch of whatsuphanoi.com, we've teamed up with the crew over 
 can grab your tickets.
 
 </section>
-<br>
-<br>
-
 ### To be in with a chance, enter your email address below! The competition will run until 31st August 2017. Winners will be given a single weekend pass each. Winners will be notified via email.
 <br>
 
