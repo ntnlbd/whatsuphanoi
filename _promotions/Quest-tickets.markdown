@@ -2,7 +2,7 @@
 title: Win 2 tickets to quest festival
 date: 2017-07-03 18:22:00 +07:00
 Event date: 2017-07-16 00:00:00 +07:00
-Venue: Rockstore
+Venue: 
 From date: 2017-07-01 00:00:00 +07:00
 To date: 2017-08-31 00:00:00 +07:00
 Is on top: false
