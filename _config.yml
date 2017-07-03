@@ -8,9 +8,6 @@ collections:
   featuredevents:
     title: Featured events
     output: false
-  promotions:
-    title: Promotions
-    output: false
   ourevents:
     title: Our events
     output: false
@@ -19,6 +16,9 @@ collections:
     output: true
   promos:
     title: Promos
+    output: false
+  promotions:
+    title: Promotions
     output: false
   uploads:
     title: Uploads
