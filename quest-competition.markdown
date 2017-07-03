@@ -22,7 +22,7 @@ date: 2017-06-30 22:21:00 +07:00
 <br>
 <br>
 <br>
-### 4000 revelers will be making their way to Son Tinh Camp this November to take part in a one of a kind experience, unique to Vietnam.<br>Tickets run from 700,000 VND for Sunday tickets to 1,300,000 VND for weekend passes.<br><a href="https://ticketbox.vn/quest-festival/" style="color: #1df67f">Ticketbox</a> is where you can grab your tickets.
+### 4000 revelers will be making their way to Son Tinh Camp this November to take part in a one of a kind experience, unique to Vietnam. Quest Festival boasts a diverse lineup every year with acts coming from all over the world to have some fun in Hanoi for the weekend. There is a highlight on local Vietnamese acts which is bringing the music scene here to the forefront.<br>Tickets run from 700,000 VND for Sunday tickets to 1,300,000 VND for weekend passes.<br><a href="https://ticketbox.vn/quest-festival/" style="color: #1df67f">Ticketbox</a> is where you can grab your tickets.
   
 <br>
 <br>
