@@ -20,14 +20,8 @@ can grab your tickets.
 </section>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
+
 ### To be in with a chance, enter your email address below! The competition will run until 31st August 2017. Winners will be given a single weekend pass each. Winners will be notified via email.
 <br>
-<br>
-<br>
-
 
 {% include mailchimp.html %}
