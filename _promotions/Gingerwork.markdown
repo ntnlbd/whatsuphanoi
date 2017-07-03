@@ -8,7 +8,8 @@ To date: 2017-07-09 00:00:00 +07:00
 Is on top: true
 Link: https://www.facebook.com/events/1897376627147205/
 Feature type: white
-Heading:
-Image:
-Color:
+Heading: 
+Image: 
+Color: 
 ---
+
