@@ -301,6 +301,10 @@ a.panel{
   margin-bottom: $spacing-unit * 3;
   margin-top: $spacing-unit * 3;
   text-align: center;
+
+  h2{
+    margin-bottom: $spacing-unit;
+  }
 }
 
 footer{
