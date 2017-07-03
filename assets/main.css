@@ -93,6 +93,7 @@ a.panel { text-decoration: none; color: white; }
 .promo h5 { color: white; font-weight: 400; }
 
 .inversed { border: 5px solid #6D1DFC; outline: 1px solid white; background-color: white; text-align: left; padding: 16px; color: #6D1DFC; text-decoration: none; margin-bottom: 48px; margin-top: 48px; text-align: center; }
+.inversed h2 { margin-bottom: 16px; }
 
 footer { border-top: 1px #A675FF solid; padding-top: 16px; padding-bottom: 32px; margin-top: 64px; }
 footer a { color: white; text-decoration: none; }
