@@ -10,6 +10,10 @@ body{
 
 .logo{
   margin-bottom: $spacing-unit * 2;
+
+  svg{
+    width: 100%;
+  }
 }
 
 h1{
