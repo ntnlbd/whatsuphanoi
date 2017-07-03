@@ -6,7 +6,7 @@ Venue: Rockstore
 From date: 2017-07-01 00:00:00 +07:00
 To date: 2017-08-31 00:00:00 +07:00
 Is on top: false
-Link: https://www.whatsuphanoi.com/quest-competition/
+Link: https://www.facebook.com/events/1879725612276257/
 Feature type: image
 Heading: competition
 Image: "/uploads/quest-promo.jpg"
