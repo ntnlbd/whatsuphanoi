@@ -4,7 +4,7 @@ date: 2017-06-30 22:21:00 +07:00
 published: false
 ---
 
-![Group 3.jpg](/uploads/Group%203.jpg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KtqqZfscEPY" frameborder="0" allowfullscreen></iframe>
 
 # Win 2 tickets to Quest Festival
 
@@ -15,7 +15,7 @@ Tickets run from 700,000 VND for Sunday tickets to 1,300,000 VND for weekend pas
 
 </section>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KtqqZfscEPY" frameborder="0" allowfullscreen></iframe>
+
 
 ### To be in with a chance, enter your email address below!
 
