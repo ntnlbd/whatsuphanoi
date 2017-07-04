@@ -1,6 +1,7 @@
 ---
 title: Bon Jovi Cover Show
 date: 2017-07-02 21:20:00 +07:00
+published: false
 position: 3
 Event date: 2017-07-02 21:20:00 +07:00
 Venue: Hanoi Rock City
