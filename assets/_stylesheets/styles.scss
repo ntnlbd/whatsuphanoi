@@ -300,25 +300,26 @@ a.panel{
       }
     }
   }
+}
 
-  input[type="submit"]{
-    background-color: $brand-color-3;
-    color: white;
-    border: none;
-    outline: none;
-    text-transform: uppercase;
-    padding: $spacing-unit / 2 $spacing-unit * 2;
-    box-shadow: 2px 2px 4px darken($brand-color, 40%);
-    font-size: 16px;
-    transition: all 0.2s ease-out;
-    font-family: $base-font-family;
-    font-weight: bold;
-    cursor: pointer;
+.button{
+  background-color: $brand-color-3;
+  color: white;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  padding: $spacing-unit / 2 $spacing-unit * 2;
+  box-shadow: 2px 2px 4px darken($brand-color, 40%);
+  font-size: 16px;
+  transition: all 0.2s ease-out;
+  font-family: $base-font-family;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
 
-    &:hover{
-      box-shadow: none;
-      transition: all 0.2s ease-in;
-    }
+  &:hover{
+    box-shadow: none;
+    transition: all 0.2s ease-in;
   }
 }
 

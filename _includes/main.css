@@ -308,24 +308,26 @@ a.panel {
         outline: none;
         border: 1px solid #1FEF86;
         box-shadow: 2px 2px 4px #1c014c; }
-  .mailchimp input[type="submit"] {
-    background-color: #FF4081;
-    color: white;
-    border: none;
-    outline: none;
-    text-transform: uppercase;
-    padding: 8px 32px;
-    box-shadow: 2px 2px 4px #1c014c;
-    font-size: 16px;
-    -webkit-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-    font-family: "Mohave", monospace, sans-serif;
-    font-weight: bold;
-    cursor: pointer; }
-    .mailchimp input[type="submit"]:hover {
-      box-shadow: none;
-      -webkit-transition: all 0.2s ease-in;
-      transition: all 0.2s ease-in; }
+
+.button {
+  background-color: #FF4081;
+  color: white;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  padding: 8px 32px;
+  box-shadow: 2px 2px 4px #1c014c;
+  font-size: 16px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  font-family: "Mohave", monospace, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none; }
+  .button:hover {
+    box-shadow: none;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in; }
 
 .promo {
   outline: 6px solid yellow;
