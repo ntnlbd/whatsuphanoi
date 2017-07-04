@@ -11,8 +11,10 @@ layout: amp
 {% include wuh-upcoming.html %}
 
 {% if site.mailchimp == true %}
-<h2>Subscribe to our mailing list</h2>
-  {% include mailchimp.html %}
+  <div class="mailchimp">
+    <h2>Subscribe to our mailing list</h2>
+    <a class="button" href="/mailinglist">SUBSCRIBE</a>
+  </div>
 {% endif %}
 
 {% if site.followus == true %}

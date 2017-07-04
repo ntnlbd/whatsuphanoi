@@ -51,6 +51,7 @@ body{
 }
 
 .logo{
+  display: block;
   margin-bottom: $spacing-unit * 2;
 
   img{
@@ -316,6 +317,7 @@ a.panel{
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;
+  margin-bottom: $spacing-unit;
 
   &:hover{
     box-shadow: none;

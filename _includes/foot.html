@@ -67,7 +67,7 @@
           {% assign ontop = promotion['Is on top'] %}
           {% assign type = promotion['Feature type'] %}
 
-          {% if nowunix > promofromunix and nowunix < promotounix and ontop == true %}
+          {% if nowunix > promofromunix and nowunix < promotounix %}
             {% if type == "timer"%}
               var promodeadline = '{{ promotion['Event date'] | date: '%B %d %Y %X' }} GMT+0700';
               initializeClock('promoclockdiv-{{ forloop.index }}', promodeadline);
