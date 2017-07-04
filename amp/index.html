@@ -1,0 +1,22 @@
+---
+layout: amp
+---
+
+{% include featured-top.html%}
+
+{% include tonight.html %}
+
+{% include featured-bottom.html%}
+
+{% include wuh-upcoming.html %}
+
+{% if site.mailchimp == true %}
+<h2>Subscribe to our mailing list</h2>
+  {% include mailchimp.html %}
+{% endif %}
+
+{% if site.followus == true %}
+  {% include followus.html %}
+{% endif %}
+
+{% include wuh-past.html %}
