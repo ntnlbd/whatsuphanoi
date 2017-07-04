@@ -1,9 +1,7 @@
 {% if promotion['Link'] %}
   <a class="panel" href="{{ promotion['Link'] }}">
   {% endif %}
-        <div class="promo" id="image-promotion-{{ forloop.index }}" style="background-image: url('{{ promotion['Image'] }}');
-                                      background-color: {{promotion['Color']}};
-                                      outline-color: {{promotion['Color']}};" >
+        <div class="promo" id="image-promotion-{{ forloop.index }}" >
             <h5>{{promotion['Heading']}}</h5>
             <div class="col-2">
                <h1>{{ promotion.title }}</h1>
