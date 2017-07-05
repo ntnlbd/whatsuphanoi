@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://www.whatsuphanoi.com/amp/</loc>
+        <lastmod>2017-07-05T13:55:22+07:00</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://www.whatsuphanoi.com/</loc>
+        <lastmod>2017-07-05T13:48:53+07:00</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://www.whatsuphanoi.com/assets/main.css</loc>
+        <lastmod>2017-07-05T13:59:04+07:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.whatsuphanoi.com/quest-competition/</loc>
+        <lastmod>2017-07-05T13:55:45+07:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.whatsuphanoi.com/tonight/</loc>
+        <lastmod>2017-07-05T13:55:37+07:00</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+</urlset>
