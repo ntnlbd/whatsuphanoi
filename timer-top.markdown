@@ -1,4 +1,6 @@
 ---
+title: Promotion timer
+published: false
 layout: basic
 ---
 
