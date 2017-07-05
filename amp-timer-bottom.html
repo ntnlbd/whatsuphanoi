@@ -1,7 +1,7 @@
 ---
 title: Promotion timer
 published: false
-layout: basic
+layout: iframe
 ---
 
 {% for promotion in site.promotions %}
@@ -16,7 +16,7 @@ layout: basic
   {% assign ontop = promotion['Is on top'] %}
   {% assign type = promotion['Feature type'] %}
 
-  {% if nowunix > promofromunix and nowunix < promotounix and ontop == true %}
+  {% if nowunix > promofromunix and nowunix < promotounix and ontop == false %}
 
     {% if type == "timer"%}
       {% include timer.html %}

@@ -4,23 +4,23 @@ published: false
 layout: amp
 ---
 
-{% include featured-top.html%}
+{% include amp-modules/amp-featured-top.html%}
 
 {% include tonight.html %}
 
-{% include featured-bottom.html%}
+{% include amp-modules/amp-featured-bottom.html%}
 
 {% include wuh-upcoming.html %}
 
 {% if site.mailchimp == true %}
   <div class="mailchimp">
     <h2>Subscribe to our mailing list</h2>
-    <a class="button" href="/mailinglist">SUBSCRIBE</a>
+    <a class="button" href="/amp-mailinglist">SUBSCRIBE</a>
   </div>
 {% endif %}
 
 {% if site.followus == true %}
-  {% include amp-followus.html %}
+  {% include amp-modules/amp-followus.html %}
 {% endif %}
 
 {% include wuh-past.html %}

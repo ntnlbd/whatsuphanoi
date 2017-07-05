@@ -1,0 +1,27 @@
+---
+title: Promotion timer
+published: false
+layout: iframe
+---
+
+{% for promotion in site.promotions %}
+
+  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+  {% capture promofromunix %}{{ promotion['From date'] | date: '%s'}}{% endcapture %}
+  {% capture promotounix %}{{ promotion['To date'] | date: '%s'}}{% endcapture %}
+
+  {% assign nowunix = nowunix | plus: 0 %}
+  {% assign promofromunix = promofromunix | plus: 0 %}
+  {% assign promotounix = promotounix | plus: 0 %}
+  {% assign ontop = promotion['Is on top'] %}
+  {% assign type = promotion['Feature type'] %}
+
+  {% if nowunix > promofromunix and nowunix < promotounix and ontop == true %}
+
+    {% if type == "timer"%}
+      {% include timer.html %}
+    {% endif %}
+
+  {% endif%}
+
+{% endfor %}

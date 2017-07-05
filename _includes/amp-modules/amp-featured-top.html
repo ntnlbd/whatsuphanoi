@@ -1,0 +1,43 @@
+<!-- Featured top start -->
+
+{% for promotion in site.promotions %}
+
+  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+  {% capture promofromunix %}{{ promotion['From date'] | date: '%s'}}{% endcapture %}
+  {% capture promotounix %}{{ promotion['To date'] | date: '%s'}}{% endcapture %}
+
+  {% assign nowunix = nowunix | plus: 0 %}
+  {% assign promofromunix = promofromunix | plus: 0 %}
+  {% assign promotounix = promotounix | plus: 0 %}
+  {% assign ontop = promotion['Is on top'] %}
+  {% assign type = promotion['Feature type'] %}
+
+  {% if nowunix > promofromunix and nowunix < promotounix and ontop == true %}
+
+    {% if type == "white"%}
+      {% include white.html%}
+    {% endif %}
+
+    {% if type == "image"%}
+      {% include image.html %}
+    {% endif %}
+
+    {% if type == "timer"%}
+      <amp-iframe width="600"
+        height="260"
+        layout="responsive"
+        sandbox="allow-scripts allow-same-origin"
+        allowfullscreen
+        frameborder="0"
+        src="{{ site.url }}/amp-timer-top/index.html">
+        <amp-img layout="fill"
+        src="{{ site.url }}/assets/images/timer-placeholder.jpg"
+        placeholder></amp-img>
+      </amp-iframe>
+    {% endif %}
+
+  {% endif%}
+
+{% endfor %}
+
+<!-- Featured top end -->
