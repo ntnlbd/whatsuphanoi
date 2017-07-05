@@ -1,6 +1,7 @@
 ---
 title: Quest Competition
 date: 2017-06-30 22:21:00 +07:00
+layout: default
 sitemap:
   priority: 1.0
   changefreq: weekly

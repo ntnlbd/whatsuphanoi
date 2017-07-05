@@ -3,6 +3,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <title>{{ site.title }} {% if page.title %}- {{ page.title }}{%endif%}</title>
+
   <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0">
   <meta http-equiv="cache-control" content="max-age=0" />
   <meta http-equiv="expires" content="{{site.time}}">
@@ -10,18 +12,43 @@
 
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
-
   <link rel="stylesheet" type="text/css" href="{{ "/assets/ath/style/addtohomescreen.css" | relative_url }}">
-
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&amp;subset=vietnamese" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
+  <!-- SEO -->
+  <meta name="description" content="{{ site.description }}" />
+  <link rel="canonical" href="{{ site.url }}" />
+  <script type="application/ld+json">
+  {"@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.title }} {% if page.title %}- {{ page.title }} {%endif%}",
+  "headline": "{{ site.headline }}",
+  "description": "{{ site.description }}",
+  "publisher": {"@type": "Organization",
+  "logo": {"@type": "ImageObject",
+  "url": "{{ site.url }}/assets/images/sociallogo.png"}},
+  "sameAs": "https://www.facebook.com/whatsuphanoievents",
+  "url": "{{ site.url }}"}</script>
+  <!-- End SEO -->
 
-  {% seo %}
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="{{ site.url }}">
+  <meta name="twitter:title" content="{{ site.title }} {% if page.title %}- {{ page.title }}{%else%}- {{ site.headline }}{%endif%}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:image" content="{{ site.url }}/assets/socialimage.jpg">
 
-  <meta property="og:image" content="/assets/images/socialimage.png" />
+  <!-- OG -->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ site.title }} {% if page.title %}- {{ page.title }}{%else%}- {{ site.headline }}{%endif%}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:site_name" content="{{site.title}}" />
+  <meta property="og:image" content="{{ site.url }}/assets/socialimage.jpg" />
 
+  <!-- ICONS -->
   <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">

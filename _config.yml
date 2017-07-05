@@ -1,5 +1,5 @@
 ---
-title: Whats Up Hanoi
+title: Whats Up Hanoi !?
 timezone: Asia/Bangkok
 collections:
   eventstonight:
@@ -42,15 +42,10 @@ defaults:
     Color:
 encoding: utf-8
 lang: en
-description: Events in Hanoi today.
+headline: EVENTS | HANOI | TODAY
+description: Hand-picked selection of best events happening in Hanoi today.
 baseurl:
 url: http://www.whatsuphanoi.com
-author: Whats Up Hanoi
-logo: "/assets/images/sociallogo.png"
-image: "/assets/images/socialimage.png"
-social:
-  name: Whats Up Hanoi
-  links: https://www.facebook.com/whatsuphanoievents
 livereload: true
 mailchimp: true
 followus: true
@@ -59,15 +54,6 @@ permalink: pretty
 sass:
   sass_dir: assets/_stylesheets/
   style: compressed
-sitemap:
-  exclude:
-  - "/atom.xml"
-  - "/feed.xml"
-  - "/feed/index.xml"
-  - "/tonight/index.html"
-  - "/amp/amp-timer-bottom.html"
-  - "/amp/amp-timer-top.html"
-  - "/amp/amp-mailinglist.html"
 gems:
 - jekyll-seo-tag
 - jekyll-autoprefixer
