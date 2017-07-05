@@ -1,5 +1,6 @@
 ---
 title: Pricing plans
+published: false
 layout: default
 ---
 
