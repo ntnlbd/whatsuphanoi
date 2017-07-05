@@ -1,0 +1,11 @@
+.pricing-plans{
+  text-align: left;
+
+  h2{
+    margin-bottom: 0;
+  }
+
+  .featured, .promo, .upcoming{
+    margin-bottom: $spacing-unit;
+  }
+}

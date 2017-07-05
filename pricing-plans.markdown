@@ -1,9 +1,9 @@
 ---
-title: Introductory offer - Ad Placements & Pricing
+title: Pricing plans
 layout: default
 ---
 
-<div style="text-align:left;">
+<div class="pricing-plans">
 
 <h5>/snow white</h5>
 <div class="featured" style="margin-top: 0px;" >

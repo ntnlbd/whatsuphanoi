@@ -139,7 +139,6 @@ a.panel{
   color: $brand-color;
   text-decoration: none;
   margin-bottom: $spacing-unit * 3;
-  margin-top: $spacing-unit * 3;
 
   &:hover{
     background-color: $brand-color-2;
@@ -151,6 +150,10 @@ a.panel{
     }
   }
 
+}
+
+.event-list{
+  margin-bottom: $spacing-unit * 3;
 }
 
 .tonight{
