@@ -1,7 +1,9 @@
 ---
 title: Tonight in Hanoi
 layout: default
-change_frequency: daily
+sitemap:
+  priority: 1.0
+  changefreq: daily
 ---
 
 <div class="tonight-page">

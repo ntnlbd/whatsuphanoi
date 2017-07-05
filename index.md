@@ -1,5 +1,6 @@
 ---
 layout: home
-change_frequency: daily
+sitemap:
+  priority: 1.0
+  changefreq: daily
 ---
-

@@ -1,7 +1,9 @@
 ---
 title: Quest Competition
 date: 2017-06-30 22:21:00 +07:00
-change_frequency: weekly
+sitemap:
+  priority: 1.0
+  changefreq: weekly
 ---
 
 <iframe width="100%" height="300" src="https://www.youtube.com/embed/KtqqZfscEPY" frameborder="0" allowfullscreen></iframe>
