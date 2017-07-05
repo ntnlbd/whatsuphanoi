@@ -14,11 +14,9 @@ gem "jekyll", "3.4.3"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
-   gem "jekyll-sitemap"
    gem 'jekyll-seo-tag'
    gem 'jekyll-autoprefixer'
    gem 'jekyll-livereload'
-   gem 'amp-jekyll'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
