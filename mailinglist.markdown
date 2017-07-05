@@ -1,4 +1,6 @@
 ---
+title: Subscribe to our mailing list
+published: false
 layout: default
 ---
 
