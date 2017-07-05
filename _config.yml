@@ -43,7 +43,7 @@ defaults:
 encoding: utf-8
 lang: en
 headline: EVENTS | HANOI | TODAY
-description: Hand-picked selection of best events happening in Hanoi today.
+description: Hand-picked selection of the best events happening in Hanoi today.
 baseurl: 
 url: http://www.whatsuphanoi.com
 livereload: true
