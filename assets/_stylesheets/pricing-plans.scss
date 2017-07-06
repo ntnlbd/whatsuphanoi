@@ -5,7 +5,27 @@
     margin-bottom: 0;
   }
 
-  .featured, .promo, .upcoming{
-    margin-bottom: $spacing-unit;
+  h5{
+    font-size: 22px;
+  }
+
+  p{
+    margin-bottom: $spacing-unit * 2;
+  }
+
+  .featured, .promo, .upcoming, .tonight{
+    margin-bottom: $spacing-unit * 3;
+  }
+
+  section{
+    margin-bottom: $spacing-unit * 6;
+  }
+
+  .green{
+    color: $brand-color-2;
+  }
+
+  .amber{
+    color: $brand-color-4;
   }
 }
