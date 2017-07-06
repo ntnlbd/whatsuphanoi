@@ -48,7 +48,7 @@ layout: default
   <section>
     <h5>/time traveler</h5>
     <div class="upcoming">
-      <div class="clockdiv" id="promoclockdiv-{{ forloop.index }}">
+      <div class="clockdiv">
         <div>
           <span class="days">01</span>
           <div class="smalltext">Days</div>

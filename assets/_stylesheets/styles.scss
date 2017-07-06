@@ -74,12 +74,17 @@ body{
   }
 }
 
-h1{
-    font-size: 22px;
+h1, h2, h3, h4, h5, h6{
+  text-transform: uppercase;
 }
 
-h1,h2{
-  font-weight: 700;
+h1{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h2{
+  font-weight: 400;
 }
 
 h2,h3{
@@ -87,16 +92,17 @@ h2,h3{
 }
 
 h3{
-  font-weight: 400;
+  font-weight: 200;
 }
 
 h4{
   font-size: 18px;
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 h5{
-  font-weight: 400;
+  font-weight: 300;
   font-size: 15px;
   line-height: 22px;
   color: lighten($brand-color, 25%);
@@ -104,15 +110,9 @@ h5{
 }
 
 p{
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
 }
 
-.viet-title{
-  font-family: 'Open Sans Condensed', sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-}
 
 a.panel{
   text-decoration: none;
@@ -193,15 +193,16 @@ a.panel{
 
       div{
         font-size: 12px;
-        font-weight: 400;
+        font-weight: 200;
+        text-transform: uppercase;
       }
     }
 
     div > span{
       color: $brand-color-2;
-      font-size: 42px;
+      font-size: 34px;
       line-height: 42px;
-      font-weight: 600;
+      font-weight: 400;
       width: 25%;
     }
 
@@ -231,6 +232,7 @@ a.panel{
     h1{
       text-align: left;
       display: block;
+      font-weight: 400;
     }
 
     .col-2{
@@ -238,6 +240,7 @@ a.panel{
       text-align: left;
 
       h3{
+        font-weight: 300;
 
         &:nth-child(2){
           color: white;
@@ -362,7 +365,7 @@ a.panel{
   outline: 1px solid white;
   background-color: white;
   text-align: left;
-  padding: $spacing-unit;
+  padding: $spacing-unit * 2;
   color: $brand-color;
   text-decoration: none;
   margin-bottom: $spacing-unit * 3;
@@ -371,6 +374,7 @@ a.panel{
 
   h2{
     margin-bottom: $spacing-unit;
+    font-weight: 600;
   }
 }
 
@@ -383,6 +387,7 @@ footer{
   a{
     color: white;
     text-decoration: none;
+    text-transform: uppercase;
 
     &:hover{
       color: $brand-color-2;

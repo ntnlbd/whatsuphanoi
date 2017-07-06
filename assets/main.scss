@@ -5,8 +5,7 @@ change_frequency: weekly
 @charset "utf-8";
 
 // Variables
-$base-font-family:    'Mohave', monospace, sans-serif;
-// $base-font-family:    'Oswald', sans-serif;
+$base-font-family:    'Oswald', sans-serif;
 $base-font-size:      16px;
 $base-font-weight:    400;
 $small-font-size:  $base-font-size * 0.875;
@@ -40,7 +39,6 @@ $on-laptop:           800px;
 // }
 
 // Import partials from the theme.
-@import "fonts";
 @import "base";
 @import "styles";
 @import "desktop";
