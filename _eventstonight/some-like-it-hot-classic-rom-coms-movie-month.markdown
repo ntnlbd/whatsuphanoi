@@ -1,5 +1,5 @@
 ---
-title: Some Like It Hot- Classic Rom-Coms movie month
+title: Some Like It Hot
 date: 2017-07-07 21:21:00 +07:00
 position: 26
 Event date: 2017-07-07 21:00:00 +07:00
