@@ -1,5 +1,5 @@
 ---
-title: R U M B L E
+title: RUMBLE
 date: 2017-07-04 17:05:00 +07:00
 position: 31
 Event date: 2017-07-07 00:00:00 +07:00
