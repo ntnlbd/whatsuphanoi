@@ -1,6 +1,7 @@
 ---
 title: Pricing plans
 layout: default
+exclude: true
 ---
 
 <div class="pricing-plans">
