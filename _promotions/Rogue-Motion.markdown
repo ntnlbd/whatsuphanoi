@@ -1,5 +1,5 @@
 ---
-title: Pool Opening Party
+title: Pool Party
 date: 2017-06-27 18:49:00 +07:00
 Event date: 2017-07-22 12:00:00 +07:00
 Venue: Dao Khanh Studio
