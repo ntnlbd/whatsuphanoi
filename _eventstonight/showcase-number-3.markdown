@@ -1,7 +1,7 @@
 ---
 title: 'Showcase #3'
 date: 2017-07-10 08:22:00 +07:00
-position: 19
+position: 20
 Event date: 2017-07-20 00:00:00 +07:00
 Venue: Rec Room
 Event URL: https://www.facebook.com/events/474865212862915/
