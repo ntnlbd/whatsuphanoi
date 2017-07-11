@@ -99,7 +99,7 @@ layout: default
 <br>
 <br>
 <h2>CONTACT</h2>
-    <p>To avail of any of our advertising options, please contact our sales lead <a href="mailto:someone@example.com?Subject=Sales%20Query" target="_top" style="color:green">Gary Devitt</a>.
+    <p>To avail of any of our advertising options, please contact our sales lead <a href="mailto:someone@example.com?Subject=Sales%20Query" target="_top" style="color:green">HERE</a>.
 </p>
    
   </section>
