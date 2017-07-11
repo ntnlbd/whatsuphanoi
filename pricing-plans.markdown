@@ -1,7 +1,7 @@
 ---
 title: Pricing plans
-layout: default
 exclude: true
+layout: default
 ---
 
 <div class="pricing-plans">
@@ -96,6 +96,12 @@ exclude: true
     <p>This is our most popular option. You get a large scale banner ad on the front page with a fully customisable landing page with a number of options avalible to you.</p>
     <h5 class="green">top: price on request</h5>
     <h5 class="amber">bottom: price on request</h5>
+<br>
+<br>
+<h2>CONTACT</h2>
+    <p>To avail of any of our advertising options, please contact our sales lead <a href="mailto:someone@example.com?Subject=Sales%20Query" target="_top" style="color:green">Gary Devitt</a>.
+</p>
+   
   </section>
 
 </div>
