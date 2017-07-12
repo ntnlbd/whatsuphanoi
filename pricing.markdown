@@ -1,5 +1,5 @@
 ---
-title: Pricing plans
+title: Listing Options
 exclude: true
 layout: default
 ---
