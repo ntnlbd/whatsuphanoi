@@ -1,5 +1,5 @@
 ---
-title: Mikail (PH) w/ Karina
+title: Mikail w/ Karina
 date: 2017-07-10 08:46:00 +07:00
 position: 34
 Event date: 2017-07-14 00:00:00 +07:00
