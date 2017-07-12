@@ -5,16 +5,16 @@ date: 2017-07-12 23:10:00 +07:00
 
 <div class="pricing-plans">
   <section>
-    <h2>Hello</h2>
-    <p>We are Hanoi's newest event listing site. Keeping up to date with what is going on in Hanoi can be a tricky business, luckily we have stepped in to deliver daily listing content direct to the right target market.</p>
+    <h2>Chào</h2>
+    <p>Chúng tôi là địa điểm niêm yết mới nhất của Hà Nội. Theo kịp với những gì đang xảy ra ở Hà Nội có thể là một việc kinh doanh khôn lanh, May mắn là chúng tôi đã bước vào để cung cấp nội dung niêm yết hàng ngày trực tiếp đến thị trường mục tiêu bên phải.</p>
 
-    <h2>Who we are</h2>
-    <p>We are a professional team of event enthusiasts who have years of experience in the fields of event, social media management and visual communications. We have worked extensively with all of the top venues and promoters within Hanoi to guarantee that our product reaches the right people, at the right time.</p>
+    <h2>CHÚNG TA LÀ AI</h2>
+    <p>Chúng tôi là một đội ngũ chuyên nghiệp của những người đam mê sự kiện có nhiều năm kinh nghiệm trong lĩnh vực sự kiện, quản lý truyền thông xã hội và truyền thông hình ảnh. Chúng tôi đã làm việc rộng rãi với tất cả các địa điểm và nhà tổ chức hàng đầu tại Hà Nội để đảm bảo rằng sản phẩm của chúng tôi đến đúng người, vào đúng thời điểm.</p>
 
-    <h2>Why advertise with us?</h2>
-    <p>That’s a simple question with a very complex answer. Whats Up Hanoi!? has tailored its reach to a very lucrative market. Your listing will be brought straight to the end user without any unnecessary elements getting in the way of your message. Working with promoters all over Hanoi, we have direct access to a network of people which will further boost your event across social media platforms.</p>
+    <h2>Tại sao quảng cáo với chúng tôi?</h2>
+    <p>Đó là một câu hỏi đơn giản với một câu trả lời rất phức tạp. Whats Up Hanoi !? Đã làm cho thị trường của mình trở nên hấp dẫn. Danh sách của bạn sẽ được đưa thẳng tới người dùng cuối mà không có bất kỳ yếu tố không cần thiết nào cản trở thư của bạn. Làm việc với các nhà quảng bá trên khắp Hà Nội, chúng tôi có quyền truy cập trực tiếp vào một mạng lưới những người sẽ làm tăng thêm sự kiện của bạn trên các phương tiện truyền thông xã hội.</p>
 
-    <h3>At Whats Up Hanoi!?, we have a number of listing options available for your business. The ad structure breakdown is as follows:</h3>
+    <h3>At Whats Up Hanoi!?, Chúng tôi có một số tùy chọn danh sách sẵn có cho doanh nghiệp của bạn. Cơ cấu phân chia cơ chế giám sát như sau:</h3>
   </section>
 
   <section>
@@ -24,9 +24,9 @@ date: 2017-07-12 23:10:00 +07:00
       <h5>@ venue name</h5>
     </div>
 
-    <h2>basic free option</h2>
-    <p>A concise, up to date, daily listing for any event in Hanoi. These listings are free and will only show on the day of the event for a period of 24 hours.</p>
-    <h5 class="green">Totally free</h5>
+    <h2>Tùy chọn miễn phí cơ bản</h2>
+    <p>Một súc tích, cập nhật, liệt kê hàng ngày cho bất kỳ sự kiện nào ở Hà Nội. Những danh sách này miễn phí và sẽ chỉ hiển thị vào ngày của sự kiện trong khoảng thời gian 24 giờ.</p>
+    <h5 class="green">Hoàn toàn miễn phí</h5>
   </section>
 
   <section>
@@ -39,10 +39,10 @@ date: 2017-07-12 23:10:00 +07:00
         </div>
     </div>
 
-    <h2>Nice and bright attention seeker</h2>
-    <p>Bright, vibrant and the first listing you see when you open the page. This banner option is available above or below the daily listings.</p>
-    <h5 class="green">top: 400.000 VND per week</h5>
-    <h5 class="amber">bottom: 200.000 VND per week</h5>
+    <h2>Người tìm kiếm thông minh và tươi sáng</h2>
+    <p>Sáng, sôi động và danh sách đầu tiên bạn nhìn thấy khi mở trang. Tùy chọn biểu ngữ này có sẵn ở trên hoặc dưới danh sách hàng ngày.</p>
+    <h5 class="green">top: 400.000 VND mỗi tuần</h5>
+    <h5 class="amber">bottom: 200.000 VND mỗi tuần</h5>
   </section>
 
   <section>
@@ -75,10 +75,10 @@ date: 2017-07-12 23:10:00 +07:00
       </div>
     </div>
 
-    <h2>Large real estate instantly recognisable</h2>
-    <p>A countdown timer which counts down the time left until your event kicks off. This is a popular feature as it has a large real estate presence and immediately draws eyes to the ad.</p>
-    <h5 class="green">top: 500.000 VND per week</h5>
-    <h5 class="amber">bottom: 300.000 VND per week</h5>
+    <h2>Bất động sản lớn ngay lập tức được công nhận</h2>
+    <p>Bộ đếm giờ đếm ngược đếm thời gian còn lại cho đến khi sự kiện của bạn bắt đầu. Đây là một tính năng phổ biến vì nó có một sự hiện diện lớn về bất động sản và ngay lập tức thu hút mắt đến quảng cáo.</p>
+    <h5 class="green">top: 500.000 VND mỗi tuần</h5>
+    <h5 class="amber">bottom: 300.000 VND mỗi tuần</h5>
   </section>
 
   <section>
@@ -87,18 +87,18 @@ date: 2017-07-12 23:10:00 +07:00
         <h5>heading title</h5>
         <div class="col-2">
            <h1>main event title</h1>
-           <p>Free text with formatting to accomodate for any information heavy needs and calls to action.</p>
+           <p>Văn bản miễn phí với định dạng để đáp ứng mọi nhu cầu về thông tin và các hành động kêu gọi hành động.</p>
         </div>
     </div>
 
-    <h2>CUSTOM BACKGROUND + LANDING PAGE</h2>
-    <p>This is our most popular option. You get a large scale banner ad on the front page with a fully customisable landing page with a number of options avalible to you.</p>
-    <h5 class="green">top: price on request</h5>
-    <h5 class="amber">bottom: price on request</h5>
+    <h2>THÔNG TIN CUSTOM + TRANG ĐIỂM</h2>
+    <p>Đây là tùy chọn phổ biến nhất của chúng tôi. Bạn nhận được một quảng cáo biểu ngữ quy mô lớn ở trang đầu với một trang đích tùy chỉnh đầy đủ với một số tùy chọn có sẵn cho bạn.</p>
+    <h5 class="green">hàng đầu: giá theo yêu cầu</h5>
+    <h5 class="amber">Đáy: giá theo yêu cầu</h5>
 <br>
 <br>
-<h2>CONTACT</h2>
-To avail of any of our advertising options, please contact our sales lead:
+<h2>TIẾP XÚC</h2>
+Để tận dụng bất kỳ lựa chọn quảng cáo nào của chúng tôi, vui lòng liên hệ với nhân viên bán hàng của chúng tôi:
 <br>
 <a class="link" href="mailto:gary@whatsuphanoi.com?subject=SalesQuery">gary@whatsuphanoi.com</a>
 
