@@ -1,8 +1,8 @@
-before_deploy:
-  - gem install public_suffix -v '2.0.5'
+
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   on:
     branch: master
+  before_deploy: gem install public_suffix -v '2.0.5'
