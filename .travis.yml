@@ -5,4 +5,5 @@ deploy:
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   on:
     branch: master
-  before_deploy: gem install public_suffix -v '2.0.5'
+  before_deploy:
+  - rvm 2.3.1 do gem install public_suffix -v '2.0.5'
