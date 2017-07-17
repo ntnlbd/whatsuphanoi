@@ -1,5 +1,5 @@
 ---
-title: Minishow Lê Hiếu - Ngày mai em đi
+title: Lê Hiếu - Ngày mai em đi
 date: 2017-07-17 09:13:00 +07:00
 Event date: 2017-07-22 00:00:00 +07:00
 Venue: Swing Lounge
