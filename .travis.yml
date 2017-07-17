@@ -1,12 +1,7 @@
 
-language: ruby
-rvm:
-  - 2.4.1
-before_deploy:
-  - gem install public_suffix -v '2.0.5'
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-  on:
-    branch: master
+script:
+  - bash ./scripts/deploy-to-gh-pages.sh
+env:
+  global:
+    - GITHUB_REPO: "ntnlbd/whatsuphanoi"
+    - secure: "rZTk8lrgF+W2ffMLE+/QNuzZSJHjnLoGNlCV5/nnBZbkQJhMYkoMglPBgNzQY7aCXPaGj18DzEO9mF9y1UECLyoJ6qZw6bscK7nPN6T+qf66fI6R6IfKO5Ym1j56Gu2CqUX2EsVhpAhtrALoHyM+sSNYb7U6WTU/gn8kriuLxJmbwwNpA/53N5/GqgXaRR6iFaAgmElcI20ottGwjha0c2Wts0FjcRNWZMuzSEddDVC2Uv8oA6ZAqvCw2LdRRiS0WCJi2/nOriVcgGh5PDsQWFq2FUeeXlTD+5Q5PINh3wtWfAFkhys/yYdYUFOS7nYYuNPnM8Pe72NiTjanM/60II8VxISsX1MR+69a49HuQsW9DWaFAekKxsULnLrh7UEkTeAIVaukh17+KlNvTQzPVsaqF8pTH/FaQHLO6CUWJKoPltWZHT+wBrciGoAi0yQ7uCI6GdiCQEZTh/i07SIE2MV0/lr9hnOV4Z5GhvxvVzNKNvm+3fpPC0TcXwG/v7lnSRJ6q+pZa1+1MPbVB8ItN0dCypAGDbu7LYidMmdRuNWVHHSWdmpGNOveYufWCsAwKcurjfQ4Co513h7gnrM+BFg6IdRTbV3y65rHurA+8GG3TDyMUH7umr8t5XBWekAqs/ebq5EG8jXmViRmVh3z66NRNWbOgxPBndO0pSHIdPk="
