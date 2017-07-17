@@ -11,7 +11,9 @@
     {{ site.time | date: "of %B, %Y" }}
   </h2>
 
-  {% for event in site.eventstonight %}
+  {% assign sorted_events = site.eventstonight | sort:"position" %}
+
+  {% for event in sorted_events %}
     {% capture today %}{{ site.time | date: '%F' }}{% endcapture %}
     {% capture eventdate %}{{ event['Event date'] | date: '%F'}}{% endcapture %}
 
@@ -32,7 +34,7 @@
 <!-- END TONIGHT -->
 
 <!-- START NOTHIN IS ON-->
-{% for event in site.eventstonight %}
+{% for event in sorted_events %}
   {% capture nowdate %}{{ site.time | date: '%D' }}{% endcapture %}
   {% capture eventdate %}{{ event['Event date'] | date: '%D'}}{% endcapture %}
   {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
