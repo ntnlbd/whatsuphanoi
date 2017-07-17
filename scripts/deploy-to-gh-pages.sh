@@ -10,7 +10,7 @@ git config --global user.email "antony.lebed@gmail.com"
 git config --global user.name "ntnlbd"
 
 # build (CHANGE THIS)
-# make
+bundle exec jekyll build
 
 # deploy
 cd public
