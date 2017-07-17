@@ -1,5 +1,5 @@
 ---
-title: Whats up hanoi soundsystem
+title: Adventures In Sound
 date: 2017-07-06 23:26:00 +07:00
 Event date: 2017-08-05 00:00:00 +07:00
 Venue: Rockstore
