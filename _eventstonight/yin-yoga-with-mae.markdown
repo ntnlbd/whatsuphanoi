@@ -1,7 +1,7 @@
 ---
 title: Yin Yoga with Mae
 date: 2017-07-17 08:30:00 +07:00
-position: 30
+position: 28
 Event date: 2017-07-20 00:00:00 +07:00
 Venue: The Creative Artilley
 Event URL: https://www.facebook.com/events/118707335416403/
