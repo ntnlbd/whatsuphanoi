@@ -6,7 +6,11 @@ layout: default
 
 <div class="pricing-plans">
   <section>
-    <h2>Hello</h2>
+<p>
+Tiếng Việt : ![1f1fb-1f1f3.png](/uploads/1f1fb-1f1f3.png)
+<p>    
+
+<h2>Hello</h2>
     <p>We are Hanoi's newest event listing site. Keeping up to date with what is going on in Hanoi can be a tricky business, luckily we have stepped in to deliver daily listing content direct to the right target market.</p>
 
     <h2>Who we are</h2>
