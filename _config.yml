@@ -8,6 +8,9 @@ collections:
     Genres:
     - art
     - music
+  genres:
+    title: Genres
+    output: true
   ourevents:
     title: Our events
     output: false
