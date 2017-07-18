@@ -7,7 +7,8 @@ layout: default
 <div class="pricing-plans">
   <section>
 <p>
-Tiếng Việt : ![1f1fb-1f1f3.png](/uploads/1f1fb-1f1f3.png)
+<div style="text-align: right"> TIẾNG VIỆT BẤM VÀO [ĐÂY](http://www.whatsuphanoi.com/listingvn/) 
+</div>
 <p>    
 
 <h2>Hello</h2>
