@@ -6,11 +6,7 @@ layout: default
 
 <div class="pricing-plans">
   <section>
-<p>
-<div style="text-align: right"> 
-<a href="http://www.whatsuphanoi.com/listingvn/">TIẾNG VIỆT BẤM VÀO ĐÂY</a> 
-</p>    
-
+ 
 <h2>Hello</h2>
     <p>We are Hanoi's newest event listing site. Keeping up to date with what is going on in Hanoi can be a tricky business, luckily we have stepped in to deliver daily listing content direct to the right target market.</p>
 
