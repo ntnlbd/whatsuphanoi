@@ -5,6 +5,9 @@ collections:
   eventstonight:
     title: Events tonight
     output: false
+    Genres:
+    - art
+    - music
   ourevents:
     title: Our events
     output: false
