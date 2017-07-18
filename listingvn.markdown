@@ -7,6 +7,7 @@ Exclude: true
 
 <div class="pricing-plans">
   <section>
+    <a class="link" href="/listingvn" style="text-align: center; display: block; margin-bottom: 32px;">ENGLISH VERSION</a>
     <h2>XIN CHÀO</h2>
     <p>Chúng tôi là trang thông tin và liệt kê danh sách sự kiện mới nhất tại Hà Nội. Bắt nhịp được với những sự kiện liên tiếp đang diễn ra ở Hà Nội có thể là một việc rất hóc búa, May mắn là chúng tôi đã bước vào cuộc và sẵn sàng để cung cấp nội dung thông tin giải trí hàng ngày trực tiếp đến thị trường khách hàng tiềm năng.</p>
 
