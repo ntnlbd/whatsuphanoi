@@ -53,7 +53,7 @@ defaults:
     Heading: 
     Image: 
     Color: 
-genre:
+test:
 - music
 - food
 - art
