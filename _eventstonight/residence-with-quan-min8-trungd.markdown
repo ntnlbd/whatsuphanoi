@@ -5,5 +5,6 @@ position: 26
 Event date: 2017-07-19 00:00:00 +07:00
 Venue: Savage
 Event URL: https://www.facebook.com/events/1401556963231719/
+Genre: DJ
 ---
 
