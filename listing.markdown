@@ -7,7 +7,8 @@ layout: default
 <div class="pricing-plans">
   <section>
 <p>
-<div style="text-align: right"> TIẾNG VIỆT BẤM VÀO [ĐÂY](http://www.whatsuphanoi.com/listingvn/) 
+<div style="text-align: right"> 
+<a href="http://www.whatsuphanoi.com/listingvn/">TIẾNG VIỆT BẤM VÀO ĐÂY</a> 
 </div>
 <p>    
 
