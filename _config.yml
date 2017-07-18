@@ -53,11 +53,6 @@ defaults:
     Heading: 
     Image: 
     Color: 
-test:
-- music
-- food
-- art
-- mind & body
 encoding: utf-8
 lang: en
 headline: EVENTS | HANOI | TODAY
