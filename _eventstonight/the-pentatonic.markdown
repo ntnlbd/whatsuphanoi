@@ -5,5 +5,6 @@ position: 46
 Event date: 2017-07-21 00:00:00 +07:00
 Venue: Hero Bar
 Event URL: https://www.facebook.com/events/316037952180415/
+Genre: DJ
 ---
 
