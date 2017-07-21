@@ -5,5 +5,6 @@ position: 61
 Event date: 2017-07-21 00:00:00 +07:00
 Venue: Dockers
 Event URL: https://www.facebook.com/events/659120960948809/
+Genre: DJ
 ---
 
