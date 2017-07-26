@@ -1,5 +1,5 @@
 ---
-title: Hanoi Flea Market
+title: Hanoi Flea Market- Phiên chợ đồ cũ
 date: 2017-07-26 14:42:00 +07:00
 Event date: 2017-07-29 00:00:00 +07:00
 Venue: Hanoi Rock City
