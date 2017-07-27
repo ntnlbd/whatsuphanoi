@@ -1,8 +1,8 @@
 ---
-title: J U M P / / / Pre- Party / / 90s-00s Hiphop RnB / / Free Beer
-Genre: DJ
-Event URL: https://www.facebook.com/events/305093926568994/
-Venue: Sidewalk Hanoi - Beer Bar & Snacks
+title: J U M P / / 90s-00s Hiphop RnB
 Event date: 2017-07-28 07:00:00 +07:00
+Venue: Sidewalk
+Event URL: https://www.facebook.com/events/305093926568994/
+Genre: DJ
 ---
 
