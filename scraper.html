@@ -1,0 +1,46 @@
+---
+title: Tonight in Hanoi
+position: 2
+layout: default
+sitemap:
+  priority: 1.0
+  changefreq: daily
+exclude: true
+---
+
+<!-- START TONIGHT-->
+  <h2>
+    {{ site.time | date: "%A " }}
+    {% assign day = site.time | date: "%-d"  %}
+    {% case day %}
+       {% when '1' or '21' or '31' %}{{ day }}st
+       {% when '2' or '22' %}{{ day }}nd
+       {% when '3' or '23' %}{{ day }}rd
+       {% else %}{{ day }}th
+    {% endcase %}
+    {{ site.time | date: "of %B, %Y" }}
+  </h2>
+
+
+  {% for scraper in site.scrapers %}
+    {% capture today %}{{ site.time | date: '%F' }}{% endcapture %}
+    {% capture eventdate %}{{ scraper['Event date'] | date: '%F'}}{% endcapture %}
+
+    {% if today == eventdate %}
+      <a class="panel" href="{{ scraper['Event URL']}}">
+        <div class="tonight">
+          <h1>{{ scraper['Event date'] | date: '%F'}}</h1>
+          <h4>
+            {{ scraper.title }}
+          </h4>
+
+          <h5>@&ensp;{{ scraper['Venue'] }}</h5>
+
+          <div>{{ scraper['Genre']}}</div>
+        </div>
+      </a>
+      {% else %}
+    {% endif %}
+  {% endfor %}
+
+<!-- END TONIGHT -->
