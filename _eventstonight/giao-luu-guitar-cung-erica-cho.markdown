@@ -1,5 +1,6 @@
 ---
 title: Giao lưu guitar cùng Erica Cho
+position: 2
 Genre: Live
 Event URL: https://www.facebook.com/events/1953415501602361/
 Venue: Hanoi, Vietnam
