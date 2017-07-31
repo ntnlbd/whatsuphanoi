@@ -1,8 +1,8 @@
 ---
-title: Đêm nhạc Trịnh Công Sơn - 2.8.2017
-Genre: Live
-Event URL: https://www.facebook.com/events/1714901038817566/
-Venue: Tranquil Books & Coffee - 18b Nguyễn Biểu
+title: Đêm nhạc Trịnh Công Sơn
 Event date: 2017-08-02 07:00:00 +07:00
+Venue: Tranquil Coffee
+Event URL: https://www.facebook.com/events/1714901038817566/
+Genre: Live
 ---
 
