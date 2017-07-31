@@ -5,7 +5,7 @@ Event date: 2017-08-26 00:00:00 +07:00
 Venue: Birdcage
 From date: 2017-07-18 00:00:00 +07:00
 To date: 2017-08-27 00:00:00 +07:00
-Is on top: true
+Is on top: false
 Link: https://www.facebook.com/events/463799963996034/
 Feature type: white
 ---
