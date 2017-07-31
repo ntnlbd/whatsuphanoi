@@ -1,8 +1,8 @@
 ---
-title: Haustek Presents Tùng Tím & Mya | Wednesday Techno x Kobala
-Genre: Live
-Event URL: https://www.facebook.com/events/1695375000768097/
-Venue: Kobala Bar Restaurant Rooftop
+title: Wednesday Techno
 Event date: 2017-08-02 07:00:00 +07:00
+Venue: Kobala
+Event URL: https://www.facebook.com/events/1695375000768097/
+Genre: DJ
 ---
 
