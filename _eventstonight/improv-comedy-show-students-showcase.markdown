@@ -1,6 +1,6 @@
 ---
 title: Improv Comedy Show - Students Showcase
-position: 10
+position: 6
 Genre: Comedy
 Event URL: https://www.facebook.com/events/650971381767522/
 Venue: The Rotten Grapes
