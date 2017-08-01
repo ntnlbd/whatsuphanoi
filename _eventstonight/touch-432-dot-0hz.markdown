@@ -1,6 +1,6 @@
 ---
 title: TOUCH 432.0Hz
-position: 1
+position: 2
 Genre: Live
 Event URL: https://www.facebook.com/events/451855138530828/
 Venue: Solist Pub

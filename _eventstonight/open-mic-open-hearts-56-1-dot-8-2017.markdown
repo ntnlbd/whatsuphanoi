@@ -1,6 +1,6 @@
 ---
 title: Open mic open hearts 56 - 1.8.2017
-position: 10
+position: 11
 Genre: Live
 Event URL: https://www.facebook.com/events/108900103115885/
 Venue: Tranquil Books & Coffee
