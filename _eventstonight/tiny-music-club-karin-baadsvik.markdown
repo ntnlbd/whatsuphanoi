@@ -1,6 +1,6 @@
 ---
 title: 'Tiny Music Club: Karin Baadsvik'
-position: 10
+position: 9
 Genre: Live
 Event URL: https://www.facebook.com/events/1569101793128777/
 Venue: The Hanoi Social Club
