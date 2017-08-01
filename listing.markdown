@@ -17,7 +17,6 @@ layout: default
     <h2>Why advertise with us?</h2>
     <p>That’s a simple question with a very complex answer. Whats Up Hanoi!? has tailored its reach to a very lucrative market. Your listing will be brought straight to the end user without any unnecessary elements getting in the way of your message. Working with promoters all over Hanoi, we have direct access to a network of people which will further boost your event across social media platforms.</p>
 
-![Infographic (1).jpg](/uploads/Infographic%20(1).jpg)
 
     <h3>At Whats Up Hanoi!?, we have a number of listing options available for your business. The ad structure breakdown is as follows:</h3>
   </section>
