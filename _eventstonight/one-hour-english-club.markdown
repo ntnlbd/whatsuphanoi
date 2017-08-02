@@ -1,6 +1,6 @@
 ---
 title: One hour English Club
-position: 4
+position: 3
 Genre: Educational
 Event URL: https://www.facebook.com/events/257165708120640/
 Venue: The Note Coffee
