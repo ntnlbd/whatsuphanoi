@@ -1,6 +1,6 @@
 ---
 title: AudiOhm
-position: 23
+position: 22
 Genre: Live
 Event URL: https://www.facebook.com/events/1371216239664069/
 Venue: DeN
