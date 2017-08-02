@@ -1,9 +1,9 @@
 ---
-title: Tối CINÉ | Zodiac (2007) - David Fincher
+title: Tối CINÉ | Zodiac (2007)
 position: 0
-Genre: 2017-08-03 07:00:00 +07:00
-Event URL: https://www.facebook.com/events/1456625257763366/
+Event date: 2017-08-03 11:10:00 +07:00
 Venue: Bản Café
-Event date: 2017-08-03T06:00:00-07:00 to 2017-08-03T08:00:00-07:00
+Event URL: https://www.facebook.com/events/1456625257763366/
+Genre: MOVIE
 ---
 
