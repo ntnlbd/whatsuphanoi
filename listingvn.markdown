@@ -2,7 +2,7 @@
 title: Listing Options VN
 date: 2017-07-12 23:10:00 +07:00
 position: 5
-Exclude: true
+exclude: true
 ---
 
 <div class="pricing-plans">
