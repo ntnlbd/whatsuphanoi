@@ -1,5 +1,6 @@
 ---
 title: Adventures In Sound w/ Mr. Devitt, anTon & Prodigal
+position: 0
 Genre: 2017-08-04 07:00:00 +07:00
 Event URL: ''
 Venue: RockStore Hanoi
