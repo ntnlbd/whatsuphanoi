@@ -1,8 +1,8 @@
 ---
 title: OPEN MIC at Chez Xuan
-Genre: 2017-08-03 07:00:00 +07:00
-Event URL: https://www.facebook.com/events/457179151324706/
+Event date: 2017-08-03 11:09:00 +07:00
 Venue: Chez Xuan
-Event date: 2017-08-03T05:00:00-07:00 to 2017-08-03T09:00:00-07:00
+Event URL: https://www.facebook.com/events/457179151324706/
+Genre: LIVE
 ---
 
