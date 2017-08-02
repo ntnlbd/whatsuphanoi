@@ -1,5 +1,6 @@
 ---
 title: Easy Flow Hip Hop Show
+position: 1
 Genre: DJ
 Event URL: https://www.facebook.com/events/1926550710957285/
 Venue: Hanoi, Vietnam

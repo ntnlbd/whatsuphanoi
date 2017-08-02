@@ -1,5 +1,6 @@
 ---
 title: Artslaves @ Camouflage, Zurich - Swiss
+position: 2
 Genre: DJ
 Event URL: https://www.facebook.com/events/124409698172072/
 Venue: Blog Tâm Sự

@@ -1,5 +1,6 @@
 ---
 title: Dj Gusman / Sauce Saturdays / BOGOF Mixed Drinks 8 - 10pm
+position: 0
 Genre: DJ
 Event URL: https://www.facebook.com/events/2106494606244769/
 Venue: The Grove - Garden Bar
