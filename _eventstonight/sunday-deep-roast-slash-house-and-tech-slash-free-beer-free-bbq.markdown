@@ -1,8 +1,8 @@
 ---
-title: Sunday Deep Roast / House & Tech / Free Beer, Free BBQ!
-Genre: DJ
-Event URL: https://www.facebook.com/events/108216083182984/
-Venue: The Grove - Garden Bar
+title: Sunday Deep Roast
 Event date: 2017-08-06 07:00:00 +07:00
+Venue: The Grove
+Event URL: https://www.facebook.com/events/108216083182984/
+Genre: DJ
 ---
 
