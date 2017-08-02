@@ -1,6 +1,6 @@
 ---
 title: Artslaves
-position: 42
+position: 40
 Event date: 2017-08-05 07:00:00 +07:00
 Venue: Startower
 Event URL: https://www.facebook.com/events/124409698172072/
