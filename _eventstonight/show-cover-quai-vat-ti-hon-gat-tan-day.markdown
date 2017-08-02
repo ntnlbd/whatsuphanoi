@@ -1,5 +1,6 @@
 ---
 title: 'Show cover: Quái Vật Tí Hon- Gạt Tàn Đầy'
+position: 2
 Genre: 2017-08-03 07:00:00 +07:00
 Event URL: https://www.facebook.com/events/1946854852237458/
 Venue: Hanoi, Vietnam

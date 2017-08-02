@@ -1,6 +1,6 @@
 ---
 title: Sourgasms Vol. 19
-position: 7
+position: 10
 Genre: Live
 Event URL: https://www.facebook.com/events/1430670407028025/
 Venue: DeN
