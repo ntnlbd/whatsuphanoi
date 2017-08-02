@@ -1,6 +1,6 @@
 ---
 title: The Social - Meet Connect Engage International Networking Event
-position: 1
+position: 0
 Genre: 2017-08-04 07:00:00 +07:00
 Event URL: https://www.facebook.com/events/329292527530331/
 Venue: The 100 - perfect garden - perfect beer
