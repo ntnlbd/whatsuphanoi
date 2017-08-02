@@ -1,6 +1,6 @@
 ---
 title: CAMELIA 1st Anniversary
-position: 3
+position: 2
 Genre: DJ
 Event URL: https://www.facebook.com/events/131220070817349/
 Venue: Hanoi, Vietnam
