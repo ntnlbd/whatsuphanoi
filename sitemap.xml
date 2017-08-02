@@ -10,18 +10,11 @@
   
   
   
-  <url>
-    <loc>http://www.whatsuphanoi.com/amp/</loc>
-    <lastmod>2017-08-02T12:10:37+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
   
   
   <url>
     <loc>http://www.whatsuphanoi.com/</loc>
-    <lastmod>2017-08-02T12:10:37+07:00</lastmod>
+    <lastmod>2017-08-03T03:16:17+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -29,28 +22,21 @@
   
   
   
-  
-  <url>
-    <loc>http://www.whatsuphanoi.com/listingvn/</loc>
-    <lastmod>2017-08-02T12:10:37+07:00</lastmod>
-    <changefreq></changefreq>
-    <priority></priority>
-  </url>
   
   
   
   <url>
     <loc>http://www.whatsuphanoi.com/assets/main.css</loc>
-    <lastmod>2017-08-02T12:10:37+07:00</lastmod>
-    <changefreq></changefreq>
-    <priority></priority>
+    <lastmod>2017-08-03T03:16:17+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
   </url>
   
   
   
   <url>
     <loc>http://www.whatsuphanoi.com/quest-competition/</loc>
-    <lastmod>2017-08-02T12:10:37+07:00</lastmod>
+    <lastmod>2017-08-03T03:16:17+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -61,9 +47,9 @@
   
   <url>
     <loc>http://www.whatsuphanoi.com/sitemap.xml</loc>
-    <lastmod>2017-08-02T12:10:37+07:00</lastmod>
-    <changefreq></changefreq>
-    <priority></priority>
+    <lastmod>2017-08-03T03:16:17+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
   
   
