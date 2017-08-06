@@ -1,8 +1,8 @@
 <!-- START PAST EVENTS -->
+<h2 class="dim">PAST EVENTS</h2>
+{% assign sorted_events = site.ourevents | sort:"position" %}
 
-  <h2 class="dim">PAST EVENTS</h2>
-
-  {% for event in site.ourevents reversed %}
+  {% for event in sorted_events %}
     {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
     {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
     {% assign nowunix = nowunix | plus: 0 %}
@@ -14,7 +14,7 @@
         <div class="past">
            <div class="col-3">
              <div>
-               <h2>0{{ forloop.index }}</h2>
+               <h2>0{{ event.position }}</h2>
              </div>
              <h2>{{ event.title }}</h2>
            </div>
