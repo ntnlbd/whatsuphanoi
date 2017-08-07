@@ -1,8 +1,8 @@
 ---
-title: Sourgasms Vol. 20
-Genre: Live
-Event URL: https://www.facebook.com/events/265600910624879/
-Venue: DeN
+title: Sourgasms
 Event date: 2017-08-08 07:00:00 +07:00
+Venue: DeN
+Event URL: https://www.facebook.com/events/265600910624879/
+Genre: Live
 ---
 
