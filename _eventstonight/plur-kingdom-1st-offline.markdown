@@ -1,5 +1,6 @@
 ---
 title: PLUR Kingdom 1st Offline
+position: 0
 Genre: Market
 Event URL: https://www.facebook.com/events/139628676622333/
 Venue: Hair Of The Dog Bar Hanoi

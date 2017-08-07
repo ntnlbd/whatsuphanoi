@@ -1,6 +1,6 @@
 ---
 title: MASKS – An Improvised Fictional Comedy Show
-position: 45
+position: 42
 Genre: Comedy
 Event URL: https://www.facebook.com/events/465321600505217/
 Venue: The Rotten Grapes
