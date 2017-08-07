@@ -1,6 +1,6 @@
 ---
 title: Minishow Bùi Anh Tuấn - Lặng yên
-position: 45
+position: 46
 Genre: DJ
 Event URL: https://www.facebook.com/events/1840711152911419/
 Venue: Swing Lounge
