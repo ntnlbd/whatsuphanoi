@@ -1,6 +1,6 @@
 ---
 title: Kobala after Party
-position: 3
+position: 0
 Genre: DJ
 Event URL: https://www.facebook.com/events/1411558282259340/
 Venue: Kobala Bar Restaurant Rooftop
