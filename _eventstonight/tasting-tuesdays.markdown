@@ -1,6 +1,6 @@
 ---
 title: Tasting Tuesdays
-position: 13
+position: 17
 Genre: Food
 Event URL: https://www.facebook.com/events/1848918515359211/
 Venue: Furbrew Beer Bar

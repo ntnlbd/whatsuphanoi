@@ -1,6 +1,6 @@
 ---
 title: KMusic Represent JustRap
-position: 0
+position: 4
 Genre: DJ
 Event URL: https://www.facebook.com/events/1398918546809901/
 Venue: Hair Of The Dog Bar Hanoi
