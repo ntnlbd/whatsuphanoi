@@ -1,6 +1,6 @@
 ---
 title: Liveshow Châu VIệt Cường
-position: 0
+position: 46
 Genre: DJ
 Event URL: https://www.facebook.com/events/1349600231813982/
 Venue: Airport Exclusive Club

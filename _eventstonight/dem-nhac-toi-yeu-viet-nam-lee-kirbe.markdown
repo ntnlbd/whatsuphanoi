@@ -1,6 +1,6 @@
 ---
 title: 'Đêm nhạc: Tôi yêu Việt Nam - Lee Kirbe'
-position: 37
+position: 34
 Genre: Live
 Event URL: https://www.facebook.com/events/777168532444135/
 Venue: Holyland Rock Cafe

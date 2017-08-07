@@ -1,6 +1,6 @@
 ---
 title: 'Tiny Music Club: MNED!'
-position: 13
+position: 10
 Genre: Live
 Event URL: https://www.facebook.com/events/1890190454531074/
 Venue: The Hanoi Social Club
