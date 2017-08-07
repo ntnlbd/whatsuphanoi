@@ -1,6 +1,6 @@
 ---
 title: MILA - Stammtisch - Hanoi
-position: 1
+position: 0
 Genre: Educational
 Event URL: https://www.facebook.com/events/117944682160613/
 Venue: Nhạc Cafe

@@ -1,6 +1,6 @@
 ---
 title: 'A live music tribute to The Beatles: come together!'
-position: 3
+position: 2
 Genre: Live
 Event URL: https://www.facebook.com/events/155119305043676/
 Venue: Nê.Cocktailbar
