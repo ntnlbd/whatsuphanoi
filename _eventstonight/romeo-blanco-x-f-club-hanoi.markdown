@@ -1,6 +1,6 @@
 ---
 title: ROMEO BLANCO x F CLUB HANOI
-position: 6
+position: 4
 Genre: DJ
 Event URL: https://www.facebook.com/events/456449148067800/
 Venue: F Club Hanoi
