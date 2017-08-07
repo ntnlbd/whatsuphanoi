@@ -1,5 +1,6 @@
 ---
 title: 'No Rest for the Wicked: Birthday Shenanigans'
+position: 1
 Genre: Live
 Event URL: https://www.facebook.com/events/1420201328035211/
 Venue: Tay Ho Tiki Company
