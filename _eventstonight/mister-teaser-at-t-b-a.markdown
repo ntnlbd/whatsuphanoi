@@ -1,6 +1,6 @@
 ---
 title: MISTER TEASER @ T B A
-position: 3
+position: 2
 Genre: Live
 Event URL: https://www.facebook.com/events/662365460633606/
 Venue: Wagashi House - 和菓子ハウス /// Bánh ngọt Nhật Bản

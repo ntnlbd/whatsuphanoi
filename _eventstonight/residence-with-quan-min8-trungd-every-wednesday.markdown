@@ -1,6 +1,6 @@
 ---
 title: Residence with Quan,Min8, TrungD
-position: 20
+position: 19
 Event date: 2017-08-09 07:00:00 +07:00
 Venue: Savage
 Event URL: https://www.facebook.com/events/132929013981928/

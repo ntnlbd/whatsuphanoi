@@ -1,6 +1,6 @@
 ---
 title: Free Beer FT Hanoing Jazz band
-position: 2
+position: 1
 Genre: Educational
 Event URL: https://www.facebook.com/events/333328053763889/
 Venue: Sidewalk Hanoi - Beer Bar & Snacks

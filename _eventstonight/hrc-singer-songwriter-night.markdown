@@ -1,6 +1,6 @@
 ---
 title: HRC Singer Songwriter night
-position: 5
+position: 4
 Genre: Live
 Event URL: https://www.facebook.com/events/769748696520437/
 Venue: Hanoi Rock City

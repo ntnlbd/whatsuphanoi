@@ -1,6 +1,6 @@
 ---
 title: Jeremy Cheung (Oma, Hong Kong) with Min8
-position: 1
+position: 0
 Genre: Live
 Event URL: https://www.facebook.com/events/564534820603940/
 Venue: Savage
