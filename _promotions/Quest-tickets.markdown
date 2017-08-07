@@ -5,7 +5,7 @@ Event date: 2017-07-16 00:00:00 +07:00
 From date: 2017-07-01 00:00:00 +07:00
 To date: 2017-08-31 00:00:00 +07:00
 Is on top: false
-Link: http://www.whatsuphanoi.com/quest-competition/
+Link: https://www.whatsuphanoi.com/quest-competition/
 Feature type: image
 Heading: competition
 Image: "/uploads/quest-promo.jpg"
