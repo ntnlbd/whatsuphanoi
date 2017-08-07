@@ -1,6 +1,6 @@
 ---
 title: Mega Jumble Sale
-position: 41
+position: 39
 Genre: Market
 Event URL: https://www.facebook.com/events/160549157852683/
 Venue: Tay Ho Tiki Company

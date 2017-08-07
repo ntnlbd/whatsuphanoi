@@ -1,6 +1,6 @@
 ---
 title: Sunday Session!
-position: 45
+position: 43
 Genre: DJ
 Event URL: https://www.facebook.com/events/122545741707553/
 Venue: Flipside Hostels
