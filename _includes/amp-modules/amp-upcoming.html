@@ -1,0 +1,38 @@
+<!-- Featured top start -->
+<!-- START UPCOMING EVENTS -->
+
+  {% for event in site.ourevents %}
+    {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+    {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
+    {% assign nowunix = nowunix | plus: 0 %}
+    {% assign eventunix = eventunix | plus: 0 %}
+
+
+    {% if nowunix < eventunix %}
+
+      <amp-iframe width="600"
+        height="460"
+        layout="responsive"
+        sandbox="allow-scripts allow-same-origin"
+        allowfullscreen
+        frameborder="0"
+        src="{{ site.url }}/amp/amp-timer-upcoming">
+        <amp-img layout="fill"
+        src="{{ site.url }}/assets/images/timer-placeholder.jpg"
+        placeholder></amp-img>
+      </amp-iframe>
+      <br />
+      <br />
+
+    {% else %}
+
+    {% endif  %}
+
+  {% endfor %}
+
+<!-- END UPCOMING EVENTS -->
+
+
+
+
+<!-- Featured top end -->

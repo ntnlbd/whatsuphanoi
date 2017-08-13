@@ -9,15 +9,18 @@ exclude: true
 
 {% include amp-modules/amp-featured-top.html%}
 
-{% include tonight.html %}
+<div class="event-list">
+  {% include tonight.html %}
+</div>
 
 {% include amp-modules/amp-featured-bottom.html%}
 
-{% include wuh-upcoming.html %}
+{% include amp-modules/amp-upcoming.html %}
 
 {% if site.mailchimp == true %}
   <div class="mailchimp">
     <h2>Subscribe to our mailing list</h2>
+    <br />
     <a class="button" href="/amp/amp-mailinglist">SUBSCRIBE</a>
   </div>
 {% endif %}
