@@ -36,20 +36,22 @@
 <!-- END TONIGHT -->
 
 <!-- START NOTHIN IS ON-->
-{% for event in sorted_events %}
+{% for event in site.eventstonight %}
   {% capture nowdate %}{{ site.time | date: '%D' }}{% endcapture %}
   {% capture eventdate %}{{ event['Event date'] | date: '%D'}}{% endcapture %}
   {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
   {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
 
   {% assign nowdate = nowdate %}
-  {% assign eventdate = eventdate %}
+  {% assign xeventdate = eventdate %}
 
-  {% unless nowdate > eventdate %}
+  {% unless nowdate == eventdate %}
     {% assign hidetonight = "hidetonight" %}
-  {% endunless%}
-{% endfor %}
 
+  {% endunless%}
+
+
+{% endfor %}
 
 
 <div class="box {{hidetonight}}">
