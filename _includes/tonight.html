@@ -35,6 +35,7 @@
 
 <!-- END TONIGHT -->
 
+
 <!-- START NOTHIN IS ON-->
 {% for event in site.eventstonight %}
   {% capture nowdate %}{{ site.time | date: '%D' }}{% endcapture %}
@@ -47,10 +48,7 @@
 
   {% unless nowdate == eventdate %}
     {% assign hidetonight = "hidetonight" %}
-
   {% endunless%}
-
-
 {% endfor %}
 
 
