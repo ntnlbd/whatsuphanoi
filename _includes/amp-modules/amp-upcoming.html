@@ -10,19 +10,42 @@
 
     {% if nowunix < eventunix %}
 
-      <amp-iframe width="600"
-        height="460"
-        layout="responsive"
-        sandbox="allow-scripts allow-same-origin"
-        allowfullscreen
-        frameborder="0"
-        src="{{ site.url }}/amp/amp-timer-upcoming">
-        <amp-img layout="fill"
-        src="{{ site.url }}/assets/images/timer-placeholder.jpg"
-        placeholder></amp-img>
-      </amp-iframe>
-      <br />
-      <br />
+    {% if event['Event URL'] %}
+    <a class="panel" href="{{ event['Event URL'] }}">
+    {% endif %}
+
+    {% capture today %}{{ site.time | date: '%s' }}{% endcapture %}
+    {% capture eventdate %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
+    {% assign timeleft = today | minus: eventdate | times: -1 | divided_by: 86400 %}
+
+      <div class="upcoming">
+      <div class="clockdiv" id="">
+        <div>
+          <span class="days">{{ timeleft }} DAYS</span>
+          <div class="smalltext">Until</div>
+        </div>
+      </div>
+      <div class="box-footer" >
+        <h1>{{ event.title }}</h1>
+        <div class="col-2">
+           <h3>
+             {{ event['Event date'] | date: "%A " }}
+             {% assign day = event['Event date'] | date: "%-d"  %}
+             {% case day %}
+                {% when '1' or '21' or '31' %}{{ day }}st
+                {% when '2' or '22' %}{{ day }}nd
+                {% when '3' or '23' %}{{ day }}rd
+                {% else %}{{ day }}th
+             {% endcase %}
+             {{ event['Event date'] | date: "of %B, %Y" }}
+           </h3>
+           <h3>{{ event['Venue'] }}</h3>
+        </div>
+      </div>
+    </div>
+    {% if event['Link'] %}
+    </a>
+    {% endif %}
 
     {% else %}
 

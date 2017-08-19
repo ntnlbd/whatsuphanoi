@@ -5,12 +5,6 @@ collections:
   eventstonight:
     title: Events tonight
     output: false
-    Genres:
-    - art
-    - music
-  genres:
-    title: Genres
-    output: true
   ourevents:
     title: Our events
     output: false
@@ -20,21 +14,10 @@ collections:
   promotions:
     title: Promotions
     output: false
-  scrapers:
-    title: Scrapers
-    output: false
   uploads:
     title: Uploads
     output: true
 defaults:
-- scope:
-    path: ''
-    type: scrapers
-  values:
-    Event date: 
-    Venue: 
-    Event URL: 
-    Genre: 
 - scope:
     path: ''
     type: eventstonight
@@ -42,7 +25,7 @@ defaults:
     Event date: 2017-06-21 14:00:00.000000000 Z
     Venue: Please enter
     Event URL: https://www.facebook.com/events/
-    Genre: 
+    Genre:
 - scope:
     path: ''
     type: ourevents
@@ -55,20 +38,20 @@ defaults:
     type: promotions
   values:
     Event date: 2017-06-21 14:00:00.000000000 Z
-    Venue: 
+    Venue:
     From date: 2017-06-23 05:00:00.000000000 Z
     To date: 2017-06-24 05:00:00.000000000 Z
     Is on top: false
-    Link: 
-    Feature type: 
-    Heading: 
-    Image: 
-    Color: 
+    Link:
+    Feature type:
+    Heading:
+    Image:
+    Color:
 encoding: utf-8
 lang: en
 headline: EVENTS | HANOI | TODAY
 description: Hand-picked selection of the best events happening in Hanoi today.
-baseurl: 
+baseurl:
 url: https://www.whatsuphanoi.com
 livereload: true
 mailchimp: true

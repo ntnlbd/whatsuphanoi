@@ -1,0 +1,36 @@
+{% if promotion['Link'] %}
+<a class="panel" href="{{ promotion['Link'] }}">
+{% endif %}
+
+{% capture today %}{{ site.time | date: '%s' }}{% endcapture %}
+{% capture eventdate %}{{ promotion['Event date'] | date: '%s'}}{% endcapture %}
+{% assign timeleft = today | minus: eventdate | times: -1 | divided_by: 86400 %}
+
+  <div class="upcoming">
+  <div class="clockdiv" id="">
+    <div>
+      <span class="days">{{ timeleft }} DAYS</span>
+      <div class="smalltext">Until</div>
+    </div>
+  </div>
+  <div class="box-footer" >
+    <h1>{{ promotion.title }}</h1>
+    <div class="col-2">
+       <h3>
+         {{ promotion['Event date'] | date: "%A " }}
+         {% assign day = promotion['Event date'] | date: "%-d"  %}
+         {% case day %}
+            {% when '1' or '21' or '31' %}{{ day }}st
+            {% when '2' or '22' %}{{ day }}nd
+            {% when '3' or '23' %}{{ day }}rd
+            {% else %}{{ day }}th
+         {% endcase %}
+         {{ promotion['Event date'] | date: "of %B, %Y" }}
+       </h3>
+       <h3>{{ promotion['Venue'] }}</h3>
+    </div>
+  </div>
+</div>
+{% if promotion['Link'] %}
+</a>
+{% endif %}
