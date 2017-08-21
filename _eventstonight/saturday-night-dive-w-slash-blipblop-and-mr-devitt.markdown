@@ -1,9 +1,9 @@
 ---
-title: Saturday Night Dive W/ BlipBlop & Mr Devitt
+title: Saturday Night Dive
 position: 0
-Genre: Live
+Event date: 2017-08-26 12:18:00 +07:00
+Venue: Bia Tay Ta
 Event URL: https://www.facebook.com/events/116118069039679/
-Venue: "#N/A"
-Event date: "#N/A"
+Genre: DJ
 ---
 
