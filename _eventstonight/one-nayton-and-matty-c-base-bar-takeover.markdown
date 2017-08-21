@@ -1,9 +1,9 @@
 ---
 title: One Nayton and Matty C Base Bar Takeover
 position: 0
-Genre: Live
+Event date: 2017-08-24 12:32:00 +07:00
+Venue: Base Bar
 Event URL: https://www.facebook.com/events/482078825505906/
-Venue: "#N/A"
-Event date: "#N/A"
+Genre: DJ
 ---
 
