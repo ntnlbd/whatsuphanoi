@@ -1,5 +1,5 @@
 ---
-title: Game Of Thrones S7E6 Screening
+title: Game Of Thrones
 date: 2017-08-21 09:27:00 +07:00
 position: 1
 Event date: 2017-08-21 20:00:00 +07:00
