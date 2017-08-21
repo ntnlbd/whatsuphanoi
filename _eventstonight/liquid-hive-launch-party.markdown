@@ -1,6 +1,6 @@
 ---
 title: Liquid Hive Launch Party
-position: 1
+position: 0
 Genre: Live
 Event URL: https://www.facebook.com/events/463799963996034/
 Venue: "#N/A"
