@@ -1,8 +1,8 @@
 ---
-title: Liquid Tuesdays - H2O - Free
-Genre: DJ
+title: Liquid Tuesdays
+Event date: 2017-08-22 12:04:00 +07:00
+Venue: H20 PUB
 Event URL: https://www.facebook.com/events/1293914440720734/
-Venue: "#N/A"
-Event date: "#N/A"
+Genre: DJ
 ---
 
