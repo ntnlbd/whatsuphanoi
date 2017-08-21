@@ -1,9 +1,9 @@
 ---
-title: Raise the Love (Part 1 HRC)
+title: Raise the Love
 position: 0
-Genre: Live
-Event URL: https://www.facebook.com/events/1830427717023433/
-Venue: "#N/A"
 Event date: "#N/A"
+Venue: "#N/A"
+Event URL: https://www.facebook.com/events/1830427717023433/
+Genre: CHARITY
 ---
 
