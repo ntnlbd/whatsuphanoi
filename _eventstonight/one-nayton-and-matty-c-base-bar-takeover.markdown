@@ -1,6 +1,6 @@
 ---
 title: One Nayton and Matty C Base Bar Takeover
-position: 2
+position: 1
 Genre: Live
 Event URL: https://www.facebook.com/events/482078825505906/
 Venue: "#N/A"
