@@ -1,5 +1,6 @@
 ---
 title: Spoken Word @ Chávez
+position: 1
 Genre: Art
 Event URL: https://www.facebook.com/events/161215084432600
 Venue: Chávez
