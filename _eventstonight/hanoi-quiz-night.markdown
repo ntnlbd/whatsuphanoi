@@ -1,6 +1,6 @@
 ---
 title: Hanoi Quiz Night
-position: 39
+position: 41
 Genre: DJ
 Event Url: https://www.facebook.com/events/110696869609080/
 Venue: Standing Bar
