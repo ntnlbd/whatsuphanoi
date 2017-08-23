@@ -1,5 +1,6 @@
 ---
 title: Pete T at The Grove!
+position: 2
 Genre: DJ
 Event Url: https://www.facebook.com/events/1441279545964752/
 Venue: The Grove - Garden Bar
