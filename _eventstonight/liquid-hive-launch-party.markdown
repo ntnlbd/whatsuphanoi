@@ -1,6 +1,6 @@
 ---
 title: Liquid Hive Launch Party
-position: 42
+position: 40
 Event date: 2017-08-26 12:13:00 +07:00
 Venue: Birdcage
 Event URL: https://www.facebook.com/events/463799963996034/

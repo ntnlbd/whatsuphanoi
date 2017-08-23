@@ -1,6 +1,6 @@
 ---
 title: Rebel Monk Vol. lll feat. Nook and Sick Fellows
-position: 39
+position: 37
 Genre: DJ
 Event Url: https://www.facebook.com/events/1953892218186695/
 Venue: Sidewalk Hanoi - Beer Bar & Snacks

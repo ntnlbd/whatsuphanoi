@@ -1,6 +1,6 @@
 ---
 title: The Black Sheep Collective
-position: 1
+position: 45
 Genre: DJ
 Event Url: https://www.facebook.com/events/111901579488872/
 Venue: DeN
