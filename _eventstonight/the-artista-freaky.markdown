@@ -1,5 +1,6 @@
 ---
 title: The Artista Freaky
+position: 3
 Genre: Live
 Event Url: https://www.facebook.com/events/1720553608238780/
 Venue: "#N/A"

@@ -1,6 +1,6 @@
 ---
 title: Summer Art Fair
-position: 33
+position: 37
 Venue: The Creative Artillery
 Genre: Market
 Event Url: https://www.facebook.com/events/130584377552956/
