@@ -1,6 +1,6 @@
 ---
 title: Pete T
-position: 19
+position: 18
 Venue: The Grove - Garden Bar
 Genre: DJ
 Event Url: https://www.facebook.com/events/1441279545964752/
