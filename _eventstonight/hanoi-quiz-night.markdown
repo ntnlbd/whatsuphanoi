@@ -1,9 +1,9 @@
 ---
 title: Hanoi Quiz Night
 position: 39
-Genre: DJ
-Event Url: https://www.facebook.com/events/110696869609080/
+Event date: 2017-08-26 00:00:00 +07:00
 Venue: Standing Bar
-Event Date: 2017-08-26 07:00:00 +07:00
+Event URL: https://www.facebook.com/events/110696869609080/
+Genre: DJ
 ---
 
