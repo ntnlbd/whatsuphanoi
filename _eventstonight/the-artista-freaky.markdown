@@ -1,9 +1,10 @@
 ---
 title: The Artista Freaky
 position: 36
-Genre: Live
+Event date: 2017-08-26 00:00:00 +07:00
+Venue: Vạn Tuế Restaurant
+Event URL: https://www.facebook.com/events/1720553608238780/
+Genre: DJ
 Event Url: https://www.facebook.com/events/1720553608238780/
-Venue: "#N/A"
-Event Date: 2017-08-26 07:00:00 +07:00
 ---
 
