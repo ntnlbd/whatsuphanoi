@@ -1,6 +1,6 @@
 ---
 title: Old Quarter Hip Hop
-position: 33
+position: 29
 Genre: DJ
 Event Url: https://www.facebook.com/events/461087574277328/
 Venue: QuarterPub

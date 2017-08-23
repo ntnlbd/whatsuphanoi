@@ -1,6 +1,6 @@
 ---
 title: Hibs & Hobs (Live)
-position: 35
+position: 31
 Venue: Savage
 Genre: DJ
 Event Url: https://www.facebook.com/events/1973952909558141/
