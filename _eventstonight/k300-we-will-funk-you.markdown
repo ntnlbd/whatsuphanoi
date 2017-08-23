@@ -1,9 +1,9 @@
 ---
 title: K300 - We Will Funk You
 position: 41
-Genre: DJ
-Event Url: https://www.facebook.com/events/1176298552513740/
+Event date: 2017-08-26 00:00:00 +07:00
 Venue: Polygon musik
-Event Date: 2017-08-26 07:00:00 +07:00
+Event URL: https://www.facebook.com/events/1176298552513740/
+Genre: DJ
 ---
 
