@@ -1,6 +1,6 @@
 ---
 title: Old Quarter Hip Hop
-position: 29
+position: 30
 Event date: 2017-08-25 00:00:00 +07:00
 Venue: QuarterPub
 Genre: DJ
