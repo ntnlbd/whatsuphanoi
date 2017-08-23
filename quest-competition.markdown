@@ -2,10 +2,10 @@
 title: Quest Competition
 date: 2017-06-30 22:21:00 +07:00
 position: 1
-layout: default
 sitemap:
-  priority: 1.0
+  priority: 1
   changefreq: weekly
+layout: default
 ---
 
 <iframe width="100%" height="300" src="https://www.youtube.com/embed/KtqqZfscEPY" frameborder="0" allowfullscreen></iframe>
@@ -37,7 +37,7 @@ sitemap:
 <br>
 <br>
 
-To be in with a chance, enter your email address below! The competition will run until 31st August 2017. Winners will be given a single weekend pass each. Winners will be notified via email.<br>
+To be in with a chance, enter your email address below! The competition will run until 26th August 2017. Winners will be given a single weekend pass each. Winners will be notified via email.<br>
 <br>
 *Photo credit Dao Tiep & Jesse Meadows
 <br>
