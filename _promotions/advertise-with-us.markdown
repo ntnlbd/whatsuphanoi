@@ -1,5 +1,5 @@
 ---
-title: Advertise With Us
+title: Get Noticed!
 date: 2017-08-24 10:38:00 +07:00
 From date: 2017-08-24 00:00:00 +07:00
 To date: 2017-12-31 00:00:00 +07:00
@@ -10,4 +10,4 @@ Image: "/uploads/13.jpg"
 Color: "#ff00af"
 ---
 
-Whats Up Hanoi is Hanoi's latest and greatest listing site. We deliver the right content to the right people at the right time. Click here for more information on getting your advertising with us.
+Whats Up Hanoi is here to take the headache out of reaching your intended market. We have the experience and the right people to make dreams happen. Click here for more information on getting your events listed.
