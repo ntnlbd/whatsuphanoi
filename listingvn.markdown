@@ -44,8 +44,8 @@ exclude: true
 
     <h2>ĐIỂM THU HÚT MẮT NHÌN</h2>
     <p>Sáng, sôi động và là danh sách đầu tiên bạn nhìn thấy khi mở trang. Tùy chọn đăng tải theo biểu ngữ này có 2 lựa chọn vị trí ở đầu và cuối trang.</p>
-    <h5 class="green">ĐẦU TRANG: 400.000 VND MỖI TUẦN</h5>
-    <h5 class="amber">CUỐI TRANG: 200.000 VND MỖI TUẦN</h5>
+    <h5 class="green">ĐẦU TRANG: 600.000 VND MỖI TUẦN</h5>
+    <h5 class="amber">CUỐI TRANG: 300.000 VND MỖI TUẦN</h5>
   </section>
 
   <section>
@@ -80,8 +80,8 @@ exclude: true
 
     <h2>BẤT ĐỘNG SẢN ONLINE LỚN NGAY LẬP TỨC ĐƯỢC CÔNG NHẬN</h2>
     <p>Đồng  đếm giờ đếm ngược đếm thời gian còn lại cho đến khi sự kiện của bạn bắt đầu. Đây là một tính năng phổ biến vì nó có một sự hiện diện lớn về bất động sản và ngay lập tức thu hút mắt đến trang bạn cần quảng cáo.</p>
-    <h5 class="green">ĐẦU TRANG: 500.000 VND MỖI TUẦN</h5>
-    <h5 class="amber">CUỐI TRANG: 300.000 VND MỖI TUẦN</h5>
+    <h5 class="green">ĐẦU TRANG: 700.000 VND MỖI TUẦN</h5>
+    <h5 class="amber">CUỐI TRANG: 400.000 VND MỖI TUẦN</h5>
   </section>
 
   <section>
