@@ -45,8 +45,8 @@ layout: default
 
     <h2>Nice and bright attention seeker</h2>
     <p>Bright, vibrant and the first listing you see when you open the page. This banner option is available above or below the daily listings.</p>
-    <h5 class="green">top: 400.000 VND per week</h5>
-    <h5 class="amber">bottom: 200.000 VND per week</h5>
+    <h5 class="green">top: 600.000 VND per week</h5>
+    <h5 class="amber">bottom: 300.000 VND per week</h5>
   </section>
 
   <section>
@@ -81,8 +81,8 @@ layout: default
 
     <h2>Large real estate instantly recognisable</h2>
     <p>A countdown timer which counts down the time left until your event kicks off. This is a popular feature as it has a large real estate presence and immediately draws eyes to the ad.</p>
-    <h5 class="green">top: 500.000 VND per week</h5>
-    <h5 class="amber">bottom: 300.000 VND per week</h5>
+    <h5 class="green">top: 700.000 VND per week</h5>
+    <h5 class="amber">bottom: 400.000 VND per week</h5>
   </section>
 
   <section>
