@@ -1,6 +1,6 @@
 ---
 title: Hibs & Hobs (Live)
-position: 33
+position: 34
 Event date: 2017-08-25 00:00:00 +07:00
 Venue: Savage
 Genre: DJ

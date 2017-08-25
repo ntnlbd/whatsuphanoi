@@ -1,6 +1,6 @@
 ---
 title: Marnik
-position: 40
+position: 41
 Event date: 2017-08-26 00:00:00 +07:00
 Venue: F Club Hanoi
 Event URL: https://www.facebook.com/events/458301561207083/
