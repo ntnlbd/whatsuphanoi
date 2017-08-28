@@ -7,7 +7,6 @@ To date: 2017-11-13 00:00:00 +07:00
 Is on top: false
 Link: https://www.whatsuphanoi.com/quest-competition/
 Feature type: image
-Heading: competition
 Image: "/uploads/quest-promo.jpg"
 Color: "#ff00af"
 ---
