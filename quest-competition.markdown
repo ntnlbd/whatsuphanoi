@@ -21,7 +21,7 @@ layout: default
 <br>
 
 
-### Set in the iconic Son Tinh Camp, an hour away from Hanoi <a href="http://questfestival.net/" style="color: #1df67f">Quest Festival</a>, is one of a kind. With headline acts like The Orb, Jon Kennedy and Stars and Rabbit alongside local and international talent from a across the world.
+### Set in the iconic Son Tinh Camp, an hour away from Hanoi <a href="http://questfestival.net/" style="color: #1df67f">Quest Festival</a>, is one of a kind. With headline acts like The Orb, Jon Kennedy and Stars and Rabbit alongside local and international talent from across the world.
 <br>
   ![dao Tiep-compressed.jpg](/uploads/dao%20Tiep-compressed.jpg)  
 <br>
