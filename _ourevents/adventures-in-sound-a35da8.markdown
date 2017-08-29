@@ -1,5 +1,5 @@
 ---
-title: Adventures In Sound
+title: 'Adventures In Sound # 3'
 date: 2017-08-28 13:48:00 +07:00
 Event date: 2017-09-01 22:00:00 +07:00
 Venue: Rockstore
