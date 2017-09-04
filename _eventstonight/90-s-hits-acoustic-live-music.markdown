@@ -1,10 +1,10 @@
 ---
-title: 90's hits! Acoustic live music
+title: Tuesday Blues
 date: 2017-08-28 19:04:00 +07:00
 position: 6
-Event date: 2017-08-29 00:00:00 +07:00
+Event date: 2017-09-05 00:00:00 +07:00
 Venue: Nê.Cocktailbar
-Event URL: https://www.facebook.com/events/815214108648444/
+Event URL: https://www.facebook.com/events/2025128097724398/
 Genre: Live
 ---
 
