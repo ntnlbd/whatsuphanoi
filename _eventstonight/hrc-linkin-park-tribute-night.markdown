@@ -1,6 +1,6 @@
 ---
 title: HRC Linkin Park Tribute night
-position: 21
+position: 22
 Genre: Music
 Event URL: https://www.facebook.com/events/806287566162989/
 Venue: Hanoi Rock City
