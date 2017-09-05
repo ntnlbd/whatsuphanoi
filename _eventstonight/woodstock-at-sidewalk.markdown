@@ -1,6 +1,6 @@
 ---
 title: Woodstock at Sidewalk
-position: 22
+position: 23
 Genre: Music
 Event URL: https://www.facebook.com/events/1436668536416628/
 Venue: Sidewalk Hanoi - Beer Bar & Snacks
