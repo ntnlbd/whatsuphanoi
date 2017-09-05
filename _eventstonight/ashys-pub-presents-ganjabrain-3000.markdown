@@ -1,5 +1,6 @@
 ---
 title: Ashy's Pub presents GanjaBrain 3000
+position: 3
 Genre: Live
 Event URL: https://www.facebook.com/events/141894203081596/
 Venue: Ashy's Pub - 8 Hàng Chĩnh str.
