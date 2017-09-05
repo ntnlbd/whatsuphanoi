@@ -1,6 +1,6 @@
 ---
 title: 'Roadtrip to 1900: KAYZO - Sunday 10.09'
-position: 26
+position: 25
 Genre: Music
 Event URL: https://www.facebook.com/events/166692903879849/
 Venue: '1900'

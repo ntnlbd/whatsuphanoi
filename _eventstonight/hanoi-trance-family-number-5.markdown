@@ -1,6 +1,6 @@
 ---
 title: 'Hanoi Trance Family #5'
-position: 24
+position: 23
 Genre: DJ
 Event URL: https://www.facebook.com/events/1359657837484175/
 Venue: F Club Hanoi
