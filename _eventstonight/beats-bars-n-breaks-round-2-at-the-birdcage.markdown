@@ -1,6 +1,6 @@
 ---
 title: Beats Bars n Breaks - Round 2 at the Birdcage!
-position: 1
+position: 15
 Genre: Music
 Event URL: https://www.facebook.com/events/475261572856846/
 Venue: BirdCage
