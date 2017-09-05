@@ -1,6 +1,6 @@
 ---
 title: Classical & Fingerstyle Battle Night| Truong Giang vs Duy Phong
-position: 21
+position: 18
 Genre: Live
 Event URL: https://www.facebook.com/events/110334959664227/
 Venue: Heritage Space

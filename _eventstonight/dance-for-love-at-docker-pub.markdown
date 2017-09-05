@@ -1,6 +1,6 @@
 ---
 title: Dance for Love at Docker Pub
-position: 18
+position: 15
 Genre: Live
 Event URL: https://www.facebook.com/events/2024370577589613/
 Venue: Docker natura

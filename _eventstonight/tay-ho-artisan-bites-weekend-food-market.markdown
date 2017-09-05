@@ -1,6 +1,6 @@
 ---
 title: Tay Ho Artisan Bites Weekend Food Market
-position: 0
+position: 24
 Genre: DJ
 Event URL: https://www.facebook.com/events/361281850969446/
 Venue: Tay Ho Artisan Bites Weekend Food Market
