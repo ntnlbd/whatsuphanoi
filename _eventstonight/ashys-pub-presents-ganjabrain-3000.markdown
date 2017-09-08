@@ -1,5 +1,5 @@
 ---
-title: Ashy's Pub presents GanjaBrain 3000
+title: GanjaBrain 3000
 position: 38
 Event date: 2017-09-10 07:00:00 +07:00
 Venue: Ashy's Pub - 8 Hàng Chĩnh str.
