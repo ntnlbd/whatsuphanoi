@@ -1,6 +1,6 @@
 ---
 title: The Jam Night - FreeStyle 1vs1
-position: 36
+position: 38
 Genre: Live
 Event URL: https://www.facebook.com/events/1162625637204446/
 Venue: "#N/A"
