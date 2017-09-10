@@ -1,6 +1,6 @@
 ---
 title: DJ TAKE x Playboy
-position: 40
+position: 39
 Genre: DJ
 Event URL: https://www.facebook.com/events/113693855968450/
 Venue: Playboy Establishment Hanoi
