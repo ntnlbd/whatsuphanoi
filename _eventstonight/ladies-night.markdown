@@ -1,5 +1,5 @@
 ---
-title: Ladie's Night
+title: Ladies Night
 date: 2017-09-05 15:49:00 +07:00
 position: 20
 Event date: 2017-09-14 21:00:00 +07:00
