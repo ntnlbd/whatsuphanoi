@@ -16,8 +16,10 @@
   {% for event in sorted_events %}
     {% capture today %}{{ site.time | date: '%F' }}{% endcapture %}
     {% capture eventdate %}{{ event['Event date'] | date: '%F'}}{% endcapture %}
+    {% capture eventenddate %}{{ event['Event end date'] | date: '%F'}}{% endcapture %}
 
-    {% if today == eventdate %}
+
+    {% if today == eventdate or eventenddate >= today and eventdate < today and event['Is multiday'] == true  %}
       <a class="panel" href="{{ event['Event URL']}}">
         <div class="tonight">
           <h4>
@@ -29,7 +31,7 @@
           <div>{{ event['Genre']}}</div>
         </div>
       </a>
-      {% else %}
+      {% else%}
     {% endif %}
   {% endfor %}
 

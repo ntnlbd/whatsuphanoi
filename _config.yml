@@ -25,7 +25,9 @@ defaults:
     Event date: 2017-06-21 14:00:00.000000000 Z
     Venue: Please enter
     Event URL: https://www.facebook.com/events/
-    Genre: 
+    Genre:
+    Is multiday: false
+    Event end date: 
 - scope:
     path: ''
     type: ourevents
@@ -38,20 +40,20 @@ defaults:
     type: promotions
   values:
     Event date: 2017-06-21 14:00:00.000000000 Z
-    Venue: 
+    Venue:
     From date: 2017-06-23 05:00:00.000000000 Z
     To date: 2017-06-24 05:00:00.000000000 Z
     Is on top: false
-    Link: 
-    Feature type: 
-    Heading: 
-    Image: 
-    Color: 
+    Link:
+    Feature type:
+    Heading:
+    Image:
+    Color:
 encoding: utf-8
 lang: en
 headline: EVENTS | HANOI | TODAY
 description: Hand-picked selection of the best events happening in Hanoi today.
-baseurl: 
+baseurl:
 url: https://www.whatsuphanoi.com
 livereload: true
 mailchimp: true
