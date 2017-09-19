@@ -6,5 +6,7 @@ Event date: 2017-09-19 21:00:00 +07:00
 Venue: Savage
 Event URL: https://www.facebook.com/events/812754358903521
 Genre: 'exhibition '
+Is multiday: true
+Event end date: 2017-09-24 00:00:00 +07:00
 ---
 
