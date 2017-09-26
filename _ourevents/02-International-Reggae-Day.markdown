@@ -5,3 +5,4 @@ Event date: 2017-07-01 21:00:00 +07:00
 Venue: MOJITO BAR
 Event URL: https://www.facebook.com/events/800182560157878/
 ---
+
