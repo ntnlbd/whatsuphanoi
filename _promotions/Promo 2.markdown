@@ -1,5 +1,5 @@
 ---
-title: Disco Of The Dead
+title: Disco Of The Dead - Halloween Night
 date: 2017-07-18 22:51:00 +07:00
 position: 0
 Event date: 2017-10-31 00:00:00 +07:00
