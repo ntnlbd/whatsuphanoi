@@ -14,4 +14,4 @@ Image: "/uploads/Disco-b5bd35.jpg"
 Color: "#ff00af"
 ---
 
-Halloween night at Rockstore Hanoi! We've got Lady River, KEM, SizeO, Quartz and Mr.Devitt playing from 8pm. Zombies/White Walkers/Undead with a disco twist is the costume theme. Prizes to be won on the night for best dressed!
+**HALLOWEEN NIGHT AT ROCKSTORE HANOI! WE'VE GOT LADY RIVER, KEM, SIZEO, QUARTZ AND MR.DEVITT PLAYING FROM 8PM. ZOMBIES/WHITE WALKERS/UNDEAD WITH A DISCO TWIST IS THE COSTUME THEME. PRIZES TO BE WON ON THE NIGHT FOR BEST DRESSED!**
