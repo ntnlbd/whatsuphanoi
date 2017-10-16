@@ -10,7 +10,7 @@ Is on top: true
 Link: https://www.facebook.com/events/1793084374323679/
 Feature type: image
 Heading: HALLOWEEN NIGHT - 31ST DECEMBER
-Image: "/uploads/Disco-9cd559.jpg"
+Image: "/uploads/Disco-b5bd35.jpg"
 Color: "#ff00af"
 ---
 
