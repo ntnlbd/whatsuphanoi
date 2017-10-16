@@ -11,6 +11,6 @@ Image: "/uploads/13.jpg"
 Color: "#ff00af"
 ---
 
-Whats Up Hanoi is here to take the headache out of reaching your intended market. We can deliver the right information to the right people without any fuss.
+Whats Up Hanoi is going to take the headache out of reaching your intended market. We deliver the right information to the right people with no fuss.
 
 Click here for more information on getting your events listed.
