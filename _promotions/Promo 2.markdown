@@ -9,7 +9,7 @@ To date: 2017-11-01 00:00:00 +07:00
 Is on top: true
 Link: https://www.facebook.com/events/1793084374323679/
 Feature type: image
-Heading: DISCO OF THE DEAD - HALLOWEEN NIGHT
+Heading: HALLOWEEN NIGHT - 31ST DECEMBER
 Image: "/uploads/Disco-9cd559.jpg"
 Color: "#ff00af"
 ---
