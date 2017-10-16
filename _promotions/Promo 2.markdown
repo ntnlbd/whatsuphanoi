@@ -9,7 +9,7 @@ To date: 2017-11-01 00:00:00 +07:00
 Is on top: true
 Link: https://www.facebook.com/events/1793084374323679/
 Feature type: image
-Heading: HALLOWEEN NIGHT - 31ST DECEMBER
+Heading: HALLOWEEN NIGHT - 31ST OCTOBER
 Image: "/uploads/Disco-b5bd35.jpg"
 Color: "#ff00af"
 ---
