@@ -8,6 +8,8 @@ From date: 2017-10-10 00:00:00 +07:00
 To date: 2017-11-01 00:00:00 +07:00
 Is on top: true
 Link: https://www.facebook.com/events/1793084374323679/
-Feature type: white
+Feature type: image
+Heading: DISCO OF THE DEAD
+Image: "/uploads/Disco.jpg"
 ---
 
