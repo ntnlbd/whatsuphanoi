@@ -10,6 +10,6 @@ Is on top: true
 Link: https://www.facebook.com/events/1793084374323679/
 Feature type: image
 Heading: DISCO OF THE DEAD
-Image: "/uploads/Disco.jpg"
+Image: "/uploads/Disco-9cd559.jpg"
 ---
 
