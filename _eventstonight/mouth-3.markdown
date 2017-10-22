@@ -1,6 +1,6 @@
 ---
 title: Mouth 3
-position: 7
+position: 6
 Genre: Live
 Event URL: https://www.facebook.com/events/373736159723963/
 Venue: DeN
