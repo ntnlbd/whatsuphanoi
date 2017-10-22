@@ -1,6 +1,6 @@
 ---
 title: Open Mic at Chez Xuan
-position: 15
+position: 19
 Genre: Live
 Event URL: https://www.facebook.com/events/866716280151274/
 Venue: Chez Xuan
