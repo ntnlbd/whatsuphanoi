@@ -1,5 +1,6 @@
 ---
 title: 'Halloween: A Night of Tiki Terror'
+position: 1
 Genre: Movie
 Event URL: https://www.facebook.com/events/355036048241822/
 Venue: Tay Ho Tiki Company

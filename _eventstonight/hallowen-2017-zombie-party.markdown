@@ -1,5 +1,6 @@
 ---
 title: 'Hallowen 2017: Zombie PARTY'
+position: 3
 Genre: Live
 Event URL: https://www.facebook.com/events/149616385646455/
 Venue: Anh ngữ AMES
