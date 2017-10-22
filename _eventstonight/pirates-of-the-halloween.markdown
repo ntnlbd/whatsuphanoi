@@ -1,6 +1,6 @@
 ---
 title: Pirates of The Halloween
-position: 0
+position: 30
 Genre: Live
 Event URL: https://www.facebook.com/events/716928291844947/
 Venue: Hanoi Rock City
