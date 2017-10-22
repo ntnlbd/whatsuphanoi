@@ -1,5 +1,6 @@
 ---
 title: Blockchain Meetup Hanoi at TOONG
+position: 0
 Genre: Educational
 Event URL: https://www.facebook.com/events/1469303509830917/
 Venue: TOONG coworking space
