@@ -1,6 +1,6 @@
 ---
 title: The Black Sheep Collective Vol. 10
-position: 19
+position: 18
 Genre: Live
 Event URL: https://www.facebook.com/events/1678858525460251/
 Venue: DeN
