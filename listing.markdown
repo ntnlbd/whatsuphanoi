@@ -102,7 +102,7 @@ layout: default
 <br>
 <br>
 <h2>CONTACT</h2>
-To avail of any of our advertising options, please contact our sales lead:
+To avail of any of our advertising options, please contact our sales manager:
 <br>
 <a class="link" href="mailto:gary@whatsuphanoi.com?subject=SalesQuery">gary@whatsuphanoi.com</a>
 
