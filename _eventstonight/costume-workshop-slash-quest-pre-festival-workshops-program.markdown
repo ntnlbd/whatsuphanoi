@@ -1,6 +1,6 @@
 ---
 title: Costume Workshop / Quest Pre Festival Workshops Program
-position: 3
+position: 2
 Genre: Live
 Event URL: https://www.facebook.com/events/279082605944144/
 Venue: The Creative Artillery
