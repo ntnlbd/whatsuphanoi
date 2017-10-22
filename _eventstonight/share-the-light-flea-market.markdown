@@ -1,9 +1,9 @@
 ---
 title: Share The Light Flea Market
 position: 22
-Genre: Live
-Event URL: https://www.facebook.com/events/534163306923359/
+Event date: 2017-10-22 07:00:00 +07:00
 Venue: Chávez
-Event date: 2017-10-21 07:00:00 +07:00
+Event URL: https://www.facebook.com/events/534163306923359/
+Genre: MARKET
 ---
 
