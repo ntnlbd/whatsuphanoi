@@ -1,5 +1,6 @@
 ---
 title: Wine Wednesdays Ft Lady River
+position: 1
 Genre: Live
 Event URL: https://www.facebook.com/events/240706446456250/
 Venue: Sidewalk Hanoi - Beer Bar & Snacks

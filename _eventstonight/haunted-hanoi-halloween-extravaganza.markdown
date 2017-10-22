@@ -1,5 +1,6 @@
 ---
 title: Haunted Hanoi Halloween Extravaganza!
+position: 0
 Genre: Live
 Event URL: https://www.facebook.com/events/822918501221427/
 Venue: The Rotten Grapes
