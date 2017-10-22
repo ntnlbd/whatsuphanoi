@@ -1,6 +1,6 @@
 ---
 title: AC student News
-position: 11
+position: 10
 Genre: Live
 Event URL: https://www.facebook.com/events/470926459943122/
 Venue: U.S. Embassy in Hanoi
