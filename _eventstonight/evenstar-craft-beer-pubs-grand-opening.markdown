@@ -1,9 +1,9 @@
 ---
-title: Evenstar Craft Beer Pub's GRAND opening
+title: GRAND opening
 position: 1
-Genre: Social
-Event URL: https://www.facebook.com/events/1969228903333865/
-Venue: Evenstar Craft Beer Pub
 Event date: 2017-10-27 07:00:00 +07:00
+Venue: Evenstar Craft Beer Pub
+Event URL: https://www.facebook.com/events/1969228903333865/
+Genre: Social
 ---
 
