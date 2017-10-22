@@ -1,7 +1,7 @@
 ---
 title: Gingerwork's Dead Circus Fandango
 date: 2017-06-27 18:49:00 +07:00
-position: 2
+position: 3
 Event date: 2017-10-28 12:00:00 +07:00
 Venue: Birdcage
 From date: 2017-10-22 08:00:00 +07:00
