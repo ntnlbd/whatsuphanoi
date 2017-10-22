@@ -1,6 +1,6 @@
 ---
 title: 2 Years of the Free Thoughts Art Variety Show!
-position: 3
+position: 1
 Genre: Live
 Event URL: https://www.facebook.com/events/1749011718733391/
 Venue: The Doors Cafe
