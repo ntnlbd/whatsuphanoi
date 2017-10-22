@@ -1,6 +1,6 @@
 ---
 title: Women's Professional Network Hanoi
-position: 11
+position: 10
 Genre: Live
 Event URL: https://www.facebook.com/events/1760098780957466/
 Venue: InterContinental Hanoi Westlake
