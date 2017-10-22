@@ -1,6 +1,6 @@
 ---
 title: Muertos Samraz & Free RUm
-position: 2
+position: 1
 Genre: Live
 Event URL: https://www.facebook.com/events/155332258391841/
 Venue: Sidewalk Hanoi - Beer Bar & Snacks
