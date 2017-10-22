@@ -1,5 +1,6 @@
 ---
 title: Hanoi Jazz Lovers @Cool Cats
+position: 0
 Genre: Live
 Event URL: https://www.facebook.com/events/119398622089913/
 Venue: Cool Cats Jazz Club - JW Marriott Hotel Hanoi

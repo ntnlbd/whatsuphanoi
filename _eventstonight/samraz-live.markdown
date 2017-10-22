@@ -1,5 +1,6 @@
 ---
 title: Samraz Live
+position: 4
 Genre: Live
 Event URL: https://www.facebook.com/events/136902613612028/
 Venue: Chez Xuan

@@ -1,5 +1,6 @@
 ---
 title: Halloween Sunset Party
+position: 3
 Genre: DJ
 Event URL: https://www.facebook.com/events/174723926416930/
 Venue: InterContinental Hanoi Westlake

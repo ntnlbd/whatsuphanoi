@@ -1,5 +1,6 @@
 ---
 title: Red halloween - EDM you to death
+position: 2
 Genre: DJ
 Event URL: https://www.facebook.com/events/835368573301507/
 Venue: Sen Hồ Tây - Kinder Park

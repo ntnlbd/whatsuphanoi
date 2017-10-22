@@ -1,5 +1,6 @@
 ---
 title: Halloween Howl - Youtube Singing Night
+position: 1
 Genre: Live
 Event URL: https://www.facebook.com/events/487690948275882/
 Venue: Tay Ho Tiki Company
