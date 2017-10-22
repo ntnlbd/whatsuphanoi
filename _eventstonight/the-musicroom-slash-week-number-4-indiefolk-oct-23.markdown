@@ -1,6 +1,6 @@
 ---
 title: 'The MusicRoom / Week #4 IndieFolk OCT 23'
-position: 5
+position: 4
 Genre: Live
 Event URL: https://www.facebook.com/events/121133101899316/
 Venue: Hanoi Rock City
