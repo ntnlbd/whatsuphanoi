@@ -1,6 +1,6 @@
 ---
 title: HALLOWEEN NIGHT WITH HA NOI ZOMBIES BANDS
-position: 0
+position: 8
 Genre: Live
 Event URL: https://www.facebook.com/events/148063625811050/
 Venue: Camelia Lounge Hanoi
