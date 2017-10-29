@@ -1,6 +1,6 @@
 ---
 title: Based On Kyoto at Savage
-position: 7
+position: 6
 Genre: DJ
 Event URL: https://www.facebook.com/events/145103519437598/
 Venue: Savage
