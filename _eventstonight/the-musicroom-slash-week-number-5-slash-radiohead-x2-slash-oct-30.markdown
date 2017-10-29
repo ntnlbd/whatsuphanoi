@@ -1,5 +1,6 @@
 ---
 title: 'The MusicRoom / Week #5 / Radiohead x2 / OCT 30'
+position: 0
 Genre: DJ
 Event URL: https://www.facebook.com/events/121133101899316/
 Venue: Hanoi Rock City
