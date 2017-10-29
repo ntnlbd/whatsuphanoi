@@ -1,5 +1,6 @@
 ---
 title: 'A Grave Affair: Tales From The Dead'
+position: 0
 Genre: Live
 Event URL: https://www.facebook.com/events/1732823790357401/
 Venue: Chávez
