@@ -1,5 +1,6 @@
 <!-- START PAST EVENTS -->
 <h2 class="dim">PAST EVENTS</h2>
+
 {% assign sorted_events = (site.ourevents | sort: "Event date") | reverse %}
 
   {% for event in sorted_events limit:4 %}
@@ -26,4 +27,5 @@
 
   {% endfor %}
 
+<p>&nbsp;</p>
 <!-- END PAST EVENTS -->

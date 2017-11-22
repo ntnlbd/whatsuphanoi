@@ -9,13 +9,12 @@ exclude: true
 
 {% include amp-modules/amp-featured-top.html%}
 
-<div class="event-list">
-  {% include tonight.html %}
-</div>
+{% include amp-modules/amp-upcoming.html %}
+
+{% include wuh-past.html %}
 
 {% include amp-modules/amp-featured-bottom.html%}
 
-{% include amp-modules/amp-upcoming.html %}
 
 {% if site.mailchimp == true %}
   <div class="mailchimp">
@@ -28,5 +27,3 @@ exclude: true
 {% if site.followus == true %}
   {% include amp-modules/amp-followus.html %}
 {% endif %}
-
-{% include wuh-past.html %}

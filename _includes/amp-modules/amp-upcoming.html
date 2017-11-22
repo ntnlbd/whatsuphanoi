@@ -55,7 +55,29 @@
 
 <!-- END UPCOMING EVENTS -->
 
+<!-- START COMING SOON -->
 
+  {% for event in site.ourevents %}
+    {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+    {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
+    {% assign nowunix = nowunix | plus: 0 %}
+    {% assign eventunix = eventunix | plus: 0 %}
+
+    {% unless nowunix > eventunix %}
+      {% assign hide = "hide" %}
+    {% endunless%}
+
+  {% endfor%}
+
+  <!-- <a class="panel ourevent {{ hide }}" href="https://www.facebook.com/whatsuphanoievents/"> -->
+    <div class="box {{hide}}">
+      <h2>NEXT WUH!? EVENT IS IN THE WORKS</h2>
+      <h5>~ watch this space ~</h5>
+
+    </div>
+  <!-- </a> -->
+
+<!-- END COMING SOON -->
 
 
 <!-- Featured top end -->
