@@ -1,9 +1,8 @@
 ---
-title: Whats Up Hanoi !?
-layout: amp
+position: 0
+layout: home
 sitemap:
   priority: 1.0
   changefreq: daily
-exclude: true
 ---
 

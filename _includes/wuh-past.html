@@ -1,0 +1,31 @@
+<!-- START PAST EVENTS -->
+<h2 class="dim">PAST EVENTS</h2>
+
+{% assign sorted_events = (site.ourevents | sort: "Event date") | reverse %}
+
+  {% for event in sorted_events limit:4 %}
+    {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+    {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
+    {% assign nowunix = nowunix | plus: 0 %}
+    {% assign eventunix = eventunix | plus: 0 %}
+
+
+    {% if nowunix > eventunix %}
+      <a class="panel" href="{{ event['Event URL'] }}">
+        <div class="past">
+           <div class="col-3">
+             <div>
+               <h2>{{ event.index }}</h2>
+             </div>
+             <h2>{{ event.title }}</h2>
+           </div>
+        </div>
+      </a>
+    {% else %}
+
+    {% endif %}
+
+  {% endfor %}
+
+<p>&nbsp;</p>
+<!-- END PAST EVENTS -->

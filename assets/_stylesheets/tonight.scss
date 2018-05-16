@@ -1,0 +1,31 @@
+.tonight-page{
+  .logo{
+     width: 300px;
+     margin: 0;
+  }
+
+  h2{
+    margin-bottom: $spacing-unit;
+    margin-top: $spacing-unit * 2;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  h5{
+    font-size: 17px;
+  }
+
+  .box-dimmed{
+    padding: $spacing-unit / 2 $spacing-unit;
+    display: flex;
+
+    :nth-child(1) {
+      width: 70%
+    }
+
+    :nth-child(2){
+      text-align: left;
+      width: 30%;
+    }
+  }
+}

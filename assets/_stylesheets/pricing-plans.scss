@@ -1,0 +1,27 @@
+.pricing-plans{
+  text-align: left;
+
+  h2{
+    margin-bottom: 0;
+  }
+
+  p{
+    margin-bottom: $spacing-unit * 2;
+  }
+
+  .featured, .promo, .upcoming, .tonight{
+    margin-bottom: $spacing-unit * 3;
+  }
+
+  section{
+    margin-bottom: $spacing-unit * 6;
+  }
+
+  .green{
+    color: $brand-color-2;
+  }
+
+  .amber{
+    color: $brand-color-4;
+  }
+}

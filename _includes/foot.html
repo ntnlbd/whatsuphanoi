@@ -1,0 +1,90 @@
+<!-- Timer scripts -->
+
+    <script>
+
+      document.addEventListener("DOMContentLoaded", function(event) {
+
+        function getTimeRemaining(endtime) {
+          var t = Date.parse(endtime) - Date.parse(new Date());
+          var seconds = Math.floor((t / 1000) % 60);
+          var minutes = Math.floor((t / 1000 / 60) % 60);
+          var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+          var days = Math.floor(t / (1000 * 60 * 60 * 24));
+          return {
+            'total': t,
+            'days': days,
+            'hours': hours,
+            'minutes': minutes,
+            'seconds': seconds
+          };
+        }
+
+        function initializeClock(id, endtime) {
+          var clock = document.getElementById(id);
+          var daysSpan = clock.querySelector('.days');
+          var hoursSpan = clock.querySelector('.hours');
+          var minutesSpan = clock.querySelector('.minutes');
+          var secondsSpan = clock.querySelector('.seconds');
+
+          function updateClock() {
+            var t = getTimeRemaining(endtime);
+
+            daysSpan.innerHTML = t.days;
+            hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+            minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+            secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+            if (t.total <= 0) {
+              clearInterval(timeinterval);
+            }
+          }
+
+          updateClock();
+          var timeinterval = setInterval(updateClock, 1000);
+        }
+
+        {% for event in site.ourevents %}
+          {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+          {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
+          {% assign nowunix = nowunix | plus: 0 %}
+          {% assign eventunix = eventunix | plus: 0 %}
+
+          {% if nowunix < eventunix %}
+            var deadline = '{{ event['Event date'] | date: '%B %d %Y %X' }} GMT+0700';
+            initializeClock('clockdiv-{{ forloop.index }}', deadline);
+          {% endif %}
+        {% endfor %}
+
+        {% for promotion in site.promotions %}
+
+          {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+          {% capture promofromunix %}{{ promotion['From date'] | date: '%s'}}{% endcapture %}
+          {% capture promotounix %}{{ promotion['To date'] | date: '%s'}}{% endcapture %}
+
+          {% assign nowunix = nowunix | plus: 0 %}
+          {% assign promofromunix = promofromunix | plus: 0 %}
+          {% assign promotounix = promotounix | plus: 0 %}
+          {% assign ontop = promotion['Is on top'] %}
+          {% assign type = promotion['Feature type'] %}
+
+          {% if nowunix > promofromunix and nowunix < promotounix %}
+            {% if type == "timer"%}
+              var promodeadline = '{{ promotion['Event date'] | date: '%B %d %Y %X' }} GMT+0700';
+              initializeClock('promoclockdiv-{{ forloop.index }}', promodeadline);
+            {% endif %}
+          {% endif%}
+
+        {% endfor %}
+
+      });
+
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['Oswald: 200,300,400']
+        }
+      });
+    </script>

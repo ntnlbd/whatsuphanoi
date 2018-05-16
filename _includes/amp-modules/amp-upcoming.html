@@ -1,0 +1,83 @@
+<!-- Featured top start -->
+<!-- START UPCOMING EVENTS -->
+
+  {% for event in site.ourevents %}
+    {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+    {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
+    {% assign nowunix = nowunix | plus: 0 %}
+    {% assign eventunix = eventunix | plus: 0 %}
+
+
+    {% if nowunix < eventunix %}
+
+    {% if event['Event URL'] %}
+    <a class="panel" href="{{ event['Event URL'] }}">
+    {% endif %}
+
+    {% capture today %}{{ site.time | date: '%s' }}{% endcapture %}
+    {% capture eventdate %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
+    {% assign timeleft = today | minus: eventdate | times: -1 | divided_by: 86400 %}
+
+      <div class="upcoming">
+      <div class="clockdiv" id="">
+        <div>
+          <span class="days">{{ timeleft }} DAYS</span>
+          <div class="smalltext">Until</div>
+        </div>
+      </div>
+      <div class="box-footer" >
+        <h1>{{ event.title }}</h1>
+        <div class="col-2">
+           <h3>
+             {{ event['Event date'] | date: "%A " }}
+             {% assign day = event['Event date'] | date: "%-d"  %}
+             {% case day %}
+                {% when '1' or '21' or '31' %}{{ day }}st
+                {% when '2' or '22' %}{{ day }}nd
+                {% when '3' or '23' %}{{ day }}rd
+                {% else %}{{ day }}th
+             {% endcase %}
+             {{ event['Event date'] | date: "of %B, %Y" }}
+           </h3>
+           <h3>{{ event['Venue'] }}</h3>
+        </div>
+      </div>
+    </div>
+    {% if event['Link'] %}
+    </a>
+    {% endif %}
+
+    {% else %}
+
+    {% endif  %}
+
+  {% endfor %}
+
+<!-- END UPCOMING EVENTS -->
+
+<!-- START COMING SOON -->
+
+  {% for event in site.ourevents %}
+    {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+    {% capture eventunix %}{{ event['Event date'] | date: '%s'}}{% endcapture %}
+    {% assign nowunix = nowunix | plus: 0 %}
+    {% assign eventunix = eventunix | plus: 0 %}
+
+    {% unless nowunix > eventunix %}
+      {% assign hide = "hide" %}
+    {% endunless%}
+
+  {% endfor%}
+
+  <!-- <a class="panel ourevent {{ hide }}" href="https://www.facebook.com/whatsuphanoievents/"> -->
+    <div class="box {{hide}}">
+      <h2>NEXT WUH!? EVENT IS IN THE WORKS</h2>
+      <h5>~ watch this space ~</h5>
+
+    </div>
+  <!-- </a> -->
+
+<!-- END COMING SOON -->
+
+
+<!-- Featured top end -->

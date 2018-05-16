@@ -1,0 +1,172 @@
+@media (min-width: 700px) {
+
+  .logo{
+    margin-bottom: $spacing-unit * 3;
+  }
+
+  body{
+    padding-top: 7%;
+  }
+
+  h1{
+    font-size: 36px;
+  }
+
+  h2{
+    font-size: 22px;
+    margin-bottom: $spacing-unit * 2;
+  }
+
+  h3{
+    font-size: 20px;
+  }
+
+  .box{
+    padding-top: $spacing-unit * 2;
+
+    h2{
+      margin-bottom: $spacing-unit;
+    }
+
+    h5{
+      margin-bottom: $spacing-unit;
+    }
+  }
+
+  .featured{
+    text-align: left;
+    padding: $spacing-unit $spacing-unit 0;
+
+    .col-2{
+      display: flex;
+
+      :nth-child(2){
+        text-align: right;
+      }
+
+      h5{
+        width: 50%;
+      }
+    }
+
+  }
+
+  .clockdiv{
+
+      display: flex;
+      font-weight: 100;
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: $spacing-unit;
+
+      > div{
+        color: white;
+        font-size: 18px;
+      }
+
+      div > span{
+        color: $brand-color-2;
+        font-size: 64px;
+        line-height: 64px;
+        padding: $spacing-unit $spacing-unit 0;
+        width: 25%;
+      }
+  }
+
+  .upcoming{
+    .box-footer{
+      padding: $spacing-unit $spacing-unit * 1.5;
+
+      .col-2{
+        color: $brand-color-2;
+        text-align: left;
+        display: flex;
+
+        h3{
+          margin-bottom: 0;
+
+          &:nth-child(2){
+            color: white;
+          }
+        }
+
+        :nth-child(1){
+          text-align: left;
+        }
+
+        :nth-child(2){
+          text-align: right;
+          flex-grow: 1;
+        }
+      }
+    }
+  }
+
+  .past{
+    .col-3{
+      display: flex;
+
+      :nth-child(1){
+        padding: 4px;
+      }
+
+      :nth-child(2){
+        align-self: center;
+      }
+
+    }
+  }
+
+  .mailchimp{
+
+    padding: $spacing-unit*2 0 $spacing-unit 0;
+
+    h2{
+      margin-bottom: 0;
+    }
+
+    .form-wrap{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 0 $spacing-unit;
+
+      // :nth-child(1){
+      //   width: 100%;
+      // }
+
+      > :nth-child(1), > :nth-child(2){
+          width: 31%;
+      }
+
+      > :nth-child(5){
+          width: 31%;
+      }
+    }
+
+    .mc-field-group{
+      padding: 0;
+      margin-right: $spacing-unit;
+
+      input{
+        width: 100%;
+        height: $spacing-unit * 2;
+        line-height: $spacing-unit * 2;
+
+      }
+    }
+
+    input[type="submit"]{
+      padding: 0 $spacing-unit;
+      height: $spacing-unit * 2;
+      line-height: $spacing-unit * 2;
+      width: 100%;
+    }
+
+  }
+
+  .promo{
+    padding: $spacing-unit * 2 $spacing-unit * 5;
+  }
+
+}
